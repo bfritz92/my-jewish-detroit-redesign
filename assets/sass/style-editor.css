@@ -131,8 +131,8 @@
   --entry-header--color-hover: var(--global--color-primary-hover);
   --entry-header--color-focus: var(--global--color-secondary);
   --entry-header--font-size: var(--heading--font-size-h2);
-  --entry-content--font-family: var(--global--font-secondary);
-  --entry-author-bio--font-family: var(--heading--font-family);
+  --entry-content--font-family: var(--global--font-primary);
+  --entry-author-bio--font-family: var(--global--font-secondary);
   --entry-author-bio--font-size: var(--heading--font-size-h4);
   /* Header */
   --branding--color-text: var(--global--color-primary);
