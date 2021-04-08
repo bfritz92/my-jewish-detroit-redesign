@@ -108,7 +108,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   --global--font-size-xl: 2.25rem;
   --global--font-size-xxl: 4rem;
   --global--font-size-xxxl: 5rem;
-  --global--font-size-page-title: var(--global--font-size-xxl);
+  --global--font-size-page-title: var(--global--font-size-xl);
   --global--letter-spacing: normal;
   /* Line Height */
   --global--line-height-body: 1.2;
