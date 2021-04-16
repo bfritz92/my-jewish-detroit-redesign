@@ -680,9 +680,7 @@ template {
  * Root Media Query Variables
  */
 :root {
-  --responsive--spacing-horizontal: calc(
-    2 * var(--global--spacing-horizontal) * 0.6
-  );
+  --responsive--spacing-horizontal: clamp(5rem, 75%, 40rem);
   --responsive--aligndefault-width: calc(
     100vw - var(--responsive--spacing-horizontal)
   );
@@ -696,10 +694,10 @@ template {
 
 @media only screen and (min-width: 482px) {
   :root {
-    --responsive--aligndefault-width: min(
+    /* --responsive--aligndefault-width: min(
       calc(100vw - 4 * var(--global--spacing-horizontal)),
       610px
-    );
+    ); */
     --responsive--alignwide-width: calc(
       100vw - 4 * var(--global--spacing-horizontal)
     );
@@ -714,10 +712,10 @@ template {
 
 @media only screen and (min-width: 822px) {
   :root {
-    --responsive--aligndefault-width: min(
+    /* --responsive--aligndefault-width: min(
       calc(100vw - 8 * var(--global--spacing-horizontal)),
       610px
-    );
+    ); */
     --responsive--alignwide-width: min(
       calc(100vw - 8 * var(--global--spacing-horizontal)),
       1240px
@@ -730,7 +728,7 @@ template {
  */
 .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce),
 *[class*="inner-container"] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce), .entry-content .wp-audio-shortcode, .post-thumbnail {
-  max-width: var(--responsive--aligndefault-width);
+  max-width: clamp(5rem, 75%, 40rem);
   margin-left: auto;
   margin-right: auto;
 }
