@@ -106,7 +106,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   --global--font-size-md: 1.25rem;
   --global--font-size-lg: 1.5rem;
   --global--font-size-xl: 3rem;
-  --global--font-size-xxl: 4rem;
+  --global--font-size-xxl: 3.6rem;
   --global--font-size-xxxl: 5rem;
   --global--font-size-page-title: var(--global--font-size-xxl);
   --global--letter-spacing: normal;
@@ -319,7 +319,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 @media only screen and (min-width: 652px) {
   :root {
     --global--font-size-xl: 2.5rem;
-    --global--font-size-xxl: 4.5rem;
+    --global--font-size-xxl: 3.6rem;
     --global--font-size-xxxl: 9rem;
     --heading--font-size-h3: 2rem;
     --heading--font-size-h2: 3rem;
