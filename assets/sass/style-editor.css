@@ -245,7 +245,7 @@
  * Root Media Query Variables
  */
 :root {
-  --responsive--spacing-horizontal: clamp(5rem, 75%, 40rem);
+  --responsive--spacing-horizontal: clamp(5rem, 75%, 50rem);
   --responsive--aligndefault-width: calc(
     100vw - var(--responsive--spacing-horizontal)
   );
@@ -307,7 +307,7 @@
 }
 
 .default-max-width {
-  max-width: clamp(5rem, 75%, 40rem);
+  max-width: clamp(5rem, 75%, 50rem);
 }
 
 blockquote {

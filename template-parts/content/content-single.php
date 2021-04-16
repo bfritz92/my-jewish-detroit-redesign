@@ -13,7 +13,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<header class="entry-header alignwide">
+	<header class="entry-header default-max-width">
 		<?php twenty_twenty_one_post_thumbnail(); ?>
 		
 		<span class="entry-date"><?php echo get_the_date(); ?></span>
