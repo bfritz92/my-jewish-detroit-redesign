@@ -15,7 +15,8 @@
 
 	<header class="entry-header alignwide">
 		<?php twenty_twenty_one_post_thumbnail(); ?>
-		<?php the_date( '<h4 class="entry-date">', '</h4>' ); ?>
+		
+		<span class="entry-date"><?php echo get_the_date(); ?></span>
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		<?php the_author( '<h4 class="entry-title">', '</h4>' ); ?>
 		<?php the_excerpt( '<h4 class="entry-excerpt">', '</h4>' ); ?>
