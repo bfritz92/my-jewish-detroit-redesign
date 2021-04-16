@@ -51,7 +51,8 @@
  * Set the default maximum responsive content-width
  */
 .default-max-width {
-  @extend %responsive-aligndefault-width;
+  //@extend %responsive-aligndefault-width;
+  max-width: clamp(5rem, 75%, 40rem);
 }
 
 /**
