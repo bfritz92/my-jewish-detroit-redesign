@@ -16,7 +16,7 @@
 	<header class="entry-header default-max-width">
 		<?php twenty_twenty_one_post_thumbnail(); ?>
 		
-		<span class="entry-date gray"><?php echo get_the_date(); ?></span>
+		<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		<h4 class="entry-excerpt gray"><?php the_excerpt(); ?></h4>
 		<h5 class="entry-author"><?php the_author(); ?></h5>
