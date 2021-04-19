@@ -18,8 +18,8 @@
 		
 		<span class="entry-date gray"><?php echo get_the_date(); ?></span>
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-		<?php the_excerpt( '<h3 class="entry-excerpt gray">', '</h3>' ); ?>
-		<h4 class="entry-author"><?php the_author(); ?></h4>
+		<h4 class="entry-excerpt gray"><?php the_excerpt(); ?></h4>
+		<h5 class="entry-author"><?php the_author(); ?></h5>
 		
 		
 	</header><!-- .entry-header -->
