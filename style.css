@@ -146,7 +146,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   --definition-term--font-family: var(--global--font-primary);
   /* Colors */
   --global--color-black: #000;
-  --global--color-dark-gray: #28303d;
+  --global--color-dark-gray: #0a0a0a;
   --global--color-gray: #39414d;
   --global--color-light-gray: #f0f0f0;
   --global--color-green: #d1e4dd;
@@ -3649,6 +3649,10 @@ table.wp-calendar-table caption {
   }
 }
 
+.gray {
+  color: var(--global--color-gray);
+}
+
 /* Category 06 contains all "bigger" components which contain elements of the previous two categories like header, footer, page template, single template, comments section, archives, ... */
 .site-header {
   display: -webkit-box;
@@ -3909,7 +3913,7 @@ table.wp-calendar-table caption {
 
 .singular .has-post-thumbnail .entry-header {
   border-bottom: none;
-  padding-bottom: calc(1.3 * var(--global--spacing-vertical));
+  padding-bottom: 0;
   margin-bottom: 0;
 }
 

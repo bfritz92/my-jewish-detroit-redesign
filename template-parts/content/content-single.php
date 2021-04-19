@@ -16,10 +16,10 @@
 	<header class="entry-header default-max-width">
 		<?php twenty_twenty_one_post_thumbnail(); ?>
 		
-		<span class="entry-date"><?php echo get_the_date(); ?></span>
+		<span class="entry-date gray"><?php echo get_the_date(); ?></span>
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-		<?php the_author( '<h4 class="entry-title">', '</h4>' ); ?>
-		<?php the_excerpt( '<h4 class="entry-excerpt">', '</h4>' ); ?>
+		<?php the_author( '<h4 class="entry-author gray">', '</h4>' ); ?>
+		<?php the_excerpt( '<h3 class="entry-excerpt">', '</h3>' ); ?>
 		
 	</header><!-- .entry-header -->
 
