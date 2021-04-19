@@ -19,6 +19,7 @@
 		<span class="entry-date gray"><?php echo get_the_date(); ?></span>
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		<?php the_author( '<h4 class="entry-author gray">', '</h4>' ); ?>
+		<span class="entry-author gray"><?php echo get_the_author(); ?></span>
 		<?php the_excerpt( '<h3 class="entry-excerpt">', '</h3>' ); ?>
 		
 	</header><!-- .entry-header -->
