@@ -3979,6 +3979,10 @@ h1.entry-title {
   font-style: italic;
 }
 
+.entry-date {
+  font-family: var(--global--font-secondary);
+}
+
 /**
  * Entry Content
  */
