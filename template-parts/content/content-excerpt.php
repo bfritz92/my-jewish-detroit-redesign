@@ -14,8 +14,9 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<?php get_template_part( 'template-parts/header/excerpt-header', get_post_format() ); ?>
-	
+
 	<div class="entry-content">
+		<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
 		<?php get_template_part( 'template-parts/excerpt/excerpt', get_post_format() ); ?>
 	</div><!-- .entry-content -->
 </article><!-- #post-${ID} -->
