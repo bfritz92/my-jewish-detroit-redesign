@@ -4176,6 +4176,7 @@ h1.page-title {
           flex-direction: column;
   max-width: var(--responsive--alignwide-width);
   margin: auto;
+  margin-bottom: 2rem;
 }
 
 @media only screen and (min-width: 592px) {
@@ -4209,6 +4210,12 @@ h1.page-title {
 .search .content-area .site-main article .entry-header figure.post-thumbnail figcaption,
 .blog .content-area .site-main article .entry-header figure.post-thumbnail figcaption {
   display: none;
+}
+
+.archive .content-area .site-main article .entry-header,
+.search .content-area .site-main article .entry-header,
+.blog .content-area .site-main article .entry-header {
+  margin-bottom: 0;
 }
 
 .archive .content-area .site-main article .entry-content,
