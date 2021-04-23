@@ -4164,6 +4164,63 @@ h1.page-title {
   font-size: var(--global--font-size-lg);
 }
 
+.archive .content-area .site-main article,
+.search .content-area .site-main article,
+.blog .content-area .site-main article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media only screen and (min-width: 592px) {
+  .archive .content-area .site-main article,
+  .search .content-area .site-main article,
+  .blog .content-area .site-main article {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 3fr;
+        grid-template-columns: 1fr 3fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    grid-gap: 20px;
+  }
+}
+
+.archive .content-area .site-main article .entry-header figure.post-thumbnail,
+.search .content-area .site-main article .entry-header figure.post-thumbnail,
+.blog .content-area .site-main article .entry-header figure.post-thumbnail {
+  width: 100%;
+}
+
+.archive .content-area .site-main article .entry-header figure.post-thumbnail a.post-thumbnail-inner,
+.search .content-area .site-main article .entry-header figure.post-thumbnail a.post-thumbnail-inner,
+.blog .content-area .site-main article .entry-header figure.post-thumbnail a.post-thumbnail-inner {
+  width: 100%;
+}
+
+.archive .content-area .site-main article .entry-header figure.post-thumbnail figcaption,
+.search .content-area .site-main article .entry-header figure.post-thumbnail figcaption,
+.blog .content-area .site-main article .entry-header figure.post-thumbnail figcaption {
+  display: none;
+}
+
+.archive .content-area .site-main article .entry-content .entry-date,
+.archive .content-area .site-main article .entry-content .entry-title,
+.archive .content-area .site-main article .entry-content .entry-author,
+.search .content-area .site-main article .entry-content .entry-date,
+.search .content-area .site-main article .entry-content .entry-title,
+.search .content-area .site-main article .entry-content .entry-author,
+.blog .content-area .site-main article .entry-content .entry-date,
+.blog .content-area .site-main article .entry-content .entry-title,
+.blog .content-area .site-main article .entry-content .entry-author {
+  margin-left: 0;
+}
+
 .archive .format-image .entry-content,
 .archive .format-gallery .entry-content,
 .archive .format-video .entry-content,

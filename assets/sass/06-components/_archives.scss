@@ -28,6 +28,30 @@ h1.page-title {
       }
     }
     .site-main article {
+      display: flex;
+      flex-direction: column;
+      @include media(tablet) {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        align-items: center;
+        grid-gap: 20px;
+      }
+      .entry-header figure.post-thumbnail {
+        width: 100%;
+        a.post-thumbnail-inner {
+          width: 100%;
+        }
+        figcaption {
+          display: none;
+        }
+      }
+      .entry-content {
+        .entry-date,
+        .entry-title,
+        .entry-author {
+          margin-left: 0;
+        }
+      }
     }
   }
 
