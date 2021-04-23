@@ -55,7 +55,7 @@
         "06-components/_single.scss",
         "06-components/posts-and-pages.scss",
         "06-components/_entry.scss",
-        "06-components/archives.scss",
+        "06-components/_archives.scss",
         "06-components/404.scss",
         "06-components/search.scss",
         "06-components/comments.scss",
