@@ -4174,6 +4174,7 @@ h1.page-title {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: var(--responsive--alignwide-width);
 }
 
 @media only screen and (min-width: 592px) {
@@ -4218,7 +4219,7 @@ h1.page-title {
 .blog .content-area .site-main article .entry-content .entry-date,
 .blog .content-area .site-main article .entry-content .entry-title,
 .blog .content-area .site-main article .entry-content .entry-author {
-  margin-left: 0;
+  max-width: 100%;
 }
 
 .archive .format-image .entry-content,
