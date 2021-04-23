@@ -28,13 +28,16 @@ h1.page-title {
       }
     }
     .site-main article {
+      display: flex;
+      flex-direction: column;
+      max-width: var(--responsive--alignwide-width);
       margin: auto;
-
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-      align-items: center;
-      grid-gap: 20px;
-
+      @include media(tablet) {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        align-items: center;
+        grid-gap: 20px;
+      }
       .entry-header figure.post-thumbnail {
         width: 100%;
         a.post-thumbnail-inner {
@@ -49,6 +52,7 @@ h1.page-title {
         .entry-title,
         .entry-author {
           max-width: 100%;
+          margin: 0;
         }
       }
     }
