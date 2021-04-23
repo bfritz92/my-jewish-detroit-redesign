@@ -4211,17 +4211,32 @@ h1.page-title {
   display: none;
 }
 
+.archive .content-area .site-main article .entry-content,
+.search .content-area .site-main article .entry-content,
+.blog .content-area .site-main article .entry-content {
+  margin-top: 0;
+}
+
 .archive .content-area .site-main article .entry-content .entry-date,
 .archive .content-area .site-main article .entry-content .entry-title,
 .archive .content-area .site-main article .entry-content .entry-author,
+.archive .content-area .site-main article .entry-content p,
 .search .content-area .site-main article .entry-content .entry-date,
 .search .content-area .site-main article .entry-content .entry-title,
 .search .content-area .site-main article .entry-content .entry-author,
+.search .content-area .site-main article .entry-content p,
 .blog .content-area .site-main article .entry-content .entry-date,
 .blog .content-area .site-main article .entry-content .entry-title,
-.blog .content-area .site-main article .entry-content .entry-author {
-  max-width: 100%;
+.blog .content-area .site-main article .entry-content .entry-author,
+.blog .content-area .site-main article .entry-content p {
+  max-width: 100% !important;
   margin: 0;
+}
+
+.archive .content-area .site-main article .entry-content p,
+.search .content-area .site-main article .entry-content p,
+.blog .content-area .site-main article .entry-content p {
+  margin-top: 0rem;
 }
 
 .archive .format-image .entry-content,
