@@ -20,5 +20,6 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		<h5 class="entry-author gray"><?php the_author(); ?></h5>
 		<?php get_template_part( 'template-parts/excerpt/excerpt', get_post_format() ); ?>
+		<a href="<?php the_permalink ?>">Read More</a>
 	</div><!-- .entry-content -->
 </article><!-- #post-${ID} -->
