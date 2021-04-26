@@ -17,7 +17,7 @@
 
 	<div class="entry-content">
 		<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
-		<a href="<?php the_permalink(); ?>"><?php the_title( '<h1 class="entry-title">', '</h1>' ); ?></a>
+		<a href="<?php the_permalink(); ?>"> <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?> </a>
 		<h5 class="entry-author gray"><?php the_author(); ?></h5>
 		<?php get_template_part( 'template-parts/excerpt/excerpt', get_post_format() ); ?>
 		<a href="<?php the_permalink(); ?>">Read More</a>
