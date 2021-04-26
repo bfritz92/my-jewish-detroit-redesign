@@ -4222,6 +4222,7 @@ h1.page-title {
 .search .content-area .site-main article .entry-content,
 .blog .content-area .site-main article .entry-content {
   margin-top: 0;
+  width: 100%;
 }
 
 .archive .content-area .site-main article .entry-content .entry-date,
