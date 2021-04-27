@@ -115,11 +115,17 @@ $breakpoint_xxl: 1024px;
  * Extends
  */
 %responsive-aligndefault-width {
-  max-width: clamp(5rem, 75%, 50rem);
+  max-width: calc(100vw-20px);
   margin-left: auto;
   margin-right: auto;
 }
-
+@include media(desktop) {
+  %responsive-aligndefault-width {
+    max-width: calc(100vw-20px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 %responsive-alignwide-width {
   max-width: var(--responsive--alignwide-width);
   margin-left: auto;

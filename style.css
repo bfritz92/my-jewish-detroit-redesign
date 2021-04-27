@@ -715,9 +715,18 @@ template {
  */
 .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce),
 *[class*="inner-container"] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce), .entry-content .wp-audio-shortcode {
-  max-width: clamp(5rem, 75%, 50rem);
+  max-width: calc(100vw-20px);
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (min-width: 822px) {
+  .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce),
+  *[class*="inner-container"] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce), .entry-content .wp-audio-shortcode {
+    max-width: calc(100vw-20px);
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .wide-max-width, .alignwide, .site-header, .site-footer, .post-navigation, .pagination,
