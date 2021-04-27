@@ -33,11 +33,13 @@ h1.page-title {
       max-width: var(--responsive--alignwide-width);
       margin: auto;
       margin-bottom: 2rem;
+      padding: 0 10px 0 10px;
       @include media(tablet) {
         display: grid;
         grid-template-columns: 1fr clamp(300px, 60%, 100%);
         align-items: center;
         grid-gap: 20px;
+        padding: 0;
       }
       .entry-header figure.post-thumbnail {
         width: 100%;

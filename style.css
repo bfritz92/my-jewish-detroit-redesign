@@ -4178,6 +4178,7 @@ h1.page-title {
   max-width: var(--responsive--alignwide-width);
   margin: auto;
   margin-bottom: 2rem;
+  padding: 0 10px 0 10px;
 }
 
 @media only screen and (min-width: 592px) {
@@ -4192,6 +4193,7 @@ h1.page-title {
         -ms-flex-align: center;
             align-items: center;
     grid-gap: 20px;
+    padding: 0;
   }
 }
 
