@@ -263,14 +263,12 @@
       calc(100vw - 4 * var(--global--spacing-horizontal)),
       610px
     ); */
-    --responsive--alignwide-width: calc(
-      100vw - 4 * var(--global--spacing-horizontal)
-    );
+    --responsive--alignwide-width: 100vw;
     --responsive--alignright-margin: calc(
-      0.5 * (100vw - var(--responsive--aligndefault-width))
+      0.25 * (100vw - var(--responsive--aligndefault-width))
     );
     --responsive--alignleft-margin: calc(
-      0.5 * (100vw - var(--responsive--aligndefault-width))
+      0.25 * (100vw - var(--responsive--aligndefault-width))
     );
   }
 }
