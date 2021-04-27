@@ -4086,7 +4086,7 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
  * Post Thumbnails
  */
 .post-thumbnail {
-  width: 100%;
+  width: 100% !important;
   text-align: center;
 }
 
