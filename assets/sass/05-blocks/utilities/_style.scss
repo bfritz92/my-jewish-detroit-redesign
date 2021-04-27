@@ -99,7 +99,7 @@
 
 .alignwide [class*="inner-container"] > .alignwide {
   //@extend %responsive-alignwide-width-nested;
-  max-width: var(--responsive--alignwide-width);
+  max-width: 100%;
 }
 
 /**

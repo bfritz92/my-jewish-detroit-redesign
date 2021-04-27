@@ -3595,7 +3595,7 @@ table.wp-calendar-table caption {
 }
 
 .alignwide [class*="inner-container"] > .alignwide {
-  max-width: var(--responsive--alignwide-width);
+  max-width: 100%;
 }
 
 /**
