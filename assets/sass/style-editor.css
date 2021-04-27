@@ -245,7 +245,7 @@
  * Root Media Query Variables
  */
 :root {
-  --responsive--spacing-horizontal: clamp(5rem, 75%, 50rem);
+  --responsive--spacing-horizontal: clamp(5rem, 90%, 50rem);
   --responsive--aligndefault-width: calc(
     100vw - var(--responsive--spacing-horizontal)
   );
@@ -277,6 +277,7 @@
       calc(100vw - 8 * var(--global--spacing-horizontal)),
       610px
     ); */
+    --responsive--spacing-horizontal: clamp(5rem, 75%, 50rem);
     --responsive--alignwide-width: min(
       calc(100vw - 8 * var(--global--spacing-horizontal)),
       1240px

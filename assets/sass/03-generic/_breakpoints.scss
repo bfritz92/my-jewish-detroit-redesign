@@ -81,7 +81,7 @@ $breakpoint_xxl: 1024px;
  * Root Media Query Variables
  */
 :root {
-  --responsive--spacing-horizontal: clamp(5rem, 75%, 50rem);
+  --responsive--spacing-horizontal: clamp(5rem, 90%, 50rem);
   --responsive--aligndefault-width: calc(
     100vw - var(--responsive--spacing-horizontal)
   );
@@ -113,6 +113,7 @@ $breakpoint_xxl: 1024px;
       calc(100vw - 8 * var(--global--spacing-horizontal)),
       #{$default_width}
     ); */
+    --responsive--spacing-horizontal: clamp(5rem, 75%, 50rem);
     --responsive--alignwide-width: min(
       calc(100vw - 8 * var(--global--spacing-horizontal)),
       #{$max_content_width}
