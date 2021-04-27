@@ -4244,6 +4244,13 @@ h1.page-title {
   margin: 0;
 }
 
+.archive .content-area .site-main article .entry-content .entry-author,
+.search .content-area .site-main article .entry-content .entry-author,
+.blog .content-area .site-main article .entry-content .entry-author {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .archive .content-area .site-main article .entry-content p,
 .search .content-area .site-main article .entry-content p,
 .blog .content-area .site-main article .entry-content p {
