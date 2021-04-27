@@ -82,8 +82,8 @@ $breakpoint_xxl: 1024px;
  */
 :root {
   --responsive--spacing-horizontal: 1rem;
-  --responsive--aligndefault-width: clamp(5rem, 75%, 50rem);
-  --responsive--alignwide-width: calc(100vw-20px);
+  --responsive--aligndefault-width: calc(100vw - 20px);
+  --responsive--alignwide-width: 100vw;
   --responsive--alignfull-width: 100vw;
   --responsive--alignright-margin: 10px;
   --responsive--alignleft-margin: 10px;
@@ -103,10 +103,8 @@ $breakpoint_xxl: 1024px;
 
 @include media(desktop) {
   :root {
-    /* --responsive--aligndefault-width: min(
-      calc(100vw - 8 * var(--global--spacing-horizontal)),
-      #{$default_width}
-    ); */
+    --responsive--aligndefault-width: clamp(5rem, 75%, 50rem);
+    );
     --responsive--alignwide-width: min(
       calc(100vw - 8 * var(--global--spacing-horizontal)),
       #{$max_content_width}

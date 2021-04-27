@@ -681,7 +681,7 @@ template {
  */
 :root {
   --responsive--spacing-horizontal: 1rem;
-  --responsive--aligndefault-width: clamp(5rem, 75%, 50rem);
+  --responsive--aligndefault-width: calc(100vw - 20px);
   --responsive--alignwide-width: calc(100vw-20px);
   --responsive--alignfull-width: 100vw;
   --responsive--alignright-margin: 10px;
