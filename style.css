@@ -715,7 +715,7 @@ template {
  */
 .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce),
 *[class*="inner-container"] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce), .entry-content .wp-audio-shortcode {
-  max-width: calc(100vw-20px);
+  max-width: calc(100vw - 20px);
   margin-left: auto;
   margin-right: auto;
   padding: 0 10px;
@@ -724,7 +724,7 @@ template {
 @media only screen and (min-width: 822px) {
   .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce),
   *[class*="inner-container"] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce), .entry-content .wp-audio-shortcode {
-    max-width: calc(100vw-20px);
+    max-width: calc(100vw - 20px);
     margin-left: auto;
     margin-right: auto;
     padding: 0;
