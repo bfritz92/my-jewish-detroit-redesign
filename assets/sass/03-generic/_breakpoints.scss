@@ -122,7 +122,7 @@ $breakpoint_xxl: 1024px;
 }
 @include media(desktop) {
   %responsive-aligndefault-width {
-    max-width: calc(100vw - 20px);
+    max-width: clamp(5rem, 75%, 50rem);
     margin-left: auto;
     margin-right: auto;
     padding: 0;
