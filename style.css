@@ -828,10 +828,6 @@ template {
 /**
  * Set the default maximum responsive content-width
  */
-.default-max-width {
-  max-width: clamp(5rem, 75%, 50rem);
-}
-
 /**
  * Set the wide maximum responsive content-width
  */
