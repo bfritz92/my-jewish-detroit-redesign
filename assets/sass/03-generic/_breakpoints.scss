@@ -85,12 +85,10 @@ $breakpoint_xxl: 1024px;
   --responsive--aligndefault-width: calc(
     100vw - var(--responsive--spacing-horizontal)
   );
-  --responsive--alignwide-width: calc(
-    100vw - var(--responsive--spacing-horizontal)
-  );
-  --responsive--alignfull-width: 100%;
-  --responsive--alignright-margin: var(--global--spacing-horizontal);
-  --responsive--alignleft-margin: var(--global--spacing-horizontal);
+  --responsive--alignwide-width: calc(100vw-20px);
+  --responsive--alignfull-width: 100vw;
+  --responsive--alignright-margin: 10px;
+  --responsive--alignleft-margin: 10px;
 }
 
 @include media(mobile) {
