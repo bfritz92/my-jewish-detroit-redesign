@@ -723,7 +723,7 @@ template {
  * Extends
  */
 .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce),
-*[class*="inner-container"] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce), .entry-content .wp-audio-shortcode, .post-thumbnail {
+*[class*="inner-container"] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce), .entry-content .wp-audio-shortcode {
   max-width: clamp(5rem, 75%, 50rem);
   margin-left: auto;
   margin-right: auto;
@@ -4082,6 +4082,7 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
  * Post Thumbnails
  */
 .post-thumbnail {
+  width: 100%;
   text-align: center;
 }
 

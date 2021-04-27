@@ -150,7 +150,8 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
  */
 
 .post-thumbnail {
-  @extend %responsive-aligndefault-width;
+  //@extend %responsive-aligndefault-width;
+  width: 100%;
   text-align: center;
 
   .entry-header &,
