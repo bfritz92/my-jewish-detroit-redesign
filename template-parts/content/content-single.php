@@ -41,7 +41,7 @@
 
 	<footer class="entry-footer default-max-width">
 		<?php twenty_twenty_one_entry_meta_footer(); ?>
-	<section class="related-articles" style="background-color:#FFFF00;">
+	<section class="related-articles">
 	    <?php
             $orig_post = $post;
             global $post;
