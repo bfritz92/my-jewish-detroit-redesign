@@ -65,6 +65,7 @@
                 $my_query->the_post();
         ?>
         <div class="related-articles--item">
+            <h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
             <a href="<?php the_permalink()?>" class="related-articles--item--img"><?php the_post_thumbnail(); ?></a>
             <a href="<?php the_permalink()?>"><h3 class="related-articles--item--title"><?php the_title(); ?></h3></a>
             <p class="related-articles--item--excerpt"><?php the_excerpt(); ?></p>
