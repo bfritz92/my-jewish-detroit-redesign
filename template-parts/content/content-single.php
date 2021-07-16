@@ -65,7 +65,7 @@
                 $my_query->the_post();
         ?>
         <div class="related-articles--item">
-            <a href="<?php the_permalink()?>"><img class="related-articles--item--img"></a>
+            <a href="<?php the_permalink()?>"><img src="<?php the_post_thumbnail?>" class="related-articles--item--img"></a>
             <a href="<?php the_permalink()?>"><h3 class="related-articles--item--title"><?php the_title(); ?></h3></a>
             <p class="related-articles--item--excerpt"><?php the_excerpt(); ?></p>
             <a href="<?php the_permalink()?>" class="related-articles--item--link">Link</a>
