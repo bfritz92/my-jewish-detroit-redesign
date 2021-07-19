@@ -99,6 +99,9 @@ h1.entry-title {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: var(--responsive--spacing-horizontal);
   }
+  &--heading {
+    border-bottom: 3px solid var(--global--color-primary);
+  }
   &--item {
     display: block;
     flex-direction: column;
@@ -123,6 +126,17 @@ h1.entry-title {
       //refers to the LINK, and img is inside.
       display: block;
       width: 100%;
+    }
+    &--title {
+      line-height: 1;
+      padding-bottom: 1rem;
+    }
+    &--content p {
+      font-size: ;
+    }
+    &--link {
+      padding-top: 1rem;
+      text-align: right;
     }
   }
 }

@@ -49,8 +49,8 @@
   /* Block: Latest posts */
   --latest-posts--title-font-family: var(--heading--font-family);
   --latest-posts--title-font-size: var(--heading--font-size-h3);
-  --latest-posts--description-font-family: var(--global--font-secondary);
-  --latest-posts--description-font-size: var(--global--font-size-sm);
+  --latest-posts--description-font-family: var(--global--font-primary);
+  --latest-posts--description-font-size: var(--global--font-size-xs);
   --list--font-family: var(--global--font-secondary);
   --definition-term--font-family: var(--global--font-primary);
   /* Colors */
