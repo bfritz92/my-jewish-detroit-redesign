@@ -4028,9 +4028,7 @@ h1.entry-title {
 }
 
 .related-articles {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
 }
 
 @media only screen and (min-width: 822px) {

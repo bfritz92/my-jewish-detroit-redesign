@@ -93,7 +93,7 @@ h1.entry-title {
 
 //Related Posts
 .related-articles {
-  display: flex;
+  display: block;
   @include media(desktop) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
