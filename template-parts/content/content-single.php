@@ -72,7 +72,7 @@
             <div class="related-articles--item--content">
                 <a href="<?php the_permalink()?>"><h3 class="related-articles--item--title"><?php the_title(); ?></h3></a>
                 <p class="related-articles--item--excerpt"><?php the_excerpt(); ?></p>
-                <a href="<?php the_permalink()?>" class="related-articles--item--link">Link</a>
+                <a href="<?php the_permalink()?>" class="related-articles--item--link">Read More</a>
             </div>
         </div>
         <?php }

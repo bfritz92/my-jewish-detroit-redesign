@@ -4086,7 +4086,7 @@ h1.entry-title {
 
 .related-articles--item--title {
   line-height: 1;
-  padding-bottom: 1rem;
+  padding: 1rem 0;
 }
 
 .related-articles--item--link {
