@@ -95,6 +95,7 @@ h1.entry-title {
 .related-articles {
   display: block;
   @include media(desktop) {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: var(--responsive--spacing-horizontal);
   }
@@ -112,9 +113,10 @@ h1.entry-title {
     @include media(desktop) {
       display: block;
       margin: 1rem 0;
-    }
-    img {
-      display: block;
+      img {
+        display: block;
+        padding-right: 0;
+      }
     }
   }
 }
