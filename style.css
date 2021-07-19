@@ -4041,6 +4041,10 @@ h1.entry-title {
   }
 }
 
+.related-articles--heading {
+  border-bottom: 3px solid var(--global--color-primary);
+}
+
 .related-articles--item {
   display: block;
   -webkit-box-orient: vertical;
@@ -4083,6 +4087,11 @@ h1.entry-title {
 .related-articles--item--title {
   line-height: 1;
   padding-bottom: 1rem;
+}
+
+.related-articles--item--link {
+  padding-top: 1rem;
+  text-align: right;
 }
 
 .site-main > article > .entry-footer {
