@@ -18,8 +18,8 @@
 		
 		<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+        <h5 class="entry-author"><?php the_author(); ?></h5>
 		<h4 class="entry-excerpt gray"><?php the_excerpt(); ?></h4>
-		<h5 class="entry-author"><?php the_author(); ?></h5>
 		
 		
 	</header><!-- .entry-header -->
@@ -42,7 +42,9 @@
 	<footer class="entry-footer default-max-width">
 		<?php twenty_twenty_one_entry_meta_footer(); ?>
 	</footer><!-- .entry-footer -->
-
+    <div class="alignwide related-articles--heading">
+        <h2>You may also like...</h2>
+    </div>
 	<section class="related-articles alignwide">
 	    <?php
             $orig_post = $post;
@@ -65,11 +67,13 @@
                 $my_query->the_post();
         ?>
         <div class="related-articles--item">
-            <h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
+            
             <a href="<?php the_permalink()?>" class="related-articles--item--img"><?php the_post_thumbnail(); ?></a>
-            <a href="<?php the_permalink()?>"><h3 class="related-articles--item--title"><?php the_title(); ?></h3></a>
-            <p class="related-articles--item--excerpt"><?php the_excerpt(); ?></p>
-            <a href="<?php the_permalink()?>" class="related-articles--item--link">Link</a>
+            <div class="related-articles--item--content">
+                <a href="<?php the_permalink()?>"><h3 class="related-articles--item--title"><?php the_title(); ?></h3></a>
+                <p class="related-articles--item--excerpt"><?php the_excerpt(); ?></p>
+                <a href="<?php the_permalink()?>" class="related-articles--item--link">Link</a>
+            </div>
         </div>
         <?php }
           }
@@ -77,9 +81,5 @@
             wp_reset_query();
         ?>
     </section>
-
-	<?php if ( ! is_singular( 'attachment' ) ) : ?>
-		<?php get_template_part( 'template-parts/post/author-bio' ); ?>
-	<?php endif; ?>
 
 </article><!-- #post-<?php the_ID(); ?> -->

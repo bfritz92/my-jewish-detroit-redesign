@@ -95,18 +95,21 @@ h1.entry-title {
 .related-articles {
   display: block;
   @include media(desktop) {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: var(--responsive--spacing-horizontal);
   }
   &--item {
     display: flex;
     flex-direction: column;
+    margin: 1rem var(--responsive--);
     @include media(tablet-only) {
       flex-direction: row;
       img {
         padding-right: var(--responsive--spacing-horizontal);
       }
+    }
+    @include media(laptop) {
+      margin: 1rem 0;
     }
     img {
       display: block;
