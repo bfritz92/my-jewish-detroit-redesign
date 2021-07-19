@@ -99,16 +99,19 @@ h1.entry-title {
     grid-gap: var(--responsive--spacing-horizontal);
   }
   &--item {
-    display: flex;
+    display: block;
     flex-direction: column;
     margin: 1rem var(--responsive--);
-    @include media(tablet-only) {
+    @include media(tablet) {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
       flex-direction: row;
       img {
         padding-right: var(--responsive--spacing-horizontal);
       }
     }
-    @include media(laptop) {
+    @include media(desktop) {
+      display: block;
       margin: 1rem 0;
     }
     img {

@@ -4033,8 +4033,6 @@ h1.entry-title {
 
 @media only screen and (min-width: 822px) {
   .related-articles {
-    display: -ms-grid;
-    display: grid;
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
     grid-gap: var(--responsive--spacing-horizontal);
@@ -4049,6 +4047,7 @@ h1.entry-title {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: 1rem var(--responsive--);
 }
 
 @media only screen and (max-width: 591px) {
@@ -4060,6 +4059,12 @@ h1.entry-title {
   }
   .related-articles--item img {
     padding-right: var(--responsive--spacing-horizontal);
+  }
+}
+
+@media only screen and (min-width: 652px) {
+  .related-articles--item {
+    margin: 1rem 0;
   }
 }
 
