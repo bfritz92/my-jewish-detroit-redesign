@@ -91,6 +91,29 @@ h1.entry-title {
   }
 }
 
+//Related Posts
+.related-articles {
+  display: flex;
+  @include media(desktop) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: var(--responsive--spacing-horizontal);
+  }
+  &--item {
+    display: flex;
+    flex-direction: column;
+    @include media(tablet-only) {
+      flex-direction: row;
+      img {
+        padding-right: var(--responsive--spacing-horizontal);
+      }
+    }
+    img {
+      display: block;
+    }
+  }
+}
+
 // Extra specificity to override rules in _vertical-margins.scss
 .site-main > article > .entry-footer {
   margin-top: var(--global--spacing-vertical);
