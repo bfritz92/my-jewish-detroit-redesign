@@ -108,6 +108,7 @@ h1.entry-title {
       grid-template-columns: 1fr 2fr;
       img {
         padding-right: var(--responsive--spacing-horizontal);
+        object-fit: cover;
       }
     }
     @include media(desktop) {
@@ -117,6 +118,12 @@ h1.entry-title {
         display: block;
         padding-right: 0;
       }
+    }
+    &--img {
+      //refers to the LINK, and img is inside.
+      display: block;
+      width: 100%;
+      height: 66.67%;
     }
   }
 }

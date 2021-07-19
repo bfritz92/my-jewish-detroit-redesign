@@ -4059,6 +4059,8 @@ h1.entry-title {
   }
   .related-articles--item img {
     padding-right: var(--responsive--spacing-horizontal);
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 
@@ -4071,6 +4073,12 @@ h1.entry-title {
     display: block;
     padding-right: 0;
   }
+}
+
+.related-articles--item--img {
+  display: block;
+  width: 100%;
+  height: 66.67%;
 }
 
 .site-main > article > .entry-footer {
