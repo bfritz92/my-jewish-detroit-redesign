@@ -14,8 +14,8 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<header class="entry-header default-max-width">
+		<?php // - Default Thumbnail call twenty_twenty_one_post_thumbnail(); ?>
 		<?php the_post_thumbnail( 'full' ); ?>
-		
 		<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
         <h5 class="entry-author"><?php the_author(); ?></h5>
