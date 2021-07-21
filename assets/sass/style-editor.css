@@ -142,7 +142,6 @@
   --branding--title--font-size: var(--global--font-size-lg);
   --branding--title--font-size-mobile: var(--heading--font-size-h4);
   --branding--title--font-weight: normal;
-  --branding--title--text-transform: uppercase;
   --branding--description--font-family: var(--global--font-secondary);
   --branding--description--font-size: var(--global--font-size-sm);
   --branding--description--font-family: var(--global--font-secondary);
