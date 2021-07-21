@@ -3706,7 +3706,6 @@ table.wp-calendar-table caption {
   font-family: var(--branding--title--font-family);
   font-size: var(--branding--title--font-size-mobile);
   letter-spacing: normal;
-  text-transform: var(--branding--title--text-transform);
   line-height: var(--global--line-height-heading);
   margin-bottom: calc(var(--global--spacing-vertical) / 6);
 }
@@ -3738,8 +3737,7 @@ table.wp-calendar-table caption {
 }
 
 .site-title > a {
-  -webkit-text-decoration-color: var(--global--color-secondary);
-          text-decoration-color: var(--global--color-secondary);
+  text-decoration: none;
 }
 
 .site-logo {

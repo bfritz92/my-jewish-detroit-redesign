@@ -44,7 +44,7 @@
   font-family: var(--branding--title--font-family);
   font-size: var(--branding--title--font-size-mobile);
   letter-spacing: normal;
-  text-transform: var(--branding--title--text-transform);
+  //text-transform: var(--branding--title--text-transform);
   line-height: var(--global--line-height-heading);
   margin-bottom: calc(var(--global--spacing-vertical) / 6);
 
@@ -78,7 +78,8 @@
 }
 
 .site-title > a {
-  text-decoration-color: var(--global--color-secondary);
+  //text-decoration-color: var(--global--color-secondary);
+  text-decoration: none;
 }
 
 // Site logo
