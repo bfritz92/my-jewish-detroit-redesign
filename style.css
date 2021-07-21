@@ -3738,6 +3738,7 @@ table.wp-calendar-table caption {
 
 .site-title > a {
   text-decoration: none;
+  font-weight: var(--heading--font-weight);
 }
 
 .site-logo {
