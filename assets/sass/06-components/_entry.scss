@@ -144,7 +144,7 @@ h1.entry-title {
   margin-top: var(--global--spacing-vertical);
   padding-top: var(--global--spacing-unit);
   padding-bottom: calc(3 * var(--global--spacing-vertical));
-  border-bottom: var(--separator--height) solid var(--separator--border-color);
+  //border-bottom: var(--separator--height) solid var(--separator--border-color);
 }
 
 body:not(.single) .site-main > article:last-of-type .entry-footer {
@@ -158,14 +158,18 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
   padding-top: calc(0.8 * var(--global--spacing-vertical));
   //border-top: 3px solid var(--separator--border-color);
   //border-bottom: var(--separator--height) solid transparent;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: calc(2 * var(--global--spacing-horizontal));
+  //display: grid;
+  //grid-template-columns: repeat(2, 1fr);
+  //column-gap: calc(2 * var(--global--spacing-horizontal));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   .post-taxonomies,
   .full-size-link {
-    justify-content: flex-end;
-    text-align: right;
+    justify-content: center;
+    text-align: center;
   }
 
   .full-size-link:first-child:last-child {
