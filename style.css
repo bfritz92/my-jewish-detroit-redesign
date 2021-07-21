@@ -3853,7 +3853,6 @@ table.wp-calendar-table caption {
 }
 
 .site-footer > .site-info .site-name {
-  text-transform: var(--branding--title--text-transform);
   font-size: var(--branding--title--font-size);
 }
 
