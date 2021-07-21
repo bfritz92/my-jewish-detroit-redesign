@@ -69,8 +69,11 @@ if ( ! function_exists( 'twenty_twenty_one_setup' ) ) {
 		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		 */
 		add_theme_support( 'post-thumbnails' );
+		/* - Remove for JFMD 
 		set_post_thumbnail_size( 1568, 9999 );
-
+		*/
+		set_post_thumbnail_size( 1000, 667 );
+		//add_image_size( 'MJD-Full-Body', 1000, 667 ); // 9999 is Unlimited Height Mode
 		register_nav_menus(
 			array(
 				'primary' => esc_html__( 'Primary menu', 'twentytwentyone' ),
