@@ -4119,11 +4119,25 @@ h1.entry-title {
 }
 
 .single .site-main > article > .entry-footer .post-taxonomies,
-.single .site-main > article > .entry-footer .full-size-link {
+.single .site-main > article > .entry-footer .full-size-link,
+.single .site-main > article > .entry-footer .posted-by {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  width: 100%;
+}
+
+.single .site-main > article > .entry-footer .post-taxonomies a,
+.single .site-main > article > .entry-footer .full-size-link a,
+.single .site-main > article > .entry-footer .posted-by a {
+  color: var(--global--color-gray);
+}
+
+.single .site-main > article > .entry-footer .post-taxonomies a:hover,
+.single .site-main > article > .entry-footer .full-size-link a:hover,
+.single .site-main > article > .entry-footer .posted-by a:hover {
+  color: var(--global--color-dark-gray);
 }
 
 .single .site-main > article > .entry-footer .full-size-link:first-child:last-child {

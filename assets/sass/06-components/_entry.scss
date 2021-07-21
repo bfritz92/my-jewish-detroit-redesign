@@ -167,9 +167,17 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
   justify-content: center;
 
   .post-taxonomies,
-  .full-size-link {
+  .full-size-link,
+  .posted-by {
     justify-content: center;
     text-align: center;
+    width: 100%;
+    a {
+      color: var(--global--color-gray);
+      &:hover {
+        color: var(--global--color-dark-gray);
+      }
+    }
   }
 
   .full-size-link:first-child:last-child {
