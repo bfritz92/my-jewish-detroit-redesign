@@ -28,7 +28,8 @@ h6 {
   padding: 0;
   margin: 0;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+}
 
 /**
  * Apply generic border-box to all elements.
@@ -37,22 +38,29 @@ h6 {
  */
 html {
   /* Apply border-box across the entire page. */
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: var(--global--font-secondary);
-  line-height: var(--global--line-height-body); }
+  line-height: var(--global--line-height-body);
+}
 
 /**
  * Relax the definition a bit, to allow components to override it manually.
  */
 *, *::before, *::after {
-  box-sizing: inherit; }
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
 
 body {
   font-size: var(--global--font-size-base);
   font-weight: normal;
   color: var(--global--color-primary);
   text-align: left;
-  background-color: var(--global--color-background); }
+  background-color: var(--global--color-background);
+}
 
 button {
-  cursor: pointer; }
+  cursor: pointer;
+}
+/*# sourceMappingURL=reset.css.map */

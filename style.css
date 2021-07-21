@@ -4110,8 +4110,6 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
   margin-bottom: calc(3.4 * var(--global--spacing-vertical));
   padding-bottom: 0;
   padding-top: calc(0.8 * var(--global--spacing-vertical));
-  border-top: 3px solid var(--separator--border-color);
-  border-bottom: var(--separator--height) solid transparent;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
