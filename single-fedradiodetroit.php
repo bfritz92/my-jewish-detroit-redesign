@@ -1,5 +1,6 @@
 <?php
 /**
+ * Template Name Posts: Fed Radio Detroit (Single Post)
  * The template for displaying all single posts
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
