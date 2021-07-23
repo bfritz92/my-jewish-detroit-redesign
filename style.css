@@ -3966,6 +3966,24 @@ table.wp-calendar-table caption {
   font-size: var(--global--font-size-page-title);
 }
 
+.entry-header .post-categories {
+  list-style: none;
+  display: inline;
+  padding: 0;
+}
+
+.entry-header .post-categories li {
+  padding-right: 1rem;
+}
+
+.entry-header .post-categories li a {
+  color: var(--global--color-light-gray);
+}
+
+.entry-header .post-categories li a :hover {
+  color: var(--global--color-gray);
+}
+
 h1.entry-title {
   line-height: var(--heading--line-height-h1);
   font-weight: var(--heading--font-weight-page-title);
@@ -3977,6 +3995,7 @@ h1.entry-title {
 
 .entry-excerpt {
   font-style: italic;
+  font-weight: 400;
 }
 
 .entry-date {

@@ -26,7 +26,22 @@
 .singular .entry-title {
   font-size: var(--global--font-size-page-title);
 }
-
+.entry-header {
+  .post-categories {
+    list-style: none;
+    display: inline;
+    padding: 0;
+    li {
+      padding-right: 1rem;
+      a {
+        color: var(--global--color-light-gray);
+        :hover {
+          color: var(--global--color-gray);
+        }
+      }
+    }
+  }
+}
 h1.entry-title {
   line-height: var(--heading--line-height-h1);
   font-weight: var(--heading--font-weight-page-title);
@@ -36,6 +51,7 @@ h1.entry-title {
 }
 .entry-excerpt {
   font-style: italic;
+  font-weight: 400;
 }
 .entry-date {
   font-family: var(--global--font-secondary);
