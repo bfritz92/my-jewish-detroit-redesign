@@ -15,7 +15,9 @@
 
 	<header class="entry-header default-max-width">
 		<?php // - Default Thumbnail call twenty_twenty_one_post_thumbnail(); ?>
+        
 		<?php the_post_thumbnail( 'full' ); ?>
+        <p class="entry-category"><?php echo get_the_category(); ?></p>
         <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		<h4 class="entry-excerpt"><?php the_excerpt(); ?></h4>
         <p class="entry-date"><?php echo get_the_date(); ?></p>
