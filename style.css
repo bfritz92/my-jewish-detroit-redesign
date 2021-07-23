@@ -3977,11 +3977,11 @@ table.wp-calendar-table caption {
 }
 
 .entry-header .post-categories li a {
-  color: var(--global--color-light-gray);
+  color: var(--global--color-gray);
 }
 
 .entry-header .post-categories li a :hover {
-  color: var(--global--color-gray);
+  color: var(--global--color-dark-gray);
 }
 
 h1.entry-title {
