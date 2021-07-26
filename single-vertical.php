@@ -19,7 +19,7 @@ while ( have_posts() ) :
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<header class="vertical entry-header default-max-width">
+	
 		<div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile is-style-default"></div>
 			<figure class="wp-block-media-text__media">
 				<?php the_post_thumbnail( 'full' ); ?>
@@ -32,7 +32,7 @@ while ( have_posts() ) :
 				<h5 class="entry-date"><?php echo get_the_date(); ?></h5>
 			</div>
 		</div>	
-	</header><!-- .entry-header -->
+	
 
 	<div class="vertical entry-content">
 		<?php
