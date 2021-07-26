@@ -28,7 +28,7 @@ while ( have_posts() ) :
 		<h4 class="entry-excerpt gray"><?php the_excerpt(); ?></h4>
 		<h5 class="entry-author"><?php the_author(); ?></h5>
 		
-		<a class="spreaker-player" href="https://www.spreaker.com/episode/45669251" data-resource="episode_id=45669251" data-width="100%" data-height="350px" data-theme="light" data-playlist="false" data-playlist-continuous="false" data-chapters-image="false" data-episode-image-position="right" data-hide-logo="true" data-hide-likes="true" data-hide-comments="true" data-hide-sharing="true" data-hide-download="true" data-color="0a0a0a">Listen to "Igniting the Flame Within Us All" on Spreaker.</a>
+	
 		
 	</header><!-- .entry-header -->
 
@@ -90,4 +90,3 @@ endwhile; // End of the loop.
 
 
 get_footer();
-<script async src="https://widget.spreaker.com/widgets.js"></script>
