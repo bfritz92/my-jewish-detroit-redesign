@@ -88,5 +88,6 @@ while ( have_posts() ) :
 	);
 endwhile; // End of the loop.
 
-<script async src="https://widget.spreaker.com/widgets.js"></script>
+
 get_footer();
+<script async src="https://widget.spreaker.com/widgets.js"></script>
