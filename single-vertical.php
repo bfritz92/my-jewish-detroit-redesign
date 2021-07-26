@@ -19,7 +19,7 @@ while ( have_posts() ) :
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<header class="vertical entry-header default-max-width">
+	<header class="vertical entry-header alignwide">
 		<div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile is-style-default">
 			<figure class="wp-block-media-text__media">
 				<?php the_post_thumbnail( 'full' ); ?>
