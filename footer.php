@@ -69,6 +69,6 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script async src="https://widget.spreaker.com/widgets.js"></script>
 </body>
 </html>
