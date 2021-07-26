@@ -1,7 +1,8 @@
 <?php
 /**
+ * Template Name Posts: Video Story (Single Post)
  * The template for displaying all single posts
- * Herb is a boss.
+ *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
  * @package WordPress
@@ -18,19 +19,18 @@ while ( have_posts() ) :
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<header class="entry-header default-max-width">
+	<header class="fedradio entry-header default-max-width">
 		<?php // - Default Thumbnail call twenty_twenty_one_post_thumbnail(); ?>
 		<?php the_post_thumbnail( 'full' ); ?>
-		
-		<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-		<h4 class="entry-excerpt gray"><?php the_excerpt(); ?></h4>
-		<h5 class="entry-author"><?php the_author(); ?></h5>
-		
-		
+        <p class="entry-category"><?php echo get_the_category_list(); ?></p>
+        <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<h4 class="entry-excerpt"><?php the_excerpt(); ?></h4>
+		<h5 class="entry-author">By <?php the_author(); ?></h5>
+        <h5 class="entry-date"><?php echo get_the_date(); ?></h5>
+		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/<?php the_field ('vimeo_embed'); ?>?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="75 Years of Women&amp;#039;s Philanthropy"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
+	<div class="fedradio entry-content">
 		<?php
 		the_content();
 
@@ -85,5 +85,6 @@ while ( have_posts() ) :
 		)
 	);
 endwhile; // End of the loop.
+
 
 get_footer();
