@@ -3968,16 +3968,18 @@ table.wp-calendar-table caption {
 
 .entry-header .post-categories {
   list-style: none;
-  display: inline;
   padding: 0;
 }
 
 .entry-header .post-categories li {
   padding-right: 1rem;
+  display: inline;
 }
 
 .entry-header .post-categories li a {
   color: var(--global--color-gray);
+  font-family: var(--global--font-primary);
+  font-style: italic;
 }
 
 .entry-header .post-categories li a :hover {
