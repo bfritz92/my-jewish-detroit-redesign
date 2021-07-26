@@ -21,7 +21,7 @@
         <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		<h4 class="entry-excerpt"><?php the_excerpt(); ?></h4>
         <h5 class="entry-author">By <?php the_author(); ?></h5>
-        <p class="entry-date"><?php echo get_the_date(); ?></p>
+        <h5 class="entry-date"><?php echo get_the_date(); ?></h5>
 		
 		
 		
