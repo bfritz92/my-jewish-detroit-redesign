@@ -3998,10 +3998,12 @@ h1.entry-title {
 .entry-excerpt {
   font-style: italic;
   font-weight: 400;
+  color: var(--global--color-gray);
 }
 
 .entry-date {
   font-family: var(--global--font-secondary);
+  color: var(--global--color-gray);
 }
 
 /**
