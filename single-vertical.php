@@ -1,5 +1,6 @@
 <?php
 /**
+ * Template Name Posts: Story with Vertical Pic (Single Post)
  * The template for displaying all single posts
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
@@ -18,19 +19,22 @@ while ( have_posts() ) :
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<header class="entry-header default-max-width">
-		<?php // - Default Thumbnail call twenty_twenty_one_post_thumbnail(); ?>
-		<?php the_post_thumbnail( 'full' ); ?>
-		<h1>IT'S WORKING!</h1>
-		<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-		<h4 class="entry-excerpt gray"><?php the_excerpt(); ?></h4>
-		<h5 class="entry-author"><?php the_author(); ?></h5>
-		
-		
+	<header class="vertical entry-header default-max-width">
+		<div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile is-style-default"></div>
+			<figure class="wp-block-media-text__media">
+				<?php the_post_thumbnail( 'full' ); ?>
+			</figure>
+			<div class="wp-block-media-text__content">
+				<p class="entry-category"><?php echo get_the_category_list(); ?></p>
+				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+				<h4 class="entry-excerpt"><?php the_excerpt(); ?></h4>
+				<h5 class="entry-author">By <?php the_author(); ?></h5>
+				<h5 class="entry-date"><?php echo get_the_date(); ?></h5>
+			</div>
+		</div>	
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
+	<div class="vertical entry-content">
 		<?php
 		the_content();
 
@@ -85,5 +89,6 @@ while ( have_posts() ) :
 		)
 	);
 endwhile; // End of the loop.
+
 
 get_footer();
