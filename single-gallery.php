@@ -19,7 +19,7 @@ while ( have_posts() ) :
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<header class="video entry-header default-max-width">
+	<header class="video entry-header alignwide">
 		<?php // - Default Thumbnail call twenty_twenty_one_post_thumbnail(); ?>
         <p class="entry-category"><?php echo get_the_category_list(); ?></p>
         <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
