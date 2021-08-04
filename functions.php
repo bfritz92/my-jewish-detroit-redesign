@@ -647,7 +647,10 @@ add_filter( 'get_the_archive_title', function ($title) {
 	return $title;    
 });
 
-function mjd_excerpt_length($length){
-return 20;
+function excerpt($num) {
+    $limit = $num+1;
+    $excerpt = explode(' ', get_the_excerpt(), $limit);
+    array_pop($excerpt);
+    $excerpt = implode(" ",$excerpt)."... (<a href='" .get_permalink($post->ID) ." '>Read more</a>)";
+    echo $excerpt;
 }
-add_filter('excerpt_length', 'mjd_excerpt_length');
