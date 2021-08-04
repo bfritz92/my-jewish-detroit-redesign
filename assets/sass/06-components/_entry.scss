@@ -89,7 +89,8 @@ h1.entry-title {
 
 //Gallery styling
 
-.gallery {
+.gallery,
+.gallery .wp-block-group__inner-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   &:before {
