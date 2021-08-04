@@ -647,11 +647,7 @@ add_filter( 'get_the_archive_title', function ($title) {
 	return $title;    
 });
 
-add_filter( 'get_the_excerpt', function( $excerpt, $post ) {
-    if ( has_excerpt( $post ) ) {
-        $excerpt_length = apply_filters( 'excerpt_length', 30 );
-        $excerpt_more   = apply_filters( 'excerpt_more', ' ' . '[&hellip;]' );
-        $excerpt        = wp_trim_words( $excerpt, $excerpt_length, $excerpt_more );
-    }
-    return $excerpt;
-}, 10, 2 );
+function mjd_excerpt_length($length){
+return 30;
+}
+add_filter('excerpt_length', 'my_excerpt_length');
