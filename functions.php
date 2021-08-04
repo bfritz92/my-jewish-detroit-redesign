@@ -647,3 +647,7 @@ add_filter( 'get_the_archive_title', function ($title) {
 	return $title;    
 });
 
+function mjd_excerpt_length($length){
+return 30;
+}
+add_filter('excerpt_length', 'mjd_excerpt_length');
