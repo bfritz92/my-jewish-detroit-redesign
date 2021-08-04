@@ -647,10 +647,11 @@ add_filter( 'get_the_archive_title', function ($title) {
 	return $title;    
 });
 
-function excerpt($num) {
-    $limit = $num+1;
-    $excerpt = explode(' ', get_the_excerpt(), $limit);
-    array_pop($excerpt);
-    $excerpt = implode(" ",$excerpt)."... (<a href='" .get_permalink($post->ID) ." '>Read more</a>)";
-    echo $excerpt;
-}
+add_filter( 'get_the_excerpt', function( $excerpt, $post ) {
+    if ( has_excerpt( $post ) ) {
+        $excerpt_length = apply_filters( 'excerpt_length', 30 );
+        $excerpt_more   = apply_filters( 'excerpt_more', ' ' . '[&hellip;]' );
+        $excerpt        = wp_trim_words( $excerpt, $excerpt_length, $excerpt_more );
+    }
+    return $excerpt;
+}, 10, 2 );
