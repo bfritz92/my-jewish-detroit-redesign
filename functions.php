@@ -651,7 +651,3 @@ function mjd_excerpt_length($length){
 return 30;
 }
 add_filter('excerpt_length', 'mjd_excerpt_length');
-
-function excerpt($limit) {
-    return wp_trim_words(get_the_excerpt(), $limit);
-}
