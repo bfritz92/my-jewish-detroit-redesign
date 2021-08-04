@@ -651,3 +651,22 @@ function mjd_excerpt_length($length){
 return 30;
 }
 add_filter('excerpt_length', 'mjd_excerpt_length');
+function excerpt($limit) {
+    return wp_trim_words(get_the_excerpt(), $limit);
+}
+function get_excerpt_by_id($post_id, $length = NULL) {
+  $length = isset($length) ? $length : apply_filters('excerpt_length', 32);
+  $p = get_post($post_id);
+  return $p->post_excerpt ? build_excerpt_by_length($p->post_excerpt, $length) : build_excerpt_by_length($p->post_content, $length);
+}
+
+function build_excerpt_by_length($content, $length = 32) {
+  $excerpt = strip_tags(strip_shortcodes($content));
+  $words = explode(' ', $excerpt, $length + 1);
+  $words = array_slice($words, 0, $length);
+  $result = trim(implode(' ', $words));
+  $result = preg_replace('/\W*$/', '', $result);
+  $more = apply_filters('excerpt_more', '&hellip;');
+  if ($result !== '') $result = $content === $result ? $result : $result . $more;
+  return $result;
+}
