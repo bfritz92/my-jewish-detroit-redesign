@@ -20,6 +20,6 @@
 		<a href="<?php the_permalink(); ?>"> <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?> </a>
 		<h5 class="entry-author gray"><?php the_author(); ?></h5>
 		<?php get_template_part( 'template-parts/excerpt/excerpt', get_post_format() ); ?>
-		<a href="<?php the_permalink(); ?>">Read More</a>
+		<!-- MJD - Herb: The excerpt already outputs "Continue Reading if over 30 words" <a href="<?php the_permalink(); ?>">Read More</a> -->
 	</div><!-- .entry-content -->
 </article><!-- #post-${ID} -->

@@ -648,6 +648,6 @@ add_filter( 'get_the_archive_title', function ($title) {
 });
 
 function mjd_excerpt_length($length){
-return 30;
+return 20;
 }
 add_filter('excerpt_length', 'mjd_excerpt_length');
