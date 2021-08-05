@@ -21,12 +21,12 @@ while ( have_posts() ) :
 
 	<header class="cover entry-header alignfull wp-block-cover alignfull">	
 			<?php the_post_thumbnail( 'large', ['class' => 'wp-block-cover__image-background'] ); ?>
-			<div class="wp-block-cover__inner-container">
-				<?php echo get_the_category_list(); ?>
-				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-				<h4 class="entry-excerpt"><?php the_excerpt(); ?></h4>
-				<h5 class="entry-author">By <?php the_author(); ?></h5>
-				<h5 class="entry-date"><?php echo get_the_date(); ?></h5>
+			<div class="wp-block-cover__inner-container has-black-color has-text-color">
+				<?php echo get_the_category_list(['class' => 'has-text-color']); ?>
+				<?php the_title( '<h1 class="entry-title has-text-color">', '</h1>' ); ?>
+				<h4 class="entry-excerpt has-text-color"><?php the_excerpt(); ?></h4>
+				<h5 class="entry-author has-text-color">By <?php the_author(); ?></h5>
+				<h5 class="entry-date has-text-color"><?php echo get_the_date(); ?></h5>
 		</div>
 		
 	</header><!-- .entry-header -->
