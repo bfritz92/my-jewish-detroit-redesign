@@ -22,12 +22,13 @@ while ( have_posts() ) :
 	<header class="vertical entry-header alignwide">	
 		<div class="wp-block-cover alignfull ">
 			<?php the_post_thumbnail( 'full' ); ?>
-			<p class="entry-category"><?php echo get_the_category_list(); ?></p>
-			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-			<h4 class="entry-excerpt"><?php the_excerpt(); ?></h4>
-			<h5 class="entry-author">By <?php the_author(); ?></h5>
-			<h5 class="entry-date"><?php echo get_the_date(); ?></h5>
-		</div>
+			<div class="wp-block-cover__inner-container">
+				<p class="entry-category"><?php echo get_the_category_list(); ?></p>
+				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+				<h4 class="entry-excerpt"><?php the_excerpt(); ?></h4>
+				<h5 class="entry-author">By <?php the_author(); ?></h5>
+				<h5 class="entry-date"><?php echo get_the_date(); ?></h5>
+			</div>
 		</div>
 
 	</header><!-- .entry-header -->
