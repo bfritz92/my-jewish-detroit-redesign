@@ -21,7 +21,7 @@ while ( have_posts() ) :
 
 	<header class="vertical entry-header alignfull">	
 		<div class="wp-block-cover alignfull ">
-			<?php the_post_thumbnail( 'full', 'wp-block-cover__image-background' ); ?>
+			<?php the_post_thumbnail( 'full', ['class' => 'wp-block-cover__image-background'] ); ?>
 			<div class="wp-block-cover__inner-container">
 				<p class="entry-category"><?php echo get_the_category_list(); ?></p>
 				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
