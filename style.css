@@ -4060,9 +4060,20 @@ h1.entry-title {
   color: currentColor;
 }
 
+header.cover.entry-header {
+  height: clamp(60vw, 100%, 60vh);
+}
+
 header.cover.entry-header img.wp-block-cover__image-background {
   height: 100% !important;
   max-width: 100% !important;
+}
+
+header.cover.entry-header .wp-block-cover__inner-container {
+  width: clamp(5rem, 50%, 50rem);
+  margin-left: 0;
+  background-color: #fff;
+  color: --var(--global--color-primary);
 }
 
 .related-articles {
