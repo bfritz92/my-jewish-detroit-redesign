@@ -20,7 +20,7 @@ while ( have_posts() ) :
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<header class="cover entry-header alignfull wp-block-cover alignfull">	
-			<?php the_post_thumbnail( 'full', ['class' => 'wp-block-cover__image-background'] ); ?>
+			<?php the_post_thumbnail( 'full', ['class' => 'wp-block-cover__image-background' 'style' => 'height:100%'] ); ?>
 			<div class="wp-block-cover__inner-container">
 				<p class="entry-category"><?php echo get_the_category_list(); ?></p>
 				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
