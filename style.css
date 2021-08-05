@@ -4023,14 +4023,16 @@ h1.entry-title {
   max-width: 100% !important;
 }
 
-.gallery {
+.gallery,
+.gallery .wp-block-group__inner-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(400px, 1fr))[auto-fill];
       grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
 
-.gallery:before {
+.gallery:before,
+.gallery .wp-block-group__inner-container:before {
   display: none;
 }
 
@@ -4056,6 +4058,11 @@ h1.entry-title {
 
 .entry-footer a:active {
   color: currentColor;
+}
+
+header.cover.entry-header img.wp-block-cover__image-background {
+  height: 100% !important;
+  max-width: 100% !important;
 }
 
 .related-articles {
