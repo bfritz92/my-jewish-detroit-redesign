@@ -28,9 +28,9 @@ while ( have_posts() ) :
 				<h5 class="entry-author">By <?php the_author(); ?></h5>
 				<h5 class="entry-date"><?php echo get_the_date(); ?></h5>
 		</div>
-		<?php the_post_thumbnail( 'full'); ?>
+		
 	</header><!-- .entry-header -->
-
+	<?php the_post_thumbnail( 'full'); ?>
 	<div class="vertical entry-content">
 		<?php
 		the_content();
