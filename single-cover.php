@@ -19,7 +19,7 @@ while ( have_posts() ) :
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<header class="vertical entry-header alignwide">	
+	<header class="vertical entry-header alignfull">	
 		<div class="wp-block-cover alignfull ">
 			<?php the_post_thumbnail( 'full' ); ?>
 			<div class="wp-block-cover__inner-container">
