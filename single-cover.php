@@ -20,7 +20,7 @@ while ( have_posts() ) :
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<header class="cover entry-header alignfull">	
-			<?php the_post_thumbnail( 'large', ['class' => 'cover--img'] ); ?>
+			<?php the_post_thumbnail( 'full', ['class' => 'cover--img'] ); ?>
 			<div class="cover--content has-black-color has-text-color">
 				<?php echo get_the_category_list(['class' => 'has-text-color']); ?>
 				<?php the_title( '<h1 class="entry-title has-text-color">', '</h1>' ); ?>
