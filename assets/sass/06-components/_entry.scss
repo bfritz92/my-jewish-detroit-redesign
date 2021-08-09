@@ -125,9 +125,9 @@ h1.entry-title {
 //Cover Image Post
 header.cover.entry-header {
   height: clamp(60vw, 100%, 60vh);
-  @include media(laptop) {
+  @include media(desktop) {
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: clamp(300px, 500px, 50%);
   }
   .cover--img {
     grid-column: 1/-1;
@@ -144,7 +144,7 @@ header.cover.entry-header {
     grid-column: 1;
     margin: auto;
     background-color: #fff;
-    padding: 1rem;
+    padding: 2rem var(--responsive--spacing-horizontal);
   }
 }
 //Related Posts

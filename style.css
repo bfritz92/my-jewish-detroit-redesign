@@ -4064,12 +4064,12 @@ header.cover.entry-header {
   height: clamp(60vw, 100%, 60vh);
 }
 
-@media only screen and (min-width: 652px) {
+@media only screen and (min-width: 822px) {
   header.cover.entry-header {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 2fr 3fr;
-        grid-template-columns: 2fr 3fr;
+    -ms-grid-columns: clamp(300px, 500px, 50%);
+        grid-template-columns: clamp(300px, 500px, 50%);
   }
 }
 
@@ -4096,7 +4096,7 @@ header.cover.entry-header .cover--content {
   grid-column: 1;
   margin: auto;
   background-color: #fff;
-  padding: 1rem;
+  padding: 2rem var(--responsive--spacing-horizontal);
 }
 
 .related-articles {
