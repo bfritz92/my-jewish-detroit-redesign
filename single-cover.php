@@ -30,7 +30,6 @@ while ( have_posts() ) :
 		</div>
 		
 	</header><!-- .entry-header -->
-	<?php the_post_thumbnail( 'full'); ?>
 	<div class="vertical entry-content">
 		<?php
 		the_content();
