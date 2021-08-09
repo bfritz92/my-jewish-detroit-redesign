@@ -131,6 +131,9 @@ header.cover.entry-header {
   }
   .cover--img {
     grid-column: 1/-1;
+    grid-column: 1;
+    height: 100%;
+    object-fit: cover;
     @include media(laptop) {
       z-index: -1;
     }
