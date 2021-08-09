@@ -130,7 +130,7 @@ header.cover.entry-header {
     grid-template-columns: clamp(300px, 500px, 50%);
   }
   .cover--img {
-    grid-column: 1/-1;
+    grid-column: 1 / span 2;
     grid-row: 1;
     height: 100% !important;
     max-width: 100% !important;

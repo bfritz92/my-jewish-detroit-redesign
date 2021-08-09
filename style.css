@@ -4074,7 +4074,9 @@ header.cover.entry-header {
 }
 
 header.cover.entry-header .cover--img {
-  grid-column: 1/-1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / span 2;
   -ms-grid-row: 1;
   grid-row: 1;
   height: 100% !important;
