@@ -4064,16 +4064,31 @@ header.cover.entry-header {
   height: clamp(60vw, 100%, 60vh);
 }
 
-header.cover.entry-header img.wp-block-cover__image-background {
-  height: 100% !important;
-  max-width: 100% !important;
+@media only screen and (min-width: 652px) {
+  header.cover.entry-header {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 3fr;
+        grid-template-columns: 2fr 3fr;
+  }
 }
 
-header.cover.entry-header .wp-block-cover__inner-container {
-  width: clamp(5rem, 50%, 50rem);
-  margin-left: 0;
+header.cover.entry-header .cover--img {
+  grid-column: 1/-1;
+}
+
+@media only screen and (min-width: 652px) {
+  header.cover.entry-header .cover--img {
+    z-index: -1;
+  }
+}
+
+header.cover.entry-header .cover--content {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  margin: auto;
   background-color: #fff;
-  color: --var(--global--color-primary);
+  padding: 1rem;
 }
 
 .related-articles {

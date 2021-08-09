@@ -125,15 +125,21 @@ h1.entry-title {
 //Cover Image Post
 header.cover.entry-header {
   height: clamp(60vw, 100%, 60vh);
-  img.wp-block-cover__image-background {
-    height: 100% !important;
-    max-width: 100% !important;
+  @include media(laptop) {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
   }
-  .wp-block-cover__inner-container {
-    width: clamp(5rem, 50%, 50rem);
-    margin-left: 0;
+  .cover--img {
+    grid-column: 1/-1;
+    @include media(laptop) {
+      z-index: -1;
+    }
+  }
+  .cover--content {
+    grid-column: 1;
+    margin: auto;
     background-color: #fff;
-    color: --var(--global--color-primary);
+    padding: 1rem;
   }
 }
 //Related Posts
