@@ -4078,6 +4078,7 @@ header.cover.entry-header .cover--img {
   -ms-grid-row: 1;
   grid-row: 1;
   height: 100% !important;
+  max-width: 100% !important;
   -o-object-fit: cover;
      object-fit: cover;
 }
