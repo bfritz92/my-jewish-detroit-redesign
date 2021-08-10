@@ -25,7 +25,7 @@ $description = get_the_archive_description();
 
 	<?php while ( have_posts() ) : $postCount++; ?>
 		<?php the_post(); ?>
-		<?php if($postCount == 2) : ?>
+		<?php if($postCount == 1) : ?>
 		<?php get_template_part( 'template-parts/content/content', get_theme_mod( 'display_excerpt_or_full_post', 'excerpt' ) ); ?>
 		<a class="spreaker-player" href="http://www.spreaker.com/episode/<?php the_field ('podcast_embed'); ?>" data-resource="episode_id=<?php the_field ('podcast_embed'); ?>" data-width="100%" data-height="200px" data-theme="light" data-playlist="false" data-playlist-continuous="false" data-autoplay="false" data-live-autoplay="false" data-chapters-image="true" data-episode-image-position="right" data-hide-logo="false" data-hide-likes="false" data-hide-comments="false" data-hide-sharing="false" data-hide-download="true">Listen to "<?php the_title(); ?>"</a>
 		<?php endif; ?>
