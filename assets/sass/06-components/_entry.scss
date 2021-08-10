@@ -122,6 +122,31 @@ h1.entry-title {
   }
 }
 
+//Cover Image Post
+header.cover.entry-header {
+  height: clamp(60vw, 100%, 60vh);
+  @include media(desktop) {
+    display: grid;
+    grid-template-columns: clamp(300px, 500px, 50%);
+  }
+  .cover--img {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    height: 100% !important;
+    max-width: 100% !important;
+    object-fit: cover;
+    @include media(laptop) {
+      z-index: -1;
+    }
+  }
+  .cover--content {
+    grid-row: 1;
+    grid-column: 1;
+    margin: auto;
+    background-color: #fff;
+    padding: 2rem var(--responsive--spacing-horizontal);
+  }
+}
 //Related Posts
 .related-articles {
   display: block;
