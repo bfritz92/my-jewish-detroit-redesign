@@ -4023,43 +4023,6 @@ h1.entry-title {
   max-width: 100% !important;
 }
 
-.gallery,
-.gallery .wp-block-group__inner-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(400px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-}
-
-.gallery:before,
-.gallery .wp-block-group__inner-container:before {
-  display: none;
-}
-
-.entry-footer {
-  color: var(--global--color-primary);
-  clear: both;
-  float: none;
-  font-size: var(--global--font-size-xs);
-  display: block;
-}
-
-.entry-footer > span {
-  display: inline-block;
-}
-
-.entry-footer a {
-  color: currentColor;
-}
-
-.entry-footer a:hover, .entry-footer a:focus {
-  color: var(--global--color-primary-hover);
-}
-
-.entry-footer a:active {
-  color: currentColor;
-}
-
 header.cover.entry-header {
   height: clamp(60vw, 100%, 60vh);
 }

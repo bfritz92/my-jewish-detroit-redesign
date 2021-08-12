@@ -17,4 +17,8 @@
 .page-links .post-page-numbers:first-child {
   margin-left: 0;
 }
+
+article .spreaker-player {
+  grid-column: 1 / -1;
+}
 /*# sourceMappingURL=posts-and-pages.css.map */

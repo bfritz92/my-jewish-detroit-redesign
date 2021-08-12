@@ -87,41 +87,6 @@ h1.entry-title {
   }
 }
 
-//Gallery styling
-
-.gallery,
-.gallery .wp-block-group__inner-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  &:before {
-    display: none;
-  }
-}
-.entry-footer {
-  color: var(--global--color-primary);
-  clear: both;
-  float: none;
-  font-size: var(--global--font-size-xs);
-  display: block;
-
-  > span {
-    display: inline-block;
-  }
-
-  a {
-    color: currentColor;
-
-    &:hover,
-    &:focus {
-      color: var(--global--color-primary-hover);
-    }
-
-    &:active {
-      color: currentColor;
-    }
-  }
-}
-
 //Cover Image Post
 header.cover.entry-header {
   height: clamp(60vw, 100%, 60vh);
