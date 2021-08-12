@@ -3937,6 +3937,10 @@ table.wp-calendar-table caption {
   margin-left: 0;
 }
 
+iframe.spreaker-player {
+  grid-column: 1 / -1;
+}
+
 .entry-title {
   color: var(--entry-header--color);
   font-size: var(--entry-header--font-size);
