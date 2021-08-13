@@ -27,3 +27,17 @@
 iframe.spreaker-player {
   grid-column: 1 / -1;
 }
+
+.inline-links {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0;
+  @include media(tablet) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  li {
+    padding-top: var(--global--spacing-vertical);
+  }
+}

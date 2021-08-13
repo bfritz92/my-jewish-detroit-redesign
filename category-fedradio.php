@@ -16,10 +16,10 @@ $description = get_the_archive_description();
 
 <?php if ( have_posts() ) : $postCount = 0; ?>
 
-	<header class="page-header alignwide">
+	<header class="page-header fedradio">
 		<?php the_archive_title( '<h1 class="page-title">', '</h1>' ); ?>
 		<?php if ( $description ) : ?>
-			<div class="archive-description fedradio">
+			<div class="archive-description">
 				<?php echo wp_kses_post( wpautop( $description ) ); ?>
 				<ul class="inline-links">
 					<li><a href="https://podcasts.apple.com/gb/podcast/fedradio-detroit/id1494716703" class="button">Apple Podcasts</a></li>

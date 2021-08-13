@@ -103,11 +103,14 @@ h1.page-title {
   font-size: var(--global--font-size-sm);
   line-height: var(--global--line-height-body);
 }
-.archive-description.fedradio {
+.fedradio .archive-description {
+  width: var(_global-width-responsive);
+  margin: auto 0 auto calc(2 * (var--global--spacing-vertical));
   @include media(tablet) {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: auto auto;
+    grid-gap: var(--responsive--spacing-horizontal);
   }
   p {
     grid-row: 1;
