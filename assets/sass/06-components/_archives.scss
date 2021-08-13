@@ -120,5 +120,9 @@ h1.page-title {
   figure {
     grid-row: 1/-1;
     grid-column: 2;
+    width: 100%;
+    img {
+      width: 100%;
+    }
   }
 }
