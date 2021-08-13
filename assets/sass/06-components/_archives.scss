@@ -105,7 +105,8 @@ h1.page-title {
 }
 .fedradio .archive-description {
   width: var(--responsive--aligndefault-width);
-  margin: auto 0 auto calc(2 * var(--global--spacing-vertical));
+  margin: var(--global--spacing-vertical) auto
+    calc(2 * var(--global--spacing-vertical)) auto;
   @include media(tablet) {
     display: grid;
     grid-template-columns: 3fr 1fr;
