@@ -19,15 +19,16 @@ $description = get_the_archive_description();
 	<header class="page-header alignwide">
 		<?php the_archive_title( '<h1 class="page-title">', '</h1>' ); ?>
 		<?php if ( $description ) : ?>
-			<div class="archive-description">
+			<div class="archive-description fedradio">
 				<?php echo wp_kses_post( wpautop( $description ) ); ?>
 				<ul class="inline-links">
-					<li><a href="https://podcasts.apple.com/gb/podcast/fedradio-detroit/id1494716703">Apple Podcasts</a></li>
-					<li><a href="https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvNDE1OTA0MC9lcGlzb2Rlcy9mZWVk">Google Podcasts</a></li>
-					<li><a href="https://open.spotify.com/show/7GDJspmdbNmtkcqmxxgHqK">Spotify</a></li>
+					<li><a href="https://podcasts.apple.com/gb/podcast/fedradio-detroit/id1494716703" class="button">Apple Podcasts</a></li>
+					<li><a href="https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvNDE1OTA0MC9lcGlzb2Rlcy9mZWVk" class="button">Google Podcasts</a></li>
+					<li><a href="https://open.spotify.com/show/7GDJspmdbNmtkcqmxxgHqK" class="button">Spotify</a></li>
 				</ul>
+				<figure class="archive-description--img"><img src="https://mjdasset.s3.us-west-2.amazonaws.com/wp-content/uploads/2021/08/12172448/FedRadioDetroit-2c-sm.jpg"></figure>
 			</div>
-			<figure class="archive-description--img"><img src="https://mjdasset.s3.us-west-2.amazonaws.com/wp-content/uploads/2021/08/12172448/FedRadioDetroit-2c-sm.jpg"></figure>
+			
 		<?php endif; ?>
 	</header><!-- .page-header -->
 

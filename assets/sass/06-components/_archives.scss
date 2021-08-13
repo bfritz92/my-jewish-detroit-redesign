@@ -100,6 +100,25 @@ h1.page-title {
 
 .archive-description {
   margin-top: var(--global--spacing-vertical);
-  font-size: var(--global--font-size-xl);
-  line-height: var(--global--line-height-heading);
+  font-size: var(--global--font-size-sm);
+  line-height: var(--global--line-height-body);
+}
+.archive-description.fedradio {
+  @include media(tablet) {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  p {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  ul {
+    grid-row: 2;
+    grid-column: 1;
+  }
+  figure {
+    grid-row: 1/-1;
+    grid-column: 2;
+  }
 }
