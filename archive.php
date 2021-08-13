@@ -17,6 +17,7 @@ $description = get_the_archive_description();
 <?php if ( have_posts() ) : ?>
 
 	<header class="page-header alignwide">is this a cat page
+		<h4 class="entry-date has-text-align-center">Topic</h4>
 		<?php the_archive_title( '<h1 class="page-title">', '</h1>' ); ?>
 		<?php if ( $description ) : ?>
 			<div class="archive-description"><?php echo wp_kses_post( wpautop( $description ) ); ?></div>

@@ -4437,7 +4437,7 @@ h1.page-title {
   margin-right: calc(0.5 * var(--global--spacing-unit));
 }
 
-.archive.category .content .page-title {
+.category .page-title {
   text-align: center;
 }
 
