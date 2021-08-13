@@ -4444,8 +4444,8 @@ h1.page-title {
 }
 
 .fedradio .archive-description {
-  width: var(_global-width-responsive);
-  margin: auto 0 auto calc(2 * (var--global--spacing-vertical));
+  width: var(--responsive--aligndefault-width);
+  margin: auto 0 auto calc(2 * var(--global--spacing-vertical));
 }
 
 @media only screen and (min-width: 592px) {

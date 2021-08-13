@@ -104,8 +104,8 @@ h1.page-title {
   line-height: var(--global--line-height-body);
 }
 .fedradio .archive-description {
-  width: var(--global-width-responsive);
-  margin: auto 0 auto calc(2 * (var--global--spacing-vertical));
+  width: var(--responsive--aligndefault-width);
+  margin: auto 0 auto calc(2 * var(--global--spacing-vertical));
   @include media(tablet) {
     display: grid;
     grid-template-columns: 3fr 1fr;
