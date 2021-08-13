@@ -4443,10 +4443,6 @@ h1.page-title {
   line-height: var(--global--line-height-body);
 }
 
-.archive-description p {
-  font-family: var(--global--font-primary);
-}
-
 .fedradio .archive-description {
   width: var(--responsive--aligndefault-width);
   margin: var(--global--spacing-vertical) auto calc(2 * var(--global--spacing-vertical)) auto;
@@ -4461,6 +4457,7 @@ h1.page-title {
     -ms-grid-rows: auto auto;
         grid-template-rows: auto auto;
     grid-gap: var(--responsive--spacing-horizontal);
+    font-family: var(--global--font-primary);
   }
 }
 
