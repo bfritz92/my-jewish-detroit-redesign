@@ -107,6 +107,7 @@ h1.page-title {
   width: var(--responsive--aligndefault-width);
   margin: var(--global--spacing-vertical) auto
     calc(2 * var(--global--spacing-vertical)) auto;
+  font-family: var(--global--font-primary);
   @include media(tablet) {
     display: grid;
     grid-template-columns: 3fr 1fr;
