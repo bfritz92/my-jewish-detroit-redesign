@@ -4063,8 +4063,8 @@ header.cover.entry-header {
   header.cover.entry-header {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: clamp(300px, 500px, 50%);
-        grid-template-columns: clamp(300px, 500px, 50%);
+    -ms-grid-columns: clamp(300px, 700px, 50%);
+        grid-template-columns: clamp(300px, 700px, 50%);
   }
 }
 
@@ -4437,7 +4437,8 @@ h1.page-title {
   margin-right: calc(0.5 * var(--global--spacing-unit));
 }
 
-.category .page-title {
+.category .page-title,
+.tag .page-title {
   text-align: center;
 }
 

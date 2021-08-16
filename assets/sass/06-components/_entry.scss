@@ -92,7 +92,7 @@ header.cover.entry-header {
   height: clamp(60vw, 100%, 60vh);
   @include media(desktop) {
     display: grid;
-    grid-template-columns: clamp(300px, 500px, 50%);
+    grid-template-columns: clamp(300px, 700px, 50%);
   }
   .cover--img {
     grid-column: 1 / span 2;
