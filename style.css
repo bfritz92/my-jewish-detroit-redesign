@@ -4400,7 +4400,7 @@ h1.page-title {
 .archive .content-area .site-main article .entry-content .entry-author,
 .search .content-area .site-main article .entry-content .entry-author,
 .blog .content-area .site-main article .entry-content .entry-author {
-  padding-top: 10px;
+  padding-top: 10px !important;
   padding-bottom: 10px;
 }
 
