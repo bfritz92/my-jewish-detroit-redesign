@@ -102,7 +102,7 @@ header.cover.entry-header {
     object-fit: cover;
     @include media(laptop) {
       z-index: -1;
-      max-height: 70vh;
+      max-height: 80vh;
       object-fit: cover;
       object-position: center top;
     }
@@ -110,11 +110,13 @@ header.cover.entry-header {
   .cover--content {
     grid-row: 1;
     grid-column: 1;
-    margin: 0 0 calc(2 * var(--global--spacing-vertical)) 0;
     background-color: #fff;
     padding: 2rem var(--responsive--spacing-horizontal);
     height: min-content;
     align-self: end;
+    @include media(laptop) {
+      margin: 0 0 calc(2 * var(--global--spacing-vertical)) 0;
+    }
   }
 }
 //Related Posts
