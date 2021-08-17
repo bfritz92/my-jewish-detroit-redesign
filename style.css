@@ -4179,6 +4179,10 @@ header.cover.entry-header .cover--content {
   text-align: right;
 }
 
+.ngg-imagebrowser.default-view {
+  max-width: 100% !important;
+}
+
 .site-main > article > .entry-footer {
   margin-top: var(--global--spacing-vertical);
   padding-top: var(--global--spacing-unit);
