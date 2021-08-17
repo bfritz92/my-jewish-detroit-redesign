@@ -8,12 +8,12 @@ a {
   color: var(--wp--style--color--link, var(--global--color-primary));
   text-underline-offset: 3px;
   text-decoration-skip-ink: all;
-  text-decoration: none;
+  text-decoration-style: none;
 }
 
 a:hover {
   text-decoration-style: dotted;
-  text-decoration: underline;
+  text-decoration-style: underline;
   text-decoration-skip-ink: none;
 }
 
