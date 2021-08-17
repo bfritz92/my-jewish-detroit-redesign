@@ -166,7 +166,10 @@ header.cover.entry-header {
     }
   }
 }
-
+// Center the Galleries
+.ngg-imagebrowser.default-view {
+  margin: auto;
+}
 // Extra specificity to override rules in _vertical-margins.scss
 .site-main > article > .entry-footer {
   margin-top: var(--global--spacing-vertical);
