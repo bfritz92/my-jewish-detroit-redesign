@@ -469,6 +469,7 @@ a {
 a:hover {
   -webkit-text-decoration-style: dotted;
           text-decoration-style: dotted;
+  text-decoration: underline;
   text-decoration-skip-ink: none;
 }
 
