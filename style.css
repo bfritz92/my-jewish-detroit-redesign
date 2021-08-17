@@ -4094,6 +4094,12 @@ header.cover.entry-header .cover--content {
   margin: 0 0 calc(2 * var(--global--spacing-vertical)) 0;
   background-color: #fff;
   padding: 2rem var(--responsive--spacing-horizontal);
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
 }
 
 .related-articles {

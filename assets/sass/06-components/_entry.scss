@@ -110,6 +110,8 @@ header.cover.entry-header {
     margin: 0 0 calc(2 * var(--global--spacing-vertical)) 0;
     background-color: #fff;
     padding: 2rem var(--responsive--spacing-horizontal);
+    height: min-content;
+    align-self: end;
   }
 }
 //Related Posts
