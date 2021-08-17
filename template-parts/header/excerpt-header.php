@@ -16,5 +16,5 @@ if ( 'aside' === $post_format || 'status' === $post_format ) {
 
 <header class="entry-header">
 	<?php // - Default Thumbnail call twenty_twenty_one_post_thumbnail(); ?>
-		<?php the_post_thumbnail( 'full' ); ?>
+	<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'full' ); ?></a>
 </header><!-- .entry-header -->
