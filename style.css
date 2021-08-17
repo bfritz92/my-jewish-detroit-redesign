@@ -1581,15 +1581,13 @@ a {
   color: var(--wp--style--color--link, var(--global--color-primary));
   text-underline-offset: 3px;
   text-decoration-skip-ink: all;
-  -webkit-text-decoration-style: none;
-          text-decoration-style: none;
+  text-decoration: none;
 }
 
 a:hover {
+  text-decoration: underline;
   -webkit-text-decoration-style: dotted;
           text-decoration-style: dotted;
-  -webkit-text-decoration-style: underline;
-          text-decoration-style: underline;
   text-decoration-skip-ink: none;
 }
 
