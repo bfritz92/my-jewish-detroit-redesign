@@ -6,7 +6,7 @@
 .entry-content
   > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce),
 *[class*="inner-container"]
-  > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce) {
+  > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce):not(.ngg-imagebrowser) {
   @extend %responsive-aligndefault-width;
 }
 
