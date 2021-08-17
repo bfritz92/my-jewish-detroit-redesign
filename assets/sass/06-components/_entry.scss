@@ -102,6 +102,9 @@ header.cover.entry-header {
     object-fit: cover;
     @include media(laptop) {
       z-index: -1;
+      max-height: 60vh;
+      object-fit: cover;
+      object-position: center top;
     }
   }
   .cover--content {

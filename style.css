@@ -4083,6 +4083,11 @@ header.cover.entry-header .cover--img {
 @media only screen and (min-width: 652px) {
   header.cover.entry-header .cover--img {
     z-index: -1;
+    max-height: 60vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center top;
+       object-position: center top;
   }
 }
 
