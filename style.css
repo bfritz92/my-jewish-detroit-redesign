@@ -4091,7 +4091,7 @@ header.cover.entry-header .cover--content {
   grid-row: 1;
   -ms-grid-column: 1;
   grid-column: 1;
-  margin: auto;
+  margin: 0 0 calc(2 * var(--global--spacing-vertical)) 0;
   background-color: #fff;
   padding: 2rem var(--responsive--spacing-horizontal);
 }
