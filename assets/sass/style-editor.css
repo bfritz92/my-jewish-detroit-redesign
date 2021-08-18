@@ -139,8 +139,8 @@
   --branding--color-link: var(--global--color-primary);
   --branding--color-link-hover: var(--global--color-secondary);
   --branding--title--font-family: var(--global--font-primary);
-  --branding--title--font-size: var(--global--font-size-lg);
-  --branding--title--font-size-mobile: var(--heading--font-size-h2);
+  --branding--title--font-size: var(--global--font-size-h2);
+  --branding--title--font-size-mobile: var(--heading--font-size-lg);
   --branding--title--font-weight: normal;
   --branding--description--font-family: var(--global--font-secondary);
   --branding--description--font-size: var(--global--font-size-sm);
