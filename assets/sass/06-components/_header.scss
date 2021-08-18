@@ -57,7 +57,7 @@
     text-align: center;
   }
 
-  @include media(mobile) {
+  @include media(mobile-only) {
     margin-right: initial;
     margin-top: 4px; // Align the baseline of the site title with the primary menu
     display: flex;
