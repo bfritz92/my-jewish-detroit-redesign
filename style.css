@@ -3673,7 +3673,7 @@ table.wp-calendar-table caption {
       -ms-flex-align: center;
           align-items: center;
   max-width: 1200;
-  width: 100%;
+  width: calc(100% - calc(1 * var(--global--spacing-vertical)));
   row-gap: var(--global--spacing-vertical);
   /* @include media(desktop) {
 		padding-top: calc(2.4 * var(--global--spacing-vertical)); // 60px
