@@ -3738,6 +3738,7 @@ table.wp-calendar-table caption {
     width: 100%;
     -ms-grid-column-align: end;
         justify-self: end;
+    max-width: 240px;
   }
 }
 
