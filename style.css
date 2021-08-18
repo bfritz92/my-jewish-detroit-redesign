@@ -3883,6 +3883,7 @@ table.wp-calendar-table caption {
   .site-header:not(.has-logo).has-title-and-tagline .site-branding {
     margin-right: 0;
     max-width: calc(100% - calc(1 * var(--global--spacing-vertical)));
+    padding-top: 4px;
   }
   .site-header:not(.has-menu) {
     -webkit-box-pack: center;
