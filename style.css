@@ -3695,16 +3695,11 @@ table.wp-calendar-table caption {
 .site-branding {
   color: var(--branding--color-text);
   margin-right: 140px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr 1fr;
+      grid-template-columns: 1fr 2fr 1fr;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .site-branding .wp-block-button {
@@ -3725,6 +3720,8 @@ table.wp-calendar-table caption {
   .site-branding .powered-by-jfmd {
     display: block;
     width: clamp(200px, 20%, 300px);
+    -ms-grid-column-align: end;
+        justify-self: end;
   }
 }
 

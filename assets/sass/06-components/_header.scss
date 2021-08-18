@@ -29,10 +29,10 @@
 .site-branding {
   color: var(--branding--color-text);
   margin-right: 140px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
   width: 100%;
-  align-items: center;
+
   .wp-block-button {
     display: none;
     @include media(tablet) {
@@ -44,6 +44,7 @@
     @include media(tablet) {
       display: block;
       width: clamp(200px, 20%, 300px);
+      justify-self: end;
     }
   }
   &:last-child {
