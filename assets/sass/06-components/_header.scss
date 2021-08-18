@@ -32,10 +32,12 @@
 .site-branding {
   color: var(--branding--color-text);
   margin-right: 140px;
-  display: grid;
+  display: block;
   grid-template-columns: 1fr 2fr 1fr;
   width: 100%;
-
+  @include media(tablet) {
+    display: grid;
+  }
   .wp-block-button {
     display: none;
     @include media(tablet) {
@@ -46,7 +48,7 @@
     display: none;
     @include media(tablet) {
       display: block;
-      width: clamp(200px, 20%, 300px);
+      width: 100%;
       justify-self: end;
     }
   }
@@ -71,7 +73,8 @@
   //text-transform: var(--branding--title--text-transform);
   line-height: var(--global--line-height-heading);
   margin-bottom: calc(var(--global--spacing-vertical) / 6);
-
+  justify-self: center;
+  text-align: center;
   a {
     color: currentColor;
     font-weight: var(--branding--title--font-weight);

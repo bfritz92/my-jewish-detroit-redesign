@@ -3704,11 +3704,17 @@ table.wp-calendar-table caption {
 .site-branding {
   color: var(--branding--color-text);
   margin-right: 140px;
-  display: -ms-grid;
-  display: grid;
+  display: block;
   -ms-grid-columns: 1fr 2fr 1fr;
       grid-template-columns: 1fr 2fr 1fr;
   width: 100%;
+}
+
+@media only screen and (min-width: 592px) {
+  .site-branding {
+    display: -ms-grid;
+    display: grid;
+  }
 }
 
 .site-branding .wp-block-button {
@@ -3728,7 +3734,7 @@ table.wp-calendar-table caption {
 @media only screen and (min-width: 592px) {
   .site-branding .powered-by-jfmd {
     display: block;
-    width: clamp(200px, 20%, 300px);
+    width: 100%;
     -ms-grid-column-align: end;
         justify-self: end;
   }
@@ -3754,6 +3760,9 @@ table.wp-calendar-table caption {
   letter-spacing: normal;
   line-height: var(--global--line-height-heading);
   margin-bottom: calc(var(--global--spacing-vertical) / 6);
+  -ms-grid-column-align: center;
+      justify-self: center;
+  text-align: center;
 }
 
 .site-title a {
