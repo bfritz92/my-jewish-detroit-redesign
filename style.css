@@ -5056,6 +5056,8 @@ h1.page-title {
   max-width: none;
   padding-left: 0;
   position: relative;
+  border-top: 1px solid var(--global--color-primary);
+  border-bottom: 1px solid var(--global--color-primary);
 }
 
 @media only screen and (max-width: 481px) {
