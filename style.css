@@ -3692,6 +3692,15 @@ table.wp-calendar-table caption {
   }
 }
 
+@media only screen and (max-width: 481px) {
+  .site-header {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 .site-branding {
   color: var(--branding--color-text);
   margin-right: 140px;
@@ -3723,11 +3732,6 @@ table.wp-calendar-table caption {
     -ms-grid-column-align: end;
         justify-self: end;
   }
-}
-
-.site-branding .site-title {
-  -ms-grid-column-align: center;
-      justify-self: center;
 }
 
 .site-branding:last-child {

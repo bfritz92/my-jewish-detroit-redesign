@@ -19,6 +19,9 @@
   @include media(mobile) {
     padding-top: calc(var(--global--spacing-vertical) / 0.75); // 40px
   }
+  @include media(mobile-only) {
+    flex-direction: row;
+  }
 
   /* @include media(desktop) {
 		padding-top: calc(2.4 * var(--global--spacing-vertical)); // 60px
@@ -46,9 +49,6 @@
       width: clamp(200px, 20%, 300px);
       justify-self: end;
     }
-  }
-  .site-title {
-    justify-self: center;
   }
   &:last-child {
     margin-right: 0;
