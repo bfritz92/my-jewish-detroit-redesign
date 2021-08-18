@@ -533,7 +533,7 @@ a:hover {
   font-family: var(--button--font-family);
   font-size: var(--button--font-size);
   line-height: var(--button--line-height);
-  padding: var(--button--padding-vertical) var(--button--padding-horizontal);
+  padding: calc(0.5 * var(--button--padding-vertical)) calc(0.66 * var(--button--padding-horizontal));
   text-decoration: none;
 }
 
@@ -885,7 +885,7 @@ a:hover {
   font-family: var(--button--font-family);
   font-size: var(--button--font-size);
   line-height: var(--button--line-height);
-  padding: var(--button--padding-vertical) var(--button--padding-horizontal);
+  padding: calc(0.5 * var(--button--padding-vertical)) calc(0.66 * var(--button--padding-horizontal));
   text-decoration: none;
   display: inline-block;
 }
@@ -1800,7 +1800,7 @@ pre.wp-block-preformatted {
   font-family: var(--button--font-family);
   font-size: var(--button--font-size);
   line-height: var(--button--line-height);
-  padding: var(--button--padding-vertical) var(--button--padding-horizontal);
+  padding: calc(0.5 * var(--button--padding-vertical)) calc(0.66 * var(--button--padding-horizontal));
   text-decoration: none;
   -webkit-box-shadow: none;
           box-shadow: none;
