@@ -42,8 +42,8 @@ $header_class = $show_title ? 'site-title' : 'screen-reader-text';
 		</p>
 	<?php endif; ?>
 	<!-- Powered by JFMD -->
-	<a href="https://www.jewishdetroit.org">
-		<img class="powered-by-jfmd" src="https://mjdasset.s3.us-west-2.amazonaws.com/wp-content/uploads/2021/08/18130508/Powered-by-JFMD.svg">
+	<a class="powered-by-jfmd" href="https://www.jewishdetroit.org">
+		<img src="https://mjdasset.s3.us-west-2.amazonaws.com/wp-content/uploads/2021/08/18130508/Powered-by-JFMD.svg">
 	</a>
 	
 		
