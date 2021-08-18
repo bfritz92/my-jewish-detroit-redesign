@@ -3766,7 +3766,7 @@ table.wp-calendar-table caption {
   width: 100%;
 }
 
-@media only screen and (min-width: 652px) {
+@media only screen and (min-width: 592px) {
   .site-title {
     text-align: center;
   }
