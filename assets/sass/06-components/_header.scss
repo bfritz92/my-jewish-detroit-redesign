@@ -31,6 +31,21 @@
   margin-right: 140px;
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  .wp-block-button {
+    display: none;
+    @include media(tablet) {
+      display: block;
+    }
+  }
+  .powered-by-jfmd {
+    display: none;
+    @include media(tablet) {
+      display: block;
+      width: clamp(200px, 20%, 300px);
+    }
+  }
   &:last-child {
     margin-right: 0;
     width: 100%;
