@@ -5,6 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 1200;
+  width: 100%;
   //flex-wrap: wrap;
   row-gap: var(
     --global--spacing-vertical

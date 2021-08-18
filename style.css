@@ -231,7 +231,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   --branding--color-link-hover: var(--global--color-secondary);
   --branding--title--font-family: var(--global--font-primary);
   --branding--title--font-size: var(--global--font-size-lg);
-  --branding--title--font-size-mobile: var(--heading--font-size-h4);
+  --branding--title--font-size-mobile: var(--heading--font-size-h2);
   --branding--title--font-weight: normal;
   --branding--description--font-family: var(--global--font-secondary);
   --branding--description--font-size: var(--global--font-size-sm);
@@ -3672,6 +3672,8 @@ table.wp-calendar-table caption {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  max-width: 1200;
+  width: 100%;
   row-gap: var(--global--spacing-vertical);
   /* @include media(desktop) {
 		padding-top: calc(2.4 * var(--global--spacing-vertical)); // 60px
