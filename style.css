@@ -3725,6 +3725,11 @@ table.wp-calendar-table caption {
   }
 }
 
+.site-branding .site-title {
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
 .site-branding:last-child {
   margin-right: 0;
   width: 100%;
