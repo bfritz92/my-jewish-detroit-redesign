@@ -223,7 +223,7 @@
       &.has-title-and-tagline {
         .site-branding {
           margin-right: 0;
-          max-width: calc(100% - 160px);
+          max-width: calc(100% - calc(1 * var(--global--spacing-vertical)));
         }
       }
     }
