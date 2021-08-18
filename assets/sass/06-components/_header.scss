@@ -176,7 +176,8 @@
           justify-content: space-between;
 
           .site-branding {
-            max-width: calc(100% - 160px);
+            max-width: calc(100% - calc(1 * var(--global--spacing-vertical)));
+            padding-top: 4px;
           }
         }
 

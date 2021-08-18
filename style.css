@@ -3857,7 +3857,8 @@ table.wp-calendar-table caption {
             justify-content: space-between;
   }
   .site-header.has-logo.has-title-and-tagline.has-menu .site-branding {
-    max-width: calc(100% - 160px);
+    max-width: calc(100% - calc(1 * var(--global--spacing-vertical)));
+    padding-top: 4px;
   }
   .site-header.has-logo.has-title-and-tagline .site-branding {
     margin-right: 0;
