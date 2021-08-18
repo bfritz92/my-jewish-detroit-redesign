@@ -3689,10 +3689,6 @@ table.wp-calendar-table caption {
 @media only screen and (min-width: 482px) {
   .site-header {
     padding-top: calc(var(--global--spacing-vertical) / 0.75);
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
   }
 }
 
@@ -3740,13 +3736,10 @@ table.wp-calendar-table caption {
   text-align: center;
 }
 
-@media only screen and (max-width: 481px) {
+@media only screen and (min-width: 482px) {
   .site-branding {
     margin-right: initial;
     margin-top: 4px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
   }
 }
 

@@ -18,7 +18,6 @@
 
   @include media(mobile) {
     padding-top: calc(var(--global--spacing-vertical) / 0.75); // 40px
-    flex-direction: row;
   }
 
   /* @include media(desktop) {
@@ -57,10 +56,9 @@
     text-align: center;
   }
 
-  @include media(mobile-only) {
+  @include media(mobile) {
     margin-right: initial;
     margin-top: 4px; // Align the baseline of the site title with the primary menu
-    display: flex;
   }
 }
 
