@@ -3762,7 +3762,14 @@ table.wp-calendar-table caption {
   margin-bottom: calc(var(--global--spacing-vertical) / 6);
   -ms-grid-column-align: center;
       justify-self: center;
-  text-align: center;
+  text-align: left;
+  width: 100%;
+}
+
+@media only screen and (min-width: 652px) {
+  .site-title {
+    text-align: center;
+  }
 }
 
 .site-title a {

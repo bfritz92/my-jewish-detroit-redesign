@@ -74,7 +74,11 @@
   line-height: var(--global--line-height-heading);
   margin-bottom: calc(var(--global--spacing-vertical) / 6);
   justify-self: center;
-  text-align: center;
+  text-align: left;
+  width: 100%;
+  @include media(laptop) {
+    text-align: center;
+  }
   a {
     color: currentColor;
     font-weight: var(--branding--title--font-weight);
