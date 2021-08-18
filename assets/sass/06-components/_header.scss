@@ -83,8 +83,7 @@
       color: var(--branding--color-link-hover);
     }
   }
-
-  @include media(mobile) {
+  @include media(tablet) {
     font-size: var(--branding--title--font-size);
   }
 }
