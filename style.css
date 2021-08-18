@@ -3701,6 +3701,31 @@ table.wp-calendar-table caption {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site-branding .wp-block-button {
+  display: none;
+}
+
+@media only screen and (min-width: 592px) {
+  .site-branding .wp-block-button {
+    display: block;
+  }
+}
+
+.site-branding .powered-by-jfmd {
+  display: none;
+}
+
+@media only screen and (min-width: 592px) {
+  .site-branding .powered-by-jfmd {
+    display: block;
+    width: clamp(200px, 20%, 300px);
+  }
 }
 
 .site-branding:last-child {
