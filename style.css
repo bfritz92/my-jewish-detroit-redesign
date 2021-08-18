@@ -142,7 +142,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   --latest-posts--title-font-size: var(--heading--font-size-h3);
   --latest-posts--description-font-family: var(--global--font-primary);
   --latest-posts--description-font-size: var(--global--font-size-xs);
-  --list--font-family: var(--global--font-secondary);
+  --list--font-family: var(--global--font-primary);
   --definition-term--font-family: var(--global--font-primary);
   /* Colors */
   --global--color-black: #000;
