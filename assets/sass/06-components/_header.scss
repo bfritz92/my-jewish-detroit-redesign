@@ -2,8 +2,10 @@
 .site-header {
   @extend %responsive-alignwide-width;
   display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  //flex-wrap: wrap;
   row-gap: var(
     --global--spacing-vertical
   ); // Add space in case the menu wraps below the site branding.
@@ -25,7 +27,8 @@
 .site-branding {
   color: var(--branding--color-text);
   margin-right: 140px;
-
+  display: flex;
+  justify-content: space-between;
   &:last-child {
     margin-right: 0;
     width: 100%;

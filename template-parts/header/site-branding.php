@@ -19,7 +19,9 @@ $header_class = $show_title ? 'site-title' : 'screen-reader-text';
 <?php endif; ?>
 
 <div class="site-branding">
-
+	<!-- Subscribe button (HOOK UP) -->
+	<div class="wp-block-button is-style-outline"><a href="#" class="wp-block-button__link subscribe-button">Subscribe</a></div>
+	<!-- .subscribe-button -->
 	<?php if ( has_custom_logo() && ! $show_title ) : ?>
 		<div class="site-logo"><?php the_custom_logo(); ?></div>
 	<?php endif; ?>
@@ -39,4 +41,12 @@ $header_class = $show_title ? 'site-title' : 'screen-reader-text';
 			<?php echo $description; // phpcs:ignore WordPress.Security.EscapeOutput ?>
 		</p>
 	<?php endif; ?>
+	<!-- Powered by JFMD -->
+	<a href="https://www.jewishdetroit.org">
+		<img class="powered-by-jfmd" src="https://mjdasset.s3.us-west-2.amazonaws.com/wp-content/uploads/2021/08/18130508/Powered-by-JFMD.svg">
+	</a>
+	
+		
+
+
 </div><!-- .site-branding -->

@@ -3662,11 +3662,16 @@ table.wp-calendar-table caption {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   row-gap: var(--global--spacing-vertical);
   /* @include media(desktop) {
 		padding-top: calc(2.4 * var(--global--spacing-vertical)); // 60px
@@ -3688,6 +3693,12 @@ table.wp-calendar-table caption {
 .site-branding {
   color: var(--branding--color-text);
   margin-right: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .site-branding:last-child {
