@@ -4876,7 +4876,7 @@ h1.page-title {
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
-  padding: calc(var(--button--padding-vertical) - (0.25 * var(--global--spacing-unit))) calc(0.5 * var(--button--padding-horizontal));
+  padding: calc( var(--button--padding-vertical) - (0.25 * var(--global--spacing-unit))) calc(0.5 * var(--button--padding-horizontal));
   font-size: var(--primary-nav--font-size-button);
   font-weight: var(--primary-nav--font-weight-button);
   background-color: transparent;
@@ -4940,8 +4940,8 @@ h1.page-title {
   color: var(--primary-nav--color-text);
   font-size: var(--primary-nav--font-size);
   line-height: 1.15;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0 auto 0 auto;
+  width: 100%;
 }
 
 .primary-navigation > .primary-menu-container {
@@ -4952,13 +4952,13 @@ h1.page-title {
   right: 0;
   bottom: 0;
   left: 0;
-  padding-top: calc(var(--button--line-height) * var(--primary-nav--font-size-button) + 42px + 5px);
+  padding-top: calc( var(--button--line-height) * var(--primary-nav--font-size-button) + 42px + 5px);
   padding-left: var(--global--spacing-unit);
   padding-right: var(--global--spacing-unit);
   padding-bottom: var(--global--spacing-horizontal);
   background-color: var(--global--color-background);
-  -webkit-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
   -webkit-transform: translateY(var(--global--spacing-vertical));
           transform: translateY(var(--global--spacing-vertical));
 }
