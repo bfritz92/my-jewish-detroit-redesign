@@ -38,10 +38,9 @@
   @include media(desktop) {
     display: flex;
     align-items: center;
-
-    .powered-by {
-      margin-top: initial;
-      margin-left: auto;
+    justify-content: center;
+    .powered-by-jfmd {
+      width: clamp(200px, 20%, 250px);
     }
   }
 
