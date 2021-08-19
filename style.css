@@ -5753,7 +5753,6 @@ h1.page-title {
 }
 
 .widget-area {
-  margin-top: calc(6 * var(--global--spacing-vertical));
   background-color: #ffffffc0;
   padding: var(--global--spacing-vertical) var(--global--spacing-horizontal) calc(var(--global--spacing-vertical) / 3) var(--global--spacing-horizontal);
   color: var(--footer--color-text);
