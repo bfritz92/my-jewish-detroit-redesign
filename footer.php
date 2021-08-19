@@ -53,11 +53,11 @@
 					<?php endif; ?>
 				<?php endif; ?>
 			</div><!-- .site-name -->
-			<div class="powered-by">
+			
 				<a class="powered-by-jfmd" href="https://www.jewishdetroit.org">
 					<img src="https://mjdasset.s3.us-west-2.amazonaws.com/wp-content/uploads/2021/08/18130508/Powered-by-JFMD.svg">
 				</a>
-			</div><!-- .powered-by -->
+
 
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

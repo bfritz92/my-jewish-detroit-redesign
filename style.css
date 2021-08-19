@@ -3910,7 +3910,7 @@ table.wp-calendar-table caption {
 }
 
 .site-footer > .site-info {
-  padding-top: var(--global--spacing-vertical);
+  margin-top: 0;
   color: var(--footer--color-text);
   font-family: var(--footer--font-family);
   font-size: var(--footer--font-size);
