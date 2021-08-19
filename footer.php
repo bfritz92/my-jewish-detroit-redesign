@@ -15,7 +15,7 @@
 			</main><!-- #main -->
 		</div><!-- #primary -->
 	</div><!-- #content -->
-	<div class="site-name">
+		<div class="site-name alignwide">
 				<?php if ( has_custom_logo() ) : ?>
 					<div class="site-logo"><?php the_custom_logo(); ?></div>
 				<?php else : ?>
@@ -27,7 +27,8 @@
 						<?php endif; ?>
 					<?php endif; ?>
 				<?php endif; ?>
-			</div><!-- .site-name -->
+				<div class="wp-block-button is-style-outline"><a href="#" class="wp-block-button__link subscribe-button">Subscribe</a></div>
+		</div><!-- .site-name -->
 	<?php get_template_part( 'template-parts/footer/footer-widgets' ); ?>
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
