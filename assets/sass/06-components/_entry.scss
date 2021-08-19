@@ -125,7 +125,7 @@ header.cover.entry-header {
   margin-left: auto;
   margin-right: auto;
   padding: 0 var(--global--spacing-horizontal);
-  @include media(tablet) {
+  @include media(desktop) {
     padding: 0;
   }
 }

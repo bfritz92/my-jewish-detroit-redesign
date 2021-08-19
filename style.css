@@ -4187,7 +4187,7 @@ header.cover.entry-header .cover--content {
   padding: 0 var(--global--spacing-horizontal);
 }
 
-@media only screen and (min-width: 592px) {
+@media only screen and (min-width: 822px) {
   .post-info {
     padding: 0;
   }
