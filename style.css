@@ -4180,6 +4180,13 @@ header.cover.entry-header .cover--content {
   }
 }
 
+.post-info {
+  max-width: clamp(5rem, 75%, 50rem);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
 .related-articles {
   display: block;
 }

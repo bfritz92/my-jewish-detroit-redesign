@@ -119,6 +119,13 @@ header.cover.entry-header {
     }
   }
 }
+//align the post-info with the post-content for standard posts
+.post-info {
+  max-width: clamp(5rem, 75%, 50rem);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
 //Related Posts
 .related-articles {
   display: block;
