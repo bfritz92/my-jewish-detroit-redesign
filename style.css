@@ -4181,10 +4181,16 @@ header.cover.entry-header .cover--content {
 }
 
 .post-info {
-  max-width: clamp(5rem, 75%, 50rem);
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0;
+  padding: 0 var(--global--spacing-horizontal);
+}
+
+@media only screen and (min-width: 592px) {
+  .post-info {
+    padding: 0;
+  }
 }
 
 .related-articles {
