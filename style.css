@@ -3984,6 +3984,7 @@ table.wp-calendar-table caption {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-bottom: 3px solid var(--global--color-border);
 }
 
 @media only screen and (min-width: 592px) {

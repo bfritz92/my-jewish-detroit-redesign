@@ -80,6 +80,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-bottom: 3px solid var(--global--color-border);
   @include media(tablet) {
     flex-direction: row;
     justify-content: space-between;
