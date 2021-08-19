@@ -17,11 +17,13 @@
 		<?php // - Default Thumbnail call twenty_twenty_one_post_thumbnail(); ?>
         
 		<?php the_post_thumbnail( 'full' ); ?>
+        <div class="post-info align-default-width">
         <p class="entry-category"><?php echo get_the_category_list(); ?></p>
         <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		<h4 class="entry-excerpt"><?php the_excerpt(); ?></h4>
         <h5 class="entry-author">By <?php the_author(); ?></h5>
         <h5 class="entry-date"><?php echo get_the_date(); ?></h5>
+        </div>
 		
 		
 		
