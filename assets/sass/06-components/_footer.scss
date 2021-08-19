@@ -31,17 +31,14 @@
     font-size: var(--branding--title--font-size);
   }
 
-  .powered-by {
-    margin-top: calc(0.5 * var(--global--spacing-vertical));
+  .powered-by-jfmd {
+    width: clamp(200px, 20%, 250px);
   }
 
   @include media(desktop) {
     display: flex;
     align-items: center;
     justify-content: center;
-    .powered-by-jfmd {
-      width: clamp(200px, 20%, 250px);
-    }
   }
 
   a {

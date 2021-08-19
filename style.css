@@ -3924,8 +3924,8 @@ table.wp-calendar-table caption {
   font-size: var(--branding--title--font-size);
 }
 
-.site-footer > .site-info .powered-by {
-  margin-top: calc(0.5 * var(--global--spacing-vertical));
+.site-footer > .site-info .powered-by-jfmd {
+  width: clamp(200px, 20%, 250px);
 }
 
 @media only screen and (min-width: 822px) {
@@ -3936,10 +3936,9 @@ table.wp-calendar-table caption {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-  }
-  .site-footer > .site-info .powered-by {
-    margin-top: initial;
-    margin-left: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
