@@ -236,6 +236,15 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
   }
 }
 
+// Background img for footer
+.site {
+  background-image: url("https://mjdasset.s3.us-west-2.amazonaws.com/wp-content/uploads/2021/08/19143344/footer-no-crop.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 45vw;
+}
+
 /**
  * Post Thumbnails
  */

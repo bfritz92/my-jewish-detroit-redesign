@@ -3916,6 +3916,8 @@ table.wp-calendar-table caption {
   font-size: var(--footer--font-size);
   line-height: var(--global--line-height-body);
   border-top: 3px solid var(--global--color-border);
+  background-color: #ffffffc0;
+  padding: var(--global--spacing-vertical) var(--global--spacing-horizontal);
 }
 
 .site-footer > .site-info .site-name {
@@ -4319,6 +4321,14 @@ header.cover.entry-header .cover--content {
   .single .site-main > article > .entry-footer .full-size-link {
     text-align: left;
   }
+}
+
+.site {
+  background-image: url("https://mjdasset.s3.us-west-2.amazonaws.com/wp-content/uploads/2021/08/19143344/footer-no-crop.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 45vw;
 }
 
 /**
@@ -5744,7 +5754,8 @@ h1.page-title {
 
 .widget-area {
   margin-top: calc(6 * var(--global--spacing-vertical));
-  padding-bottom: calc(var(--global--spacing-vertical) / 3);
+  background-color: #ffffffc0;
+  padding: var(--global--spacing-vertical) var(--global--spacing-horizontal) calc(var(--global--spacing-vertical) / 3) var(--global--spacing-horizontal);
   color: var(--footer--color-text);
   font-size: var(--footer--font-size);
   font-family: var(--footer--font-family);
@@ -5828,7 +5839,7 @@ h1.page-title {
 }
 
 .widget-title {
-  font-size: var(--global--font-size-sm);
+  font-size: var(--global--font-size-lg);
   font-weight: var(--widget--font-weight-title);
   line-height: var(--widget--line-height-title);
 }

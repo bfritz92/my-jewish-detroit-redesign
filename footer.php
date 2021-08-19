@@ -54,13 +54,9 @@
 				<?php endif; ?>
 			</div><!-- .site-name -->
 			<div class="powered-by">
-				<?php
-				printf(
-					/* translators: %s: WordPress. */
-					esc_html__( 'Proudly powered by %s.', 'twentytwentyone' ),
-					'<a href="' . esc_url( __( 'https://wordpress.org/', 'twentytwentyone' ) ) . '">WordPress</a>'
-				);
-				?>
+				<a class="powered-by-jfmd" href="https://www.jewishdetroit.org">
+					<img src="https://mjdasset.s3.us-west-2.amazonaws.com/wp-content/uploads/2021/08/18130508/Powered-by-JFMD.svg">
+				</a>
 			</div><!-- .powered-by -->
 
 		</div><!-- .site-info -->

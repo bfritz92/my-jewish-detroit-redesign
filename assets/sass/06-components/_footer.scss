@@ -24,7 +24,8 @@
   font-size: var(--footer--font-size);
   line-height: var(--global--line-height-body);
   border-top: 3px solid var(--global--color-border);
-
+  background-color: #ffffffc0;
+  padding: var(--global--spacing-vertical) var(--global--spacing-horizontal);
   .site-name {
     //text-transform: var(--branding--title--text-transform);
     font-size: var(--branding--title--font-size);
