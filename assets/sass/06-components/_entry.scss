@@ -139,6 +139,7 @@ header.cover.entry-header {
   }
   &--heading {
     border-bottom: 3px solid var(--global--color-primary);
+    padding-bottom: var(--global--spacing-vertical);
   }
   &--item {
     display: block;

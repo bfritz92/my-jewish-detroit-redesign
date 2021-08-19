@@ -4241,6 +4241,7 @@ header.cover.entry-header .cover--content {
 
 .related-articles--heading {
   border-bottom: 3px solid var(--global--color-primary);
+  padding-bottom: var(--global--spacing-vertical);
 }
 
 .related-articles--item {
@@ -5799,7 +5800,7 @@ h1.page-title {
 
 .widget-area {
   background-color: #ffffffc0;
-  padding: var(--global--spacing-vertical) var(--global--spacing-horizontal) calc(var(--global--spacing-vertical) / 3) var(--global--spacing-horizontal);
+  padding: 0 var(--global--spacing-horizontal) calc(var(--global--spacing-vertical) / 3) var(--global--spacing-horizontal);
   color: var(--footer--color-text);
   font-size: var(--footer--font-size);
   font-family: var(--footer--font-family);

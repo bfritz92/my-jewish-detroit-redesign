@@ -48,7 +48,7 @@
 		<?php twenty_twenty_one_entry_meta_footer(); ?>
 	</footer><!-- .entry-footer -->
     <div class="alignwide related-articles--heading">
-        <h2>You may also like...</h2>
+        <h3>You may also like...</h3>
     </div>
 	<section class="related-articles alignwide">
 	    <?php
@@ -76,7 +76,7 @@
             <a href="<?php the_permalink()?>" class="related-articles--item--img"><?php the_post_thumbnail(); ?></a>
             <div class="related-articles--item--content">
                 <a href="<?php the_permalink()?>"><h3 class="related-articles--item--title"><?php the_title(); ?></h3></a>
-                <p class="related-articles--item--excerpt"><?php the_excerpt(); ?></p>
+                <?php the_excerpt(); ?>
                 <a href="<?php the_permalink()?>" class="related-articles--item--link">Read More</a>
             </div>
         </div>
