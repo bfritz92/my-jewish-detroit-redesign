@@ -124,7 +124,7 @@ header.cover.entry-header {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 var(--global--spacing-horizontal);
+  padding: 0 calc(var(--global--spacing-horizontal) / 2);
   @include media(desktop) {
     padding: 0;
   }
