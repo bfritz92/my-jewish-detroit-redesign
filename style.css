@@ -4295,6 +4295,13 @@ header.cover.entry-header .cover--content {
 
 .related-articles--item--content {
   font-family: var(--global--font-primary);
+  padding: 0 var(--global--spacing--horizontal);
+}
+
+@media only screen and (min-width: 652px) {
+  .related-articles--item--content {
+    padding: 0;
+  }
 }
 
 .ngg-imagebrowser.default-view {
