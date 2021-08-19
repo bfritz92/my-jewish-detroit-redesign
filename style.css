@@ -3967,7 +3967,7 @@ table.wp-calendar-table caption {
   color: var(--wp--style--color--link, var(--global--color-white));
 }
 
-.site-title {
+.site-name {
   padding: calc(2 * var(--global--spacing-vertical)) var(--global--spacing-horizontal) var(--global--spacing-vertical) var(--global--spacing-horizontal);
   font-family: var(--global--font-primary);
   font-weight: 700;
@@ -3988,7 +3988,7 @@ table.wp-calendar-table caption {
 }
 
 @media only screen and (min-width: 592px) {
-  .site-title {
+  .site-name {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
