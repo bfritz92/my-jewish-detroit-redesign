@@ -4295,7 +4295,7 @@ header.cover.entry-header .cover--content {
 
 .related-articles--item--content {
   font-family: var(--global--font-primary);
-  padding: 0 var(--global--spacing--horizontal);
+  padding: 0 var(--global--spacing-horizontal) var(--global--spacing-vertical) var(--global--spacing-horizontal);
 }
 
 @media only screen and (min-width: 652px) {
