@@ -4293,6 +4293,10 @@ header.cover.entry-header .cover--content {
   text-align: right;
 }
 
+.related-articles--item--content {
+  font-family: var(--global--font-primary);
+}
+
 .ngg-imagebrowser.default-view {
   max-width: 100% !important;
 }

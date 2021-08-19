@@ -175,6 +175,9 @@ header.cover.entry-header {
       padding-top: 1rem;
       text-align: right;
     }
+    &--content {
+      font-family: var(--global--font-primary);
+    }
   }
 }
 // Center the Galleries
