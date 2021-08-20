@@ -26,25 +26,25 @@
 .singular .entry-title {
   font-size: var(--global--font-size-page-title);
 }
-.entry-header {
-  .post-categories {
-    list-style: none;
 
-    padding: 0;
-    li {
-      padding-right: 1rem;
-      display: inline;
-      a {
-        color: var(--global--color-gray);
-        font-family: var(--global--font-primary);
-        font-style: italic;
-        :hover {
-          color: var(--global--color-dark-gray);
-        }
+.post-categories {
+  list-style: none;
+
+  padding: 0;
+  li {
+    padding-right: 1rem;
+    display: inline;
+    a {
+      color: var(--global--color-gray);
+      font-family: var(--global--font-primary);
+      font-style: italic;
+      :hover {
+        color: var(--global--color-dark-gray);
       }
     }
   }
 }
+
 h1.entry-title {
   line-height: var(--heading--line-height-h1);
   font-weight: var(--heading--font-weight-page-title);

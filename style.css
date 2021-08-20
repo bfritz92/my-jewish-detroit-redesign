@@ -4086,23 +4086,23 @@ iframe.spreaker-player {
   font-size: var(--global--font-size-page-title);
 }
 
-.entry-header .post-categories {
+.post-categories {
   list-style: none;
   padding: 0;
 }
 
-.entry-header .post-categories li {
+.post-categories li {
   padding-right: 1rem;
   display: inline;
 }
 
-.entry-header .post-categories li a {
+.post-categories li a {
   color: var(--global--color-gray);
   font-family: var(--global--font-primary);
   font-style: italic;
 }
 
-.entry-header .post-categories li a :hover {
+.post-categories li a :hover {
   color: var(--global--color-dark-gray);
 }
 
