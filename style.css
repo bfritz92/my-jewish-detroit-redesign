@@ -4124,6 +4124,7 @@ h1.entry-title {
 .entry-date {
   font-family: var(--global--font-secondary);
   color: var(--global--color-gray);
+  padding-top: 3px;
 }
 
 /**
@@ -4201,9 +4202,6 @@ header.cover.entry-header .cover--content {
 }
 
 .post-info {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
   padding: 0 calc(var(--global--spacing-horizontal) / 2);
 }
 
