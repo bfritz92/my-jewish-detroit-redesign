@@ -870,17 +870,11 @@ template {
 .wp-block-template-part > * {
   margin-top: calc(0.666 * var(--global--spacing-vertical));
   margin-bottom: calc(0.666 * var(--global--spacing-vertical));
-}
-
-@media only screen and (min-width: 482px) {
-  .site-main > article > *,
-  .site-main > .not-found > *,
-  .entry-content > *,
-  [class*="inner-container"] > *,
-  .wp-block-template-part > * {
+  /*
+  @include media(mobile) {
     margin-top: var(--global--spacing-vertical);
     margin-bottom: var(--global--spacing-vertical);
-  }
+  } */
 }
 
 .site-main > article > *:first-child,
