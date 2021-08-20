@@ -3688,7 +3688,7 @@ table.wp-calendar-table caption {
 
 @media only screen and (min-width: 482px) {
   .site-header {
-    padding-top: calc(var(--global--spacing-vertical) / 0.75);
+    padding-top: var(--global--spacing-vertical);
   }
 }
 

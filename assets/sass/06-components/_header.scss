@@ -17,7 +17,7 @@
   }
 
   @include media(mobile) {
-    padding-top: calc(var(--global--spacing-vertical) / 0.75); // 40px
+    padding-top: var(--global--spacing-vertical);
   }
   @include media(mobile-only) {
     flex-direction: row;
