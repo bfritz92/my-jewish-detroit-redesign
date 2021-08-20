@@ -3686,12 +3686,6 @@ table.wp-calendar-table caption {
           align-items: center;
 }
 
-@media only screen and (min-width: 482px) {
-  .site-header {
-    padding-top: var(--global--spacing-vertical);
-  }
-}
-
 @media only screen and (max-width: 481px) {
   .site-header {
     -webkit-box-orient: horizontal;
