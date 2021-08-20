@@ -30,6 +30,7 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
+        <hr />
 		<?php
 		the_content();
 
