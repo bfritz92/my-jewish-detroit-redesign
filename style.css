@@ -4532,16 +4532,17 @@ h1.page-title {
 .post-categories {
   max-width: 100% !important;
   margin: 0 !important;
-  padding-top: calc(var(--global--spacing-unit) / 2);
 }
 
 .entry-author {
   font-family: var(--global--font-secondary);
+  padding-top: var(--global--spacing-unit);
 }
 
 .entry-date {
   font-family: var(--global--font-secondary);
   color: var(--global--color-gray);
+  padding-top: calc(var(--global--spacing-unit) / 2);
 }
 
 .entry-title {
@@ -4557,6 +4558,10 @@ h1.page-title {
 }
 
 .entry-excerpt p {
+  padding-top: 0;
+}
+
+.entry-categories {
   padding-top: 0;
 }
 
