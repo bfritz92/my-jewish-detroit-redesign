@@ -45,23 +45,6 @@
   }
 }
 
-h1.entry-title {
-  line-height: var(--heading--line-height-h1);
-  font-weight: var(--heading--font-weight-page-title);
-}
-.entry-author {
-  font-family: var(--global--font-secondary);
-}
-.entry-excerpt {
-  font-style: italic;
-  font-weight: 400;
-  color: var(--global--color-gray);
-}
-.entry-date {
-  font-family: var(--global--font-secondary);
-  color: var(--global--color-gray);
-  padding-top: 3px;
-}
 /**
  * Entry Content
  */
