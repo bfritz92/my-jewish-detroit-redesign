@@ -4277,6 +4277,7 @@ header.cover.entry-header .cover--content {
 .related-articles--item--link {
   padding-top: 1rem;
   text-align: right;
+  display: block;
 }
 
 .related-articles--item--content {

@@ -175,6 +175,7 @@ header.cover.entry-header {
     &--link {
       padding-top: 1rem;
       text-align: right;
+      display: block;
     }
     &--content {
       font-family: var(--global--font-primary);
