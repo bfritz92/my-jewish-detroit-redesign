@@ -56,35 +56,6 @@ h1.page-title {
     }
   }
 
-  .entry-content {
-    margin-top: 0;
-    width: 100%;
-    .entry-date,
-    .entry-title,
-    .entry-author,
-    p {
-      max-width: 100% !important;
-      margin: 0 !important;
-      padding-top: calc(var(--global--spacing-unit) / 2);
-    }
-    .entry-author {
-      font-family: var(--global--font-secondary);
-    }
-    .entry-date {
-      font-family: var(--global--font-secondary);
-      color: var(--global--color-gray);
-    }
-    .entry-title {
-      line-height: var(--heading--line-height-h1);
-      font-weight: var(--heading--font-weight-page-title);
-    }
-    .entry-excerpt {
-      font-style: italic;
-      font-weight: 400;
-      color: var(--global--color-gray);
-    }
-  }
-
   .format-image,
   .format-gallery,
   .format-video {
@@ -107,6 +78,36 @@ h1.page-title {
       }
     }
   }
+}
+
+.entry-content {
+  margin-top: 0;
+  width: 100%;
+}
+
+.entry-date,
+.entry-title,
+.entry-author,
+.entry-header p {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding-top: calc(var(--global--spacing-unit) / 2);
+}
+.entry-author {
+  font-family: var(--global--font-secondary);
+}
+.entry-date {
+  font-family: var(--global--font-secondary);
+  color: var(--global--color-gray);
+}
+.entry-title {
+  line-height: var(--heading--line-height-h1);
+  font-weight: var(--heading--font-weight-page-title);
+}
+.entry-excerpt {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--global--color-gray);
 }
 
 .category .page-title,

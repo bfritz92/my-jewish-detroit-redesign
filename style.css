@@ -4492,58 +4492,6 @@ h1.page-title {
   margin-bottom: 0;
 }
 
-.archive .entry-content,
-.search .entry-content,
-.blog .entry-content {
-  margin-top: 0;
-  width: 100%;
-}
-
-.archive .entry-content .entry-date,
-.archive .entry-content .entry-title,
-.archive .entry-content .entry-author,
-.archive .entry-content p,
-.search .entry-content .entry-date,
-.search .entry-content .entry-title,
-.search .entry-content .entry-author,
-.search .entry-content p,
-.blog .entry-content .entry-date,
-.blog .entry-content .entry-title,
-.blog .entry-content .entry-author,
-.blog .entry-content p {
-  max-width: 100% !important;
-  margin: 0 !important;
-  padding-top: calc(var(--global--spacing-unit) / 2);
-}
-
-.archive .entry-content .entry-author,
-.search .entry-content .entry-author,
-.blog .entry-content .entry-author {
-  font-family: var(--global--font-secondary);
-}
-
-.archive .entry-content .entry-date,
-.search .entry-content .entry-date,
-.blog .entry-content .entry-date {
-  font-family: var(--global--font-secondary);
-  color: var(--global--color-gray);
-}
-
-.archive .entry-content .entry-title,
-.search .entry-content .entry-title,
-.blog .entry-content .entry-title {
-  line-height: var(--heading--line-height-h1);
-  font-weight: var(--heading--font-weight-page-title);
-}
-
-.archive .entry-content .entry-excerpt,
-.search .entry-content .entry-excerpt,
-.blog .entry-content .entry-excerpt {
-  font-style: italic;
-  font-weight: 400;
-  color: var(--global--color-gray);
-}
-
 .archive .format-image .entry-content,
 .archive .format-gallery .entry-content,
 .archive .format-video .entry-content,
@@ -4569,6 +4517,40 @@ h1.page-title {
 .search.logged-in .entry-footer .posted-on,
 .blog.logged-in .entry-footer .posted-on {
   margin-right: calc(0.5 * var(--global--spacing-unit));
+}
+
+.entry-content {
+  margin-top: 0;
+  width: 100%;
+}
+
+.entry-date,
+.entry-title,
+.entry-author,
+.entry-header p {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding-top: calc(var(--global--spacing-unit) / 2);
+}
+
+.entry-author {
+  font-family: var(--global--font-secondary);
+}
+
+.entry-date {
+  font-family: var(--global--font-secondary);
+  color: var(--global--color-gray);
+}
+
+.entry-title {
+  line-height: var(--heading--line-height-h1);
+  font-weight: var(--heading--font-weight-page-title);
+}
+
+.entry-excerpt {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--global--color-gray);
 }
 
 .category .page-title,
