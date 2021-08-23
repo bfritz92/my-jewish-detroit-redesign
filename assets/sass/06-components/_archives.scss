@@ -89,7 +89,8 @@ h1.page-title {
 .entry-title,
 .entry-author,
 .entry-header p,
-.entry-excerpt {
+.entry-excerpt,
+.post-categories {
   max-width: 100% !important;
   margin: 0 !important;
   padding-top: calc(var(--global--spacing-unit) / 2);
