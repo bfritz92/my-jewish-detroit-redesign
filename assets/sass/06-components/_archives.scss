@@ -111,6 +111,9 @@ h1.page-title {
   font-weight: 400;
   color: var(--global--color-gray);
   padding-top: var(--global--spacing-unit);
+  p {
+    padding-top: 0;
+  }
 }
 
 .category .page-title,

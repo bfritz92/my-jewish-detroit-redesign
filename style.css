@@ -4556,6 +4556,10 @@ h1.page-title {
   padding-top: var(--global--spacing-unit);
 }
 
+.entry-excerpt p {
+  padding-top: 0;
+}
+
 .category .page-title,
 .tag .page-title {
   text-align: center;
