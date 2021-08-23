@@ -4533,6 +4533,7 @@ h1.page-title {
 .entry-content .post-categories {
   width: 100% !important;
   margin: 0 !important;
+  max-width: 100% !important;
 }
 
 .entry-content .entry-author {
