@@ -4493,6 +4493,12 @@ h1.page-title {
   margin-bottom: 0;
 }
 
+.archive .content-area .site-main article .entry-header a img,
+.search .content-area .site-main article .entry-header a img,
+.blog .content-area .site-main article .entry-header a img {
+  display: block;
+}
+
 .archive .format-image .entry-content,
 .archive .format-gallery .entry-content,
 .archive .format-video .entry-content,
