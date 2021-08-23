@@ -4525,44 +4525,44 @@ h1.page-title {
   width: 100%;
 }
 
-.entry-date,
-.entry-title,
-.entry-author,
-.entry-header p,
-.entry-excerpt,
-.post-categories {
+.entry-content .entry-date,
+.entry-content .entry-title,
+.entry-content .entry-author,
+.entry-content .entry-header p,
+.entry-content .entry-excerpt,
+.entry-content .post-categories {
   width: 100% !important;
   margin: 0 !important;
 }
 
-.entry-author {
+.entry-content .entry-author {
   font-family: var(--global--font-secondary);
   padding-top: var(--global--spacing-unit);
 }
 
-.entry-date {
+.entry-content .entry-date {
   font-family: var(--global--font-secondary);
   color: var(--global--color-gray);
   padding-top: calc(var(--global--spacing-unit) / 2);
 }
 
-.entry-title {
+.entry-content .entry-title {
   line-height: var(--heading--line-height-h1);
   font-weight: var(--heading--font-weight-page-title);
 }
 
-.entry-excerpt {
+.entry-content .entry-excerpt {
   font-style: italic;
   font-weight: 400;
   color: var(--global--color-gray);
   padding-top: var(--global--spacing-unit);
 }
 
-.entry-excerpt p {
+.entry-content .entry-excerpt p {
   padding-top: 0;
 }
 
-.entry-categories {
+.entry-content .entry-categories {
   padding-top: 0;
 }
 
