@@ -22,7 +22,7 @@ while ( have_posts() ) :
 	<header class="cover entry-header alignfull">	
 			<?php the_post_thumbnail( 'full', ['class' => 'cover--img'] ); ?>
 			<div class="cover--content has-black-color has-text-color">
-				<p class="entry-category"><?php echo get_the_category_list(); ?></p>
+				<?php echo get_the_category_list(); ?>
 				<?php the_title( '<h1 class="entry-title has-text-color">', '</h1>' ); ?>
 				<h4 class="entry-excerpt has-text-color"><?php the_excerpt(); ?></h4>
 				<h5 class="entry-author has-text-color">By <?php the_author(); ?></h5>
