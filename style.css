@@ -4526,7 +4526,8 @@ h1.page-title {
   margin-right: calc(0.5 * var(--global--spacing-unit));
 }
 
-.entry-content {
+.entry-content,
+.post-info {
   margin-top: 0;
   width: 100%;
 }
@@ -4536,40 +4537,52 @@ h1.page-title {
 .entry-content .entry-author,
 .entry-content .entry-header p,
 .entry-content .entry-excerpt,
-.entry-content .post-categories {
+.entry-content .post-categories,
+.post-info .entry-date,
+.post-info .entry-title,
+.post-info .entry-author,
+.post-info .entry-header p,
+.post-info .entry-excerpt,
+.post-info .post-categories {
   width: 100% !important;
   margin: 0 !important;
   max-width: 100% !important;
 }
 
-.entry-content .entry-author {
+.entry-content .entry-author,
+.post-info .entry-author {
   font-family: var(--global--font-secondary);
   padding-top: var(--global--spacing-unit);
 }
 
-.entry-content .entry-date {
+.entry-content .entry-date,
+.post-info .entry-date {
   font-family: var(--global--font-secondary);
   color: var(--global--color-gray);
   padding-top: calc(var(--global--spacing-unit) / 2);
 }
 
-.entry-content .entry-title {
+.entry-content .entry-title,
+.post-info .entry-title {
   line-height: var(--heading--line-height-h1);
   font-weight: var(--heading--font-weight-page-title);
 }
 
-.entry-content .entry-excerpt {
+.entry-content .entry-excerpt,
+.post-info .entry-excerpt {
   font-style: italic;
   font-weight: 400;
   color: var(--global--color-gray);
   padding-top: var(--global--spacing-unit);
 }
 
-.entry-content .entry-excerpt p {
+.entry-content .entry-excerpt p,
+.post-info .entry-excerpt p {
   padding-top: 0;
 }
 
-.entry-content .entry-categories {
+.entry-content .entry-categories,
+.post-info .entry-categories {
   padding-top: 0;
 }
 
