@@ -19,7 +19,7 @@ while ( have_posts() ) :
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<header class="fedradio entry-header default-max-width">
+	<header class="fedradio entry-header default-max-width post-info">
 		<?php // - Default Thumbnail call twenty_twenty_one_post_thumbnail(); ?>
 		<?php the_post_thumbnail( 'full' ); ?>
         <p class="entry-category"><?php echo get_the_category_list(); ?></p>

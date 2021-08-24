@@ -19,7 +19,7 @@ while ( have_posts() ) :
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<header class="entry-header default-max-width">
+	<header class="entry-header default-max-width post-info">
 	<?php echo get_the_category_list(); ?>
         <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		<h4 class="entry-excerpt"><?php the_excerpt(); ?></h4>
