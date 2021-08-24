@@ -4579,6 +4579,9 @@ h1.page-title {
 .entry-content .entry-excerpt p,
 .post-info .entry-excerpt p {
   padding-top: 0;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--global--color-gray);
 }
 
 .entry-content .entry-categories,
