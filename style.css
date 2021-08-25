@@ -260,8 +260,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   /* Pagination */
   --pagination--color-text: var(--global--color-primary);
   --pagination--color-link-hover: var(--global--color-primary-hover);
-  --pagination--font-family: var(--global--font-secondary);
-  --pagination--font-size: var(--global--font-size-lg);
+  --pagination--font-family: var(--global--font-primary);
+  --pagination--font-size: var(--global--font-size-md);
   --pagination--font-weight: normal;
   --pagination--font-weight-strong: 600;
   /* Footer */
