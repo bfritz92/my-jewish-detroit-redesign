@@ -4667,6 +4667,11 @@ h1.page-title {
           justify-content: center;
 }
 
+.entry-header img {
+  height: 100%;
+  width: 100%;
+}
+
 .entry-content,
 .post-info {
   margin-top: 0;
