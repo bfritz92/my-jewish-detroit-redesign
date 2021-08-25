@@ -21,7 +21,7 @@ while ( have_posts() ) :
 
 	<header class="cover entry-header alignfull post-info">	
 			<?php the_post_thumbnail( 'full', ['class' => 'cover--img'] ); ?>
-			<div class="cover--content has-black-color has-text-color entry-content">
+			<div class="cover--content has-black-color has-text-color">
 				<?php echo get_the_category_list(); ?>
 				<?php the_title( '<h1 class="entry-title has-text-color">', '</h1>' ); ?>
 				<h4 class="entry-excerpt has-text-color"><?php the_excerpt(); ?></h4>
