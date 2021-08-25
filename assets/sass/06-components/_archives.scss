@@ -52,6 +52,8 @@ h1.page-title {
       }
       .entry-header {
         margin-bottom: 0;
+        display: flex;
+        justify-content: center;
         a img {
           display: block;
         }

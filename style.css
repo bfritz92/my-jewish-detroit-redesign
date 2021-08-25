@@ -4623,6 +4623,12 @@ h1.page-title {
 .search .content-area .site-main article .entry-header,
 .blog .content-area .site-main article .entry-header {
   margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .archive .content-area .site-main article .entry-header a img,
