@@ -401,24 +401,23 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
     padding-left: 1rem;
     margin: 1rem 0 2rem 10px;
   }
-  .hide-for-mobile {
-    display: none;
-    @include media(tablet) {
-      display: block;
-    }
-  }
-  .mobile-only {
+}
+.hide-for-mobile {
+  display: none;
+  @include media(tablet) {
     display: block;
-    @include media(tablet) {
-      display: none;
-    }
   }
-  .flex {
-    display: flex;
-  }
-  .hide {
+}
+.mobile-only {
+  display: block;
+  @include media(tablet) {
     display: none;
   }
 }
-
+.flex {
+  display: flex;
+}
+.hide {
+  display: none;
+}
 //END UTILITY CLASSES //

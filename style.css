@@ -4509,33 +4509,33 @@ header.cover.entry-header .cover--content {
   margin: 1rem 0 2rem 10px;
 }
 
-.entry-content .hide-for-mobile {
+.hide-for-mobile {
   display: none;
 }
 
 @media only screen and (min-width: 592px) {
-  .entry-content .hide-for-mobile {
+  .hide-for-mobile {
     display: block;
   }
 }
 
-.entry-content .mobile-only {
+.mobile-only {
   display: block;
 }
 
 @media only screen and (min-width: 592px) {
-  .entry-content .mobile-only {
+  .mobile-only {
     display: none;
   }
 }
 
-.entry-content .flex {
+.flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.entry-content .hide {
+.hide {
   display: none;
 }
 
