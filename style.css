@@ -4573,7 +4573,7 @@ h1.page-title {
   font-style: italic;
   font-weight: 400;
   color: var(--global--color-gray);
-  padding-top: var(--global--spacing-unit);
+  padding-top: calc(var(--global--spacing-unit) / 2);
   font-family: var(--global--font-primary);
   display: block;
 }
