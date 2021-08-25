@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name Posts: Story with Vertical Pic (Single Post)
+ * Template Name Posts: Vertical (in development)
  * The template for displaying all single posts
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
@@ -70,10 +70,7 @@ while ( have_posts() ) :
 		);
 	}
 
-	// If comments are open or there is at least one comment, load up the comment template.
-	if ( comments_open() || get_comments_number() ) {
-		comments_template();
-	}
+
 
 	// Previous/next post navigation.
 	$twentytwentyone_next = is_rtl() ? twenty_twenty_one_get_icon_svg( 'ui', 'arrow_left' ) : twenty_twenty_one_get_icon_svg( 'ui', 'arrow_right' );
