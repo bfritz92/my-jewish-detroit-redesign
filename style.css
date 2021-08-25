@@ -4574,6 +4574,8 @@ h1.page-title {
   font-weight: 400;
   color: var(--global--color-gray);
   padding-top: var(--global--spacing-unit);
+  font-family: var(--global--font-primary);
+  display: block;
 }
 
 .entry-content .entry-excerpt p,
