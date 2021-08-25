@@ -712,8 +712,8 @@ template {
 /**
  * Extends
  */
-.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce),
-*[class*="inner-container"] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce):not(.ngg-imagebrowser), .entry-content .wp-audio-shortcode {
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce):not(.exempt),
+*[class*="inner-container"] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce):not(.ngg-imagebrowser):not(.exempt), .entry-content .wp-audio-shortcode {
   max-width: calc(100vw - 20px);
   margin-left: auto;
   margin-right: auto;
@@ -721,8 +721,8 @@ template {
 }
 
 @media only screen and (min-width: 822px) {
-  .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce),
-  *[class*="inner-container"] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce):not(.ngg-imagebrowser), .entry-content .wp-audio-shortcode {
+  .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce):not(.exempt),
+  *[class*="inner-container"] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce):not(.ngg-imagebrowser):not(.exempt), .entry-content .wp-audio-shortcode {
     max-width: clamp(5rem, 75%, 50rem);
     margin-left: auto;
     margin-right: auto;

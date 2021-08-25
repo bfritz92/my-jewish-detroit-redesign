@@ -4,9 +4,9 @@
  * These selectors set the default max width for content appearing inside a post or page.
  */
 .entry-content
-  > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce),
+  > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce):not(.exempt),
 *[class*="inner-container"]
-  > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce):not(.ngg-imagebrowser) {
+  > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce):not(.ngg-imagebrowser):not(.exempt) {
   @extend %responsive-aligndefault-width;
 }
 
