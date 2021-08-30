@@ -57,7 +57,7 @@ query_posts( $args );
 	<article class="<?php echo $article_class; ?>">
 		<img src="<?php the_post_thumbnail_url(); ?>">
 		<div class="post-info">
-			<?php echo get_the_category_list(1); ?>
+			<?php echo get_the_category_list(); ?>
         	<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
 			<a href="<?php the_permalink(); ?>"><?php the_title( '<h1 class="entry-title">', '</h1>' ); ?></a>
         	<h4 class="entry-excerpt gray"><?php the_excerpt(); ?></h4>
