@@ -17,7 +17,7 @@ $className = 'front-posts';
 if( !empty($block['className']) ) {
    $className .= ' ' . $block['className'];
 }
-if( !empty($block['align']) ) {
+if( !empty($block['align']) ) {{}
    $className .= ' align' . $block['align'];
 }
 $select_posts = get_field('select_posts'); 
