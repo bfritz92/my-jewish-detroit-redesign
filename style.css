@@ -4119,13 +4119,13 @@ iframe.spreaker-player {
   margin-left: 0;
 }
 
-.wp-block-columns.front-page .wp-block-column {
+.wp-block-columns.front-page .wp-block-column article {
   border-bottom: 1pt var(--global--color-primary) solid;
   padding-bottom: var(--global--spacing-vertical);
 }
 
 @media only screen and (min-width: 652px) {
-  .wp-block-columns.front-page .wp-block-column .front-page-below-featured img {
+  .wp-block-columns.front-page .wp-block-column article.front-page-below-featured img {
     display: none;
   }
 }
