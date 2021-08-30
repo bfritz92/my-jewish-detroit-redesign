@@ -17,7 +17,7 @@
  */
 
 function register_acf_block_types() {
-   // register a testimonial block.
+   // register a front page posts block.
 	acf_register_block_type(array(
       'name'              => 'front-page-posts',
       'title'             => __('Front Page Posts'),
@@ -27,6 +27,17 @@ function register_acf_block_types() {
       'icon'              => 'admin-comments',
 	  'mode'			  => 'edit',
       'keywords'          => array( 'front', 'posts' )
+   ));	
+	// register a front page posts block.
+	acf_register_block_type(array(
+      'name'              => 'fedradiodetroit',
+      'title'             => __('Fed Radio Detroit Block'),
+      'description'       => __('Shows the most recent Fed Radio Detroit article.'),
+      'render_template'   => get_template_directory() . '/template-parts/blocks/fedradiodetroit/fedradiodetroit.php',
+      'category'          => 'common',
+      'icon'              => 'admin-comments',
+	  'mode'			  => 'edit',
+      'keywords'          => array( 'fed', 'radio', 'detroit' )
    ));
 }
 // Check if function exists and hook into setup.
