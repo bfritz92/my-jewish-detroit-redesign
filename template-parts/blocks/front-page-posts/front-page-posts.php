@@ -22,6 +22,18 @@ if( !empty($block['align']) ) {{}
 }
 $select_posts = get_field('select_posts'); 
 $post_type = get_field('post_type'); // Featured, Below top story, Image on Top, Image on Right
+if ($post_type == 'featured') :
+	$article_class = 'front-page-featured';
+elseif ($post_type == 'below-featured') :
+	$article_class = 'front-page-below-featured';
+elseif ($post_type == 'image-top') :
+	$article_class = 'front-page-image-top';
+elseif ($post_type == 'image-right') :
+	$article_class = 'front-page-image-right';
+else :
+	$article_class = 'front-page-photo-gallery';
+endif;
+
 $post_id = $select_posts;
 $args = array(
    // 'post_type' 		=> $post_type,
@@ -42,10 +54,10 @@ query_posts( $args );
 	if ( $loop->have_posts() ):
 		while ( $loop->have_posts() ) : $loop->the_post(); 
 ?>
-	<article class="<?php echo $post_type; ?>">
+	<article class="<?php echo $article_class; ?>">
 		<img src="<?php the_post_thumbnail_url(); ?>">
 		<div class="post-info">
-			<?php echo get_the_category_list(); ?>
+			<?php echo get_the_category_list(1); ?>
         	<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
 			<a href="<?php the_permalink(); ?>"><?php the_title( '<h1 class="entry-title">', '</h1>' ); ?></a>
         	<h4 class="entry-excerpt gray"><?php the_excerpt(); ?></h4>
