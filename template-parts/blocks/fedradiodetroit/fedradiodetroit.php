@@ -37,7 +37,7 @@ query_posts( $args );
 <?php 
 	$loop = new WP_Query( $args ); 
 ?>
-
+ee
 <?php 
 	if ( $loop->have_posts() ):
 		while ( $loop->have_posts() ) : $loop->the_post(); 
