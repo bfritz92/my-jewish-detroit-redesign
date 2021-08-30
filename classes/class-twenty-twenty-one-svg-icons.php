@@ -9,7 +9,7 @@
 
 /**
  * This class is in charge of displaying SVG icons across the site.
- *
+ * Yes it does exist.
  * Place each <svg> source on its own array key, without adding either
  * the `width` or `height` attributes, since these are added dynamically,
  * before rendering the SVG code.
