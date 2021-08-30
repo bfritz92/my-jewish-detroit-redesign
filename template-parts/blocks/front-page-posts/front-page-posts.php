@@ -55,7 +55,7 @@ query_posts( $args );
 		while ( $loop->have_posts() ) : $loop->the_post(); 
 ?>
 	<article class="<?php echo $article_class; ?>">
-		<img src="<?php the_post_thumbnail_url(); ?>">
+	<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 		<div class="post-info">
 			<?php echo get_the_category_list(); ?>
         	<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
