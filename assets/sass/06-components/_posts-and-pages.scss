@@ -41,3 +41,26 @@ iframe.spreaker-player {
     padding-top: var(--global--spacing-vertical);
   }
 }
+
+//FRONT PAGE STYLING
+.wp-block-columns.front-page {
+  gap: var(--global--spacing-vertical);
+  &:nth-child(1) {
+    @include media(laptop) {
+      order: 2;
+    }
+  }
+  &:nth-child(2) {
+    @include media(laptop) {
+      order: 1;
+    }
+  }
+  &:nth-child(3) {
+    @include media(laptop) {
+      order: 3;
+    }
+  }
+  &:not(:first-child) {
+    margin-left: 0;
+  }
+}
