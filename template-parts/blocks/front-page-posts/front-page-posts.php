@@ -22,7 +22,7 @@ if( !empty($block['align']) ) {{}
 }
 $select_posts = get_field('select_posts'); 
 $post_type = get_field('post_type');
-$post_id = $post_type;
+$post_id = $select_posts;
 $args = array(
    // 'post_type' 		=> $post_type,
 	'p'					=> $post_id, 
