@@ -45,7 +45,7 @@
 		);
 		?>
 	</div><!-- .entry-content -->
-
+    <hr class="wp-block-separator">
 	<footer class="entry-footer default-max-width">
 		<?php twenty_twenty_one_entry_meta_footer(); ?>
 	</footer><!-- .entry-footer -->
