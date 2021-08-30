@@ -4555,6 +4555,7 @@ h1.page-title {
 .page-header {
   border-bottom: 3px solid var(--global--color-border);
   padding-bottom: calc(2 * var(--global--spacing-vertical));
+  margin-bottom: var(--global--spacing-vertical);
 }
 
 .archive .content-area .format-aside .entry-content,
@@ -4598,6 +4599,7 @@ h1.page-title {
             align-items: center;
     grid-gap: 20px;
     padding: 0;
+    width: var(--responsive--aligndefault-width);
   }
 }
 
