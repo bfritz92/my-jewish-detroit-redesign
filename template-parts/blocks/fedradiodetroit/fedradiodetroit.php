@@ -25,7 +25,7 @@ $subscribe_link = get_field('subscribe_link');
 $fedradioclass =  get_field('fedradioclass');
 
 $args = array(
-	'category_name'		=> 'fedradiodetroit',
+	'cat'		=> '310',
 	'post_status'		=> 'publish',
 	'posts_per_page' 	=> 1,
     'order'    			=> $order,
