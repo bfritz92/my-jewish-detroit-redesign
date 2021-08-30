@@ -21,7 +21,7 @@ if( !empty($block['align']) ) {{}
    $className .= ' align' . $block['align'];
 }
 $select_posts = get_field('select_posts'); 
-$post_type = get_field('post_type');
+$post_type = get_field('post_type'); // Featured, Below top story, Image on Top, Image on Right
 $post_id = $select_posts;
 $args = array(
    // 'post_type' 		=> $post_type,
