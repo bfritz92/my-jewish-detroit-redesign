@@ -44,6 +44,7 @@ iframe.spreaker-player {
 
 //FRONT PAGE STYLING
 .wp-block-columns.front-page {
+  //position feature col in the minddle on laptop and up
   gap: calc(var(--global--spacing-vertical) / 2);
   .wp-block-column:nth-child(1) {
     @include media(laptop) {
@@ -55,11 +56,9 @@ iframe.spreaker-player {
     }
     article:nth-child(2) {
       @include media(laptop) {
+        //the article under the featured one
         h2.entry-title {
           font-size: var(--heading--font-size-h3);
-        }
-        img {
-          display: none;
         }
         .entry-excerpt {
           display: none;
@@ -68,6 +67,7 @@ iframe.spreaker-player {
     }
   }
   .wp-block-column:nth-child(2) {
+    //left col
     @include media(laptop) {
       h2.entry-title {
         font-size: var(--heading--font-size-h3);
@@ -81,6 +81,7 @@ iframe.spreaker-player {
     }
   }
   .wp-block-column:nth-child(3) {
+    //right col
     @include media(laptop) {
       order: 3;
     }
@@ -95,5 +96,16 @@ iframe.spreaker-player {
   }
   .wp-block-column:not(:first-child) {
     margin-left: 0;
+  }
+  .wp-block-column {
+    border-bottom: 1pt var(--global--color-primary) solid;
+    padding-bottom: var(--global--spacing-vertical);
+    .front-page-below-featured {
+      @include media(laptop) {
+        img {
+          display: none;
+        }
+      }
+    }
   }
 }
