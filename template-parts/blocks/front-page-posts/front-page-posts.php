@@ -42,7 +42,7 @@ query_posts( $args );
 	if ( $loop->have_posts() ):
 		while ( $loop->have_posts() ) : $loop->the_post(); 
 ?>
-	<article>
+	<article class="<?php echo $post_type; ?>">
 		<img src="<?php the_post_thumbnail_url(); ?>">
 		<div class="post-info">
 			<?php echo get_the_category_list(); ?>
