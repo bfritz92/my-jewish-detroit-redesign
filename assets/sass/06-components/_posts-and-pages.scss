@@ -50,14 +50,27 @@ iframe.spreaker-player {
       order: 2;
     }
     article:nth-child(2) {
-      h2.entry-title {
-        font-size: var(--heading--font-size-h3);
+      @include media(laptop) {
+        h2.entry-title {
+          font-size: var(--heading--font-size-h3);
+        }
+        img {
+          display: none;
+        }
+        .entry-excerpt {
+          display: none;
+        }
       }
     }
   }
   .wp-block-column:nth-child(2) {
-    h2.entry-title {
-      font-size: var(--heading--font-size-h4);
+    @include media(laptop) {
+      h2.entry-title {
+        font-size: var(--heading--font-size-h3);
+      }
+      .entry-excerpt {
+        display: none;
+      }
     }
     @include media(laptop) {
       order: 1;
@@ -67,8 +80,13 @@ iframe.spreaker-player {
     @include media(laptop) {
       order: 3;
     }
-    h2.entry-title {
-      font-size: var(--heading--font-size-h4);
+    @include media(laptop) {
+      h2.entry-title {
+        font-size: var(--heading--font-size-h3);
+      }
+      .entry-excerpt {
+        display: none;
+      }
     }
   }
   .wp-block-column:not(:first-child) {
