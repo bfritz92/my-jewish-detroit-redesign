@@ -8,12 +8,12 @@
  * @param   (int|string) $post_id The post ID this block is saved to.
  */
 // Create id attribute allowing for custom "anchor" value.
-$id = 'fedreadiodetroit-' . $block['id'];
+$id = 'fedradiodetroit-' . $block['id'];
 if( !empty($block['anchor']) ) {
    $id = $block['anchor'];
 }
 // Create class attribute allowing for custom "className" and "align" values.
-$className = 'fedreadiodetroit';
+$className = 'fedradiodetroit';
 if( !empty($block['className']) ) {
    $className .= ' ' . $block['className'];
 }
@@ -37,7 +37,7 @@ query_posts( $args );
 <?php 
 	$loop = new WP_Query( $args ); 
 ?>
-ee
+
 <?php 
 	if ( $loop->have_posts() ):
 		while ( $loop->have_posts() ) : $loop->the_post(); 
