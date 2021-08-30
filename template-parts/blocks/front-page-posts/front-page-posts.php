@@ -47,7 +47,7 @@ query_posts( $args );
 		<div class="post-info">
 			<?php echo get_the_category_list(); ?>
         	<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
-        	<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+			<a href="<?php the_permalink(); ?>"><?php the_title( '<h1 class="entry-title">', '</h1>' ); ?></a>
         	<h4 class="entry-excerpt gray"><?php the_excerpt(); ?></h4>
         	<h5 class="entry-author"><?php the_author(); ?></h5>
 		</div>
