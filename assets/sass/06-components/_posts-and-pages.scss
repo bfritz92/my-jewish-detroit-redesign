@@ -89,7 +89,7 @@ iframe.spreaker-player {
     }
     @include media(laptop) {
       h2.entry-title {
-        font-size: var(--heading--font-size-h2);
+        font-size: var(--heading--font-size-h3);
       }
       .entry-excerpt {
         display: none;
