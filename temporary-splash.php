@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name Posts: Coming Soon
+ * Template Name: Coming Soon
  * The template for displaying a Coming Soon page
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
@@ -17,9 +17,9 @@ get_header();
 		<h1 class="page-title">Coming Soon</h1>
 	</header><!-- .page-header -->
 
-	<div class="default-max-width">
+	<div class="alignwide">
 		<div class="page-content">
-			<p class="align-center">We're under construction right now, but plan to come back soon with a whole new look!</p>
+			<p class="aligncenter">We're under construction right now, but plan to come back soon with a whole new look!</p>
 		</div><!-- .page-content -->
 	</div>
 
