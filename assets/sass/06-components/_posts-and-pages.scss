@@ -131,7 +131,7 @@ iframe.spreaker-player {
     gap: var(--global--spacing-horizontal);
     img {
       height: min-content;
-      width: 40%;
+      width: clamp(150px, 40%, 200px);
     }
   }
   &--post {

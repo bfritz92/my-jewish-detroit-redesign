@@ -4178,7 +4178,7 @@ iframe.spreaker-player {
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  width: 40%;
+  width: clamp(150px, 40%, 200px);
 }
 
 .front-page-fedradio--post {
