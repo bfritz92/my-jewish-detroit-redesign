@@ -20,7 +20,7 @@
 							var eventOrg = '';
 						}						
 						elems +='<div class="event-info"><a href="' + eventLink + '"><h3 class="event-title>' + eventTitle + '</h3></a><p class="event-time">' + eventDate + '</p><h5 class="event-org">' + eventOrg + '</h5></div>';
-						$('#rest-events').html(elems);								
+						$('.events').html(elems);								
 						/*eventNode.text( event.title );																	
                     	eventNode.appendTo( eventsNode );*/
 						//$( "h2" ).insertAfter( $( ".cell-2" ) );
