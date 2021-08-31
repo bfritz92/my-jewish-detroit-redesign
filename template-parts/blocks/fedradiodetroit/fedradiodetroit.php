@@ -54,9 +54,11 @@ query_posts( $args );
 		</div>
 		<div class="front-page-fedradio--post">
 			<img src="<?php the_post_thumbnail_url(); ?>">
+			<div class="front-page-fedradio--post--content">
 			<h4 class="episode-title"><?php echo the_title(); ?></h4>
         	<p><?php echo the_excerpt(); ?></p>
-			<a href="<?php the_permalink(); ?>">Listen Now</a>
+			<div class="wp-block-button is-style-outline"><a href="<?php the_permalink(); ?>" class="wp-block-button__link subscribe-button">Listen Now</a></div>
+			</div>
 		</div>
 	</article>
 <?php

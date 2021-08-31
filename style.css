@@ -4061,6 +4061,10 @@ iframe.spreaker-player {
   border-bottom: 2px var(--global--color-primary) solid;
 }
 
+.wp-block-columns.front-page .wp-block-column:nth-child(1) {
+  height: 100%;
+}
+
 @media only screen and (min-width: 652px) {
   .wp-block-columns.front-page .wp-block-column:nth-child(1) {
     -webkit-box-ordinal-group: 3;
@@ -4120,7 +4124,7 @@ iframe.spreaker-player {
   margin-left: 0;
 }
 
-.wp-block-columns.front-page .wp-block-column:last-child {
+.wp-block-columns.front-page .wp-block-column article:last-child {
   border-bottom: none;
 }
 
