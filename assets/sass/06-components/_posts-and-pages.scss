@@ -123,7 +123,7 @@ iframe.spreaker-player {
     flex-direction: row;
   }
   &--info {
-    gap: var(--global--spacing-vertical);
+    gap: var(--global--spacing-horizontal);
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     align-items: center;
