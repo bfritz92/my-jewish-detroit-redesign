@@ -14,7 +14,7 @@ get_header();
 ?>
 
 <header class="page-header alignwide temp-splash">
-		<h1 class="page-title">Coming Soon</h1>
+		<h1 class="page-title aligncenter">Coming Soon</h1>
 	</header><!-- .page-header -->
 
 	<div class="alignwide">
