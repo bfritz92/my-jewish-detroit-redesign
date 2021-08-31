@@ -4185,6 +4185,10 @@ iframe.spreaker-player {
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
+.front-page-fedradio--post img {
+  place-self: center center;
+}
+
 @media only screen and (min-width: 652px) {
   .front-page-fedradio--post img {
     width: clamp(300px, 50%, 500px);

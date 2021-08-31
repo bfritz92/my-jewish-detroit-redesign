@@ -137,6 +137,7 @@ iframe.spreaker-player {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     img {
+      place-self: center center;
       @include media(laptop) {
         width: clamp(300px, 50%, 500px);
         height: min-content;
