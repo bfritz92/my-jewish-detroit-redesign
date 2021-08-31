@@ -4178,9 +4178,21 @@ iframe.spreaker-player {
 }
 
 .front-page-fedradio--post {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  gap: var(--global--spacing-vertical);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+@media only screen and (min-width: 652px) {
+  .front-page-fedradio--post img {
+    width: clamp(300px, 50%, 500px);
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    place-self: center end;
+  }
 }
 
 .entry-title {
@@ -4206,6 +4218,10 @@ iframe.spreaker-player {
 
 .entry-title a:active {
   color: var(--entry-header--color-link);
+}
+
+.section-title {
+  font-size: var(--heading--font-size-h2);
 }
 
 .singular .entry-title {
