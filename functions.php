@@ -656,12 +656,16 @@ return 30;
 add_filter('excerpt_length', 'mjd_excerpt_length');
 
 // Add Rest API Script for Events
-add_action( 'wp_enqueue_scripts', 'rest_api_enqueue_styles' );
- function rest_api_enqueue_styles() {    
-    // enqueue the theme script...
-    wp_enqueue_script( 'rest-theme-js', get_stylesheet_directory_uri() . '/assets/js/events-api.js', array( 'jquery' ) );
- 
-    // ...and localize The Events Calendar REST API information and nonce
-    wp_localize_script( 'rest-theme-js', 'restTheme',
-        array( 'root' => esc_url_raw( 'https://jewishdetroitcalendar.org' )) );
+function add_inline_script() {
+   if( is_home() || is_front_page() ) {
+      wp_register_script(
+		'events-api',
+		get_template_directory_uri() . '/assets/js/events-api.js',
+		array(),
+		wp_get_theme()->get( 'Version' ),
+		true
+	);
+
+   }
 }
+add_action( 'wp_footer', 'add_inline_script', 0 );

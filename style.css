@@ -4058,6 +4058,7 @@ iframe.spreaker-player {
 
 .wp-block-columns.front-page {
   gap: calc(var(--global--spacing-vertical) / 2);
+  border-bottom: 2px var(--global--color-primary) solid;
 }
 
 @media only screen and (min-width: 652px) {
@@ -4074,7 +4075,7 @@ iframe.spreaker-player {
 
 @media only screen and (min-width: 652px) {
   .wp-block-columns.front-page .wp-block-column:nth-child(1) article:nth-child(2) h2.entry-title {
-    font-size: var(--heading--font-size-h3);
+    font-size: var(--heading--font-size-h2);
   }
   .wp-block-columns.front-page .wp-block-column:nth-child(1) article:nth-child(2) .entry-excerpt {
     display: none;
@@ -4108,7 +4109,7 @@ iframe.spreaker-player {
 
 @media only screen and (min-width: 652px) {
   .wp-block-columns.front-page .wp-block-column:nth-child(3) h2.entry-title {
-    font-size: var(--heading--font-size-h3);
+    font-size: var(--heading--font-size-h2);
   }
   .wp-block-columns.front-page .wp-block-column:nth-child(3) .entry-excerpt {
     display: none;
@@ -4117,6 +4118,10 @@ iframe.spreaker-player {
 
 .wp-block-columns.front-page .wp-block-column:not(:first-child) {
   margin-left: 0;
+}
+
+.wp-block-columns.front-page .wp-block-column:last-child {
+  border-bottom: none;
 }
 
 .wp-block-columns.front-page .wp-block-column article {
@@ -4128,6 +4133,50 @@ iframe.spreaker-player {
   .wp-block-columns.front-page .wp-block-column article.front-page-below-featured img {
     display: none;
   }
+}
+
+.front-page-fedradio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media only screen and (min-width: 592px) {
+  .front-page-fedradio {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 2fr;
+        grid-template-columns: 1fr 2fr;
+  }
+}
+
+.front-page-fedradio--info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.front-page-fedradio--info img {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 40%;
+}
+
+.front-page-fedradio--post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .entry-title {

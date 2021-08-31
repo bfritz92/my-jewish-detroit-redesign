@@ -39,28 +39,6 @@ function register_acf_block_types() {
 	  'mode'			  => 'edit',
       'keywords'          => array( 'fed', 'radio', 'detroit' )
    ));
-	// register events block.
-	acf_register_block_type(array(
-      'name'              => 'events',
-      'title'             => __('Events Calendar API Feed'),
-      'description'       => __('Shows the most recent Fed Radio Detroit article.'),
-      'render_template'   => get_template_directory() . '/template-parts/blocks/events/events.php',
-      'category'          => 'common',
-      'icon'              => 'admin-comments',
-	  'mode'			  => 'edit',
-      'keywords'          => array( 'events', 'calendar' )
-   ));
-	// register events block.
-	acf_register_block_type(array(
-      'name'              => 'tabbed-posts-block',
-      'title'             => __('Tabbed Posts Block'),
-      'description'       => __('Tabbed content showing recent articles and posts.'),
-      'render_template'   => get_template_directory() . '/template-parts/blocks/tabbed-posts-block/tabbed-posts-block.php',
-      'category'          => 'common',
-      'icon'              => 'admin-comments',
-	  'mode'			  => 'edit',
-      'keywords'          => array( 'posts', 'tabbed' )
-   ));
 }
 // Check if function exists and hook into setup.
 if( function_exists('acf_register_block_type') ) {

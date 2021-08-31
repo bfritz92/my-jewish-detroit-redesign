@@ -25,13 +25,15 @@ $select_posts = get_field('select_posts');
 
 <h2 class="alignwide">Upcoming Events</h2>
 <div class="events alignwide">
-<!-- Individual Events - Begin -->
-
-<!-- Individual Events - End -->
-
+	<!-- Individual Event - Begin -->
+	<div class="event-info">
+		<h3 class="event-title"></h3>
+		<p class="event-time"></p>
+		<p class="event-date"></p>
+		<a class="learn-more"></a>
+	</div>
+	<!-- Individual Event - End -->
 </div>
-<div class="alignwide">
-	<a href="https://jewishdetroitcalendar.org/events/list/" class="more-events" target="_blank">More Events</a>
-</div>	
+<a href="http://jewishdetroitcalendar.org/events/list/" class="more-events">More Events</a>
 <?php
 ?>
