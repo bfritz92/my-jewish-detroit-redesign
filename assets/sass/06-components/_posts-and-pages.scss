@@ -123,11 +123,12 @@ iframe.spreaker-player {
     flex-direction: row;
   }
   &--info {
-    gap: var(--global--spacing-horizontal);
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    display: flex;
+    min-width: 45%;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
+    gap: var(--global--spacing-horizontal);
     img {
       height: min-content;
       width: 40%;

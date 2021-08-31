@@ -4159,17 +4159,19 @@ iframe.spreaker-player {
 }
 
 .front-page-fedradio--info {
-  gap: var(--global--spacing-horizontal);
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(150px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 45%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: var(--global--spacing-horizontal);
 }
 
 .front-page-fedradio--info img {
