@@ -52,7 +52,7 @@ function register_acf_block_types() {
 	// register a front page posts block.
 	acf_register_block_type(array(
       'name'              => 'tabbed-posts-block',
-      'title'             => __('Fed Radio Detroit Block'),
+      'title'             => __('Tabbed Posts Block'),
       'description'       => __('Shows videos or articles in tabs.'),
       'render_template'   => get_template_directory() . '/template-parts/blocks/tabbed-posts-block/tabbed-posts-block.php',
       'category'          => 'common',

@@ -1,6 +1,6 @@
 <?php
 /**
- * Front Page Posts Block.
+ * Tabbed Posts Block.
  *
  * @param   array $block The block settings and attributes.
  * @param   string $content The block inner HTML (empty).
