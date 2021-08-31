@@ -40,22 +40,19 @@ $header = get_field('header');
 	<?php 
 		if ($type_posts == 'videos') :
 			$args = array(
-			   // 'post_type' 		=> $post_type,
-				'p'					=> $post_id, 
+				'cat'				=> '311',
 				'post_status'		=> 'publish',
 				'posts_per_page' 	=> 6,
-				'order'    			=> $order,
-				'orderby'    		=> $orderby,
+				'orderby' 			=> 'date',
+            	'order'   			=> 'DESC',
 			);
 			query_posts( $args );
 		else : 
 			$args = array(
-			   // 'post_type' 		=> $post_type,
-				'p'					=> $post_id, 
 				'post_status'		=> 'publish',
 				'posts_per_page' 	=> 6,
-				'order'    			=> $order,
-				'orderby'    		=> $orderby,
+				'orderby' 			=> 'date',
+            	'order'   			=> 'DESC',
 				'offset'			=> 3,
 			);
 			query_posts( $args );
@@ -96,22 +93,21 @@ $header = get_field('header');
 		if ($type_posts == 'videos') :
 			$args = array(
 			   // 'post_type' 		=> $post_type,
-				'p'					=> $post_id, 
+				'cat'				=> '311', 
 				'post_status'		=> 'publish',
 				'posts_per_page' 	=> 6,
-				'order'    			=> $order,
-				'orderby'    		=> $orderby,
+				'orderby' 			=> 'date',
+            	'order'   			=> 'DESC',
 				'tag'				=> 'featured',
 			);
 			query_posts( $args );
 		else : 
 			$args = array(
 			   // 'post_type' 		=> $post_type,
-				'p'					=> $post_id, 
 				'post_status'		=> 'publish',
 				'posts_per_page' 	=> 6,
-				'order'    			=> $order,
-				'orderby'    		=> $orderby,
+				'orderby' 			=> 'date',
+            	'order'   			=> 'DESC',
 				'offset'			=> 1,
 				'tag'				=> 'featured',
 			);
@@ -153,11 +149,11 @@ $header = get_field('header');
 		if ($type_posts == 'videos') :
 			$args = array(
 			   // 'post_type' 		=> $post_type,
-				'p'					=> $post_id, 
+				'cat'				=> '311', 
 				'post_status'		=> 'publish',
 				'posts_per_page' 	=> 6,
-				'order'    			=> $order,
-				'orderby'    		=> $orderby,
+				'orderby' 			=> 'date',
+            	'order'   			=> 'DESC',
 				'date_query' => array(
 					'after' => date('Y-m-d', strtotime('-10 days')) 
 					)
@@ -166,11 +162,10 @@ $header = get_field('header');
 		else : 
 			$args = array(
 			   // 'post_type' 		=> $post_type,
-				'p'					=> $post_id, 
 				'post_status'		=> 'publish',
 				'posts_per_page' 	=> 6,
-				'order'    			=> $order,
-				'orderby'    		=> $orderby,
+				'orderby' 			=> 'date',
+            	'order'   			=> 'DESC',
 				'offset'			=> 1,
 				'date_query' => array(
 				'after' => date('Y-m-d', strtotime('-10 days')) 
