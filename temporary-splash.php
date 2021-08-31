@@ -23,7 +23,6 @@ get_header();
             <br />
             <br />
             <br />
-            <br />
 		</div><!-- .page-content -->
 	</div>
 
