@@ -73,9 +73,11 @@
     <script>
 		const tabSelectors = document.querySelectorAll('[data-tabs]');
 
-		for (const [i, tabs] of [...tabSelectors].entries()) {
-			tabs.setAttribute(`data-tabs-${i}`, '');
-			new Tabby(`[data-tabs-${i}]`);
-		}
+if (tabSelectors) {
+ for (const [i, tabs] of [...tabSelectors].entries()) {
+    tabs.setAttribute('data-tabs', i);
+    new Tabby(`[data-tabs="${i}"]`);
+  }
+}
 	</script>
 </html>
