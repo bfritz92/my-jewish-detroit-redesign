@@ -4180,8 +4180,8 @@ iframe.spreaker-player {
   height: -moz-min-content;
   height: min-content;
   width: clamp(150px, 40%, 200px);
-  -ms-flex-preferred-size: 40%;
-      flex-basis: 40%;
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;

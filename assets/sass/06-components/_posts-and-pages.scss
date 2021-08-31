@@ -133,7 +133,7 @@ iframe.spreaker-player {
     img {
       height: min-content;
       width: clamp(150px, 40%, 200px);
-      flex-basis: 40%;
+      flex-basis: 10%;
       flex-grow: 1;
     }
     &--container {
