@@ -4163,7 +4163,7 @@ iframe.spreaker-player {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-width: 45%;
+  min-width: 30%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-align: center;
@@ -4199,7 +4199,7 @@ iframe.spreaker-player {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-width: 50%;
+  min-width: 60%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-align: center;
