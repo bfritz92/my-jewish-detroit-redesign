@@ -67,4 +67,9 @@
 <?php wp_footer(); ?>
 <script async src="https://widget.spreaker.com/widgets.js"></script>
 </body>
+<script src="/wp-content/themes/my-jewish-detroit-redesign/js/tabby.min.js"></script>
+
+        <script>
+		var tabs = new Tabby('[data-tabs]');
+		</script>
 </html>
