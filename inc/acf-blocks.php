@@ -50,6 +50,17 @@ function register_acf_block_types() {
 	  'mode'			  => 'edit',
       'keywords'          => array( 'events', 'calendar' )
    ));
+	// register events block.
+	acf_register_block_type(array(
+      'name'              => 'tabbed-posts-block',
+      'title'             => __('Tabbed Posts Block'),
+      'description'       => __('Tabbed content showing recent articles and posts.'),
+      'render_template'   => get_template_directory() . '/template-parts/blocks/tabbed-posts-block/tabbed-posts-block.php',
+      'category'          => 'common',
+      'icon'              => 'admin-comments',
+	  'mode'			  => 'edit',
+      'keywords'          => array( 'posts', 'tabbed' )
+   ));
 }
 // Check if function exists and hook into setup.
 if( function_exists('acf_register_block_type') ) {
