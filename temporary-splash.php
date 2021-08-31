@@ -20,6 +20,10 @@ get_header();
 	<div class="alignwide">
 		<div class="page-content">
 			<p class="aligncenter">We're under construction right now, but plan to come back soon with a whole new look!</p>
+            <br />
+            <br />
+            <br />
+            <br />
 		</div><!-- .page-content -->
 	</div>
 
