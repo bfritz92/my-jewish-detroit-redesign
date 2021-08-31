@@ -38,7 +38,7 @@ $header = get_field('header');
 
 <div id="latest" class="accordion-tabs--item" data-selected="true" role="tabpanel" aria-labelledby="tabby-toggle_latest">
 	<?php 
-		if ($type_posts == 'video') :
+		if ($type_posts == 'videos') :
 			$args = array(
 			   // 'post_type' 		=> $post_type,
 				'p'					=> $post_id, 
@@ -65,7 +65,7 @@ $header = get_field('header');
 		if ( $loop->have_posts() ):
 			while ( $loop->have_posts() ) : $loop->the_post(); 
 	?>
-		<?php if ($type_posts == 'video') : ?>
+		<?php if ($type_posts == 'videos') : ?>
 		<article class="<?php echo $article_class; ?>">
 		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 			<div class="post-info">
@@ -93,7 +93,7 @@ $header = get_field('header');
 </div>
 <div id="featured" class="accordion-tabs--item" data-selected="true" role="tabpanel" aria-labelledby="tabby-toggle_featured">
 	<?php 
-		if ($type_posts == 'video') :
+		if ($type_posts == 'videos') :
 			$args = array(
 			   // 'post_type' 		=> $post_type,
 				'p'					=> $post_id, 
@@ -122,7 +122,7 @@ $header = get_field('header');
 		if ( $loop->have_posts() ):
 			while ( $loop->have_posts() ) : $loop->the_post(); 
 	?>
-		<?php if ($type_posts == 'video') : ?>
+		<?php if ($type_posts == 'videos') : ?>
 		<article class="<?php echo $article_class; ?>">
 		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 			<div class="post-info">
@@ -150,7 +150,7 @@ $header = get_field('header');
 </div>
 <div id="wayback" class="accordion-tabs--item" data-selected="true" role="tabpanel" aria-labelledby="tabby-toggle_wayback">
 	<?php 
-		if ($type_posts == 'video') :
+		if ($type_posts == 'videos') :
 			$args = array(
 			   // 'post_type' 		=> $post_type,
 				'p'					=> $post_id, 
@@ -183,7 +183,7 @@ $header = get_field('header');
 		if ( $loop->have_posts() ):
 			while ( $loop->have_posts() ) : $loop->the_post(); 
 	?>
-		<?php if ($type_posts == 'video') : ?>
+		<?php if ($type_posts == 'videos') : ?>
 		<article class="<?php echo $article_class; ?>">
 		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 			<div class="post-info">
