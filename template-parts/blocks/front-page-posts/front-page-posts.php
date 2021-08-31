@@ -22,9 +22,8 @@ if( !empty($block['align']) ) {{}
 }
 $select_posts = get_field('select_posts'); 
 $post_type = get_field('post_type'); // Featured, Below top story, Image on Top, Image on Right
-
-$need_photo = get_field('need_photo'); // Do we need the featured image?
-$need_excerpt = get_field('need_excerpt'); // Do we need the excerpt?
+$need_photo = the_field('need_photo'); // Do we need the featured image?
+$need_excerpt = the_field('need_excerpt'); // Do we need the excerpt?
 
 if ($post_type == 'featured') :
 	$article_class = 'front-page-featured';
