@@ -25,15 +25,15 @@ $header = get_field('header');
 $identifier = get_field('identifier');
 ?>
 <h2 class="alignwide section-title"><?php echo $header; ?></h2>
-<ul data-tabs="" class="accordion-tabs--nav alignwide" role="tablist">
+<ul data-tabs="" class="accordion-tabs--nav alignwide <?php echo $identifier; ?>" role="tablist">
 	<li role="presentation">
-		<a data-tabby-default="" href="#latest" aria-selected="true" id="tabby-toggle_latest" role="tab" aria-controls="latest">Latest</a>
+		<a data-tabby-default="" href="#latest-<?php echo $identifier; ?>" aria-selected="true" id="tabby-toggle_latest" role="tab" aria-controls="latest">Latest</a>
 	</li>
 	<li role="presentation">
-		<a href="#featured" id="tabby-toggle_featured" role="tab" aria-controls="featured" aria-selected="false" tabindex="-1">Featured</a>
+		<a href="#featured-<?php echo $identifier; ?>" id="tabby-toggle_featured" role="tab" aria-controls="featured" aria-selected="false" tabindex="-1">Featured</a>
 	</li>
 	<li role="presentation">
-		<a href="#wayback" id="tabby-toggle_wayback" role="tab" aria-controls="wayback" aria-selected="false" tabindex="-1">Wayback</a>
+		<a href="#wayback-<?php echo $identifier; ?>" id="tabby-toggle_wayback" role="tab" aria-controls="wayback" aria-selected="false" tabindex="-1">Wayback</a>
 	</li>
 </ul>
 
