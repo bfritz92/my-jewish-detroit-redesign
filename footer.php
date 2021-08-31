@@ -70,7 +70,12 @@
 
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/tabby@12.0/dist/js/tabby.polyfills.min.js"></script>
 
-        <script>
-		var tabs = new Tabby('[data-tabs]');
-		</script>
+    <script>
+		const tabSelectors = document.querySelectorAll('[data-tabs]');
+
+		for (const [i, tabs] of [...tabSelectors].entries()) {
+			tabs.setAttribute(`data-tabs-${i}`, '');
+			new Tabby(`[data-tabs-${i}]`);
+		}
+	</script>
 </html>
