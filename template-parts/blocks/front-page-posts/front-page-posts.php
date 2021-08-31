@@ -56,7 +56,7 @@ query_posts( $args );
 	if ( $loop->have_posts() ):
 		while ( $loop->have_posts() ) : $loop->the_post(); 
 ?>
-	<article class="<?php echo $article_class; ?>">
+	<article class="<?php echo $article_class; ?>"><?php echo $need_photo; ?>
 	<?php if ($need_photo == 'yes') : ?>
 		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 	<?php endif; ?>
