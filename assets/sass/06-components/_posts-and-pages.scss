@@ -120,11 +120,12 @@ iframe.spreaker-player {
   display: flex;
   flex-direction: column;
   @include media(tablet) {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    flex-direction: row;
   }
   &--info {
-    display: flex;
+    gap: var(--global--spacing-vertical);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     align-items: center;
     justify-content: space-between;
     img {
