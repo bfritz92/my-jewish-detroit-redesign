@@ -8,19 +8,18 @@
  * @param   (int|string) $post_id The post ID this block is saved to.
  */
 // Create id attribute allowing for custom "anchor" value.
-$id = 'front-page-posts-' . $block['id'];
+$id = 'events-' . $block['id'];
 if( !empty($block['anchor']) ) {
    $id = $block['anchor'];
 }
 // Create class attribute allowing for custom "className" and "align" values.
-$className = 'front-posts';
+$className = 'events';
 if( !empty($block['className']) ) {
    $className .= ' ' . $block['className'];
 }
 if( !empty($block['align']) ) {{}
    $className .= ' align' . $block['align'];
 }
-$select_posts = get_field('select_posts'); 
 ?>
 
 <h2 class="alignwide">Upcoming Events</h2>
