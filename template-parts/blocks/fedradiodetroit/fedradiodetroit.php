@@ -54,7 +54,8 @@ query_posts( $args );
 		</div>
 		<div class="front-page-fedradio--post">
 			<img src="<?php the_post_thumbnail_url(); ?>">
-        	<h5><?php echo the_excerpt(); ?></h5>
+			<h4 class="episode-title"><?php echo the_title(); ?></h4>
+        	<p><?php echo the_excerpt(); ?></p>
 			<a href="<?php the_permalink(); ?>">Listen Now</a>
 		</div>
 	</article>
