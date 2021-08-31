@@ -39,6 +39,17 @@ function register_acf_block_types() {
 	  'mode'			  => 'edit',
       'keywords'          => array( 'fed', 'radio', 'detroit' )
    ));
+	// register an events block.
+	acf_register_block_type(array(
+      'name'              => 'events',
+      'title'             => __('Events Calendar API Feed'),
+      'description'       => __('Shows the most recent Fed Radio Detroit article.'),
+      'render_template'   => get_template_directory() . '/template-parts/blocks/events/events.php',
+      'category'          => 'common',
+      'icon'              => 'admin-comments',
+	  'mode'			  => 'edit',
+      'keywords'          => array( 'events', 'calendar' )
+   ));
 }
 // Check if function exists and hook into setup.
 if( function_exists('acf_register_block_type') ) {
