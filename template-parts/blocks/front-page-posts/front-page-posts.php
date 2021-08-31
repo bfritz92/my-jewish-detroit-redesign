@@ -22,6 +22,9 @@ if( !empty($block['align']) ) {{}
 }
 $select_posts = get_field('select_posts'); 
 $post_type = get_field('post_type'); // Featured, Below top story, Image on Top, Image on Right
+$need_photo = get_field('need_photo'); // Do we need the featured image?
+$need_excerpt = get_field('need_excerpt'); // Do we need the excerpt?
+
 if ($post_type == 'featured') :
 	$article_class = 'front-page-featured';
 elseif ($post_type == 'below-featured') :
@@ -55,14 +58,14 @@ query_posts( $args );
 		while ( $loop->have_posts() ) : $loop->the_post(); 
 ?>
 	<article class="<?php echo $article_class; ?>">
-	<?php if ($need_photo = 'yes') : ?>
+	<?php if ($need_photo == 'yes') : ?>
 		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 	<?php endif; ?>
 		<div class="post-info">
 			<!-- <?php echo get_the_category_list(); ?> -->
         	<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
 			<a href="<?php the_permalink(); ?>"><?php the_title( '<h2 class="entry-title">', '</h2>' ); ?></a>
-        	<?php if ($need_excerpt = 'yes') : ?>
+        	<?php if ($need_excerpt == 'yes') : ?>
 				<h4 class="entry-excerpt gray"><?php the_excerpt(); ?></h4>
 			<?php endif; ?>
         	<h5 class="entry-author"><?php the_author(); ?></h5>
