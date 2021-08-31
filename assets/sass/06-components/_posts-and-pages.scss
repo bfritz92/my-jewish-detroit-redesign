@@ -119,6 +119,7 @@ iframe.spreaker-player {
 .front-page-fedradio {
   display: flex;
   flex-direction: column;
+  gap: var(--global--spacing-horizontal);
   @include media(tablet) {
     flex-direction: row;
   }
@@ -150,7 +151,7 @@ iframe.spreaker-player {
     img {
       height: min-content;
       width: clamp(150px, 40%, 350px);
-      flex-basis: 40%;
+      flex-basis: 45%;
       flex-grow: 1;
     }
     &--content {
