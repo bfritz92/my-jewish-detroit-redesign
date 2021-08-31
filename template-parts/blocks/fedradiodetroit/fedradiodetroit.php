@@ -42,7 +42,7 @@ query_posts( $args );
 	if ( $loop->have_posts() ):
 		while ( $loop->have_posts() ) : $loop->the_post(); 
 ?>
-	<h2 class="alignwide">Listen</h2>
+	<h2 class="section-title alignwide">Listen</h2>
 	<article class="alignwide <?php echo $fedradioclass; ?>">
 		<div class="front-page-fedradio--info">
 			<img src="<?php echo $fedradiologo; ?>">

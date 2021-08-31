@@ -22,7 +22,9 @@
     }
   }
 }
-
+.section-title {
+  font-size: var(--heading--font-size-h2);
+}
 .singular .entry-title {
   font-size: var(--global--font-size-page-title);
 }

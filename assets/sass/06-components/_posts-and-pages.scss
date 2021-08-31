@@ -133,6 +133,15 @@ iframe.spreaker-player {
     }
   }
   &--post {
-    display: flex;
+    gap: var(--global--spacing-vertical);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    img {
+      @include media(laptop) {
+        width: clamp(300px, 50%, 500px);
+        height: min-content;
+        place-self: center end;
+      }
+    }
   }
 }
