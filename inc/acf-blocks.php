@@ -39,7 +39,7 @@ function register_acf_block_types() {
 	  'mode'			  => 'edit',
       'keywords'          => array( 'fed', 'radio', 'detroit' )
    ));
-	// register an events block.
+	// register events block.
 	acf_register_block_type(array(
       'name'              => 'events',
       'title'             => __('Events Calendar API Feed'),
