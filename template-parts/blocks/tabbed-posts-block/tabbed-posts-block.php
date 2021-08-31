@@ -50,6 +50,7 @@ $identifier = get_field('identifier');
 			query_posts( $args );
 		elseif ($type_posts == 'articles') : 
 			$args = array(
+				'category__not_in' 	=> array(311),
 				'post_status'		=> 'publish',
 				'posts_per_page' 	=> 6,
 				'orderby' 			=> 'date',
@@ -105,6 +106,7 @@ $identifier = get_field('identifier');
 		elseif ($type_posts == 'articles') : 
 			$args = array(
 			   // 'post_type' 		=> $post_type,
+				'category__not_in' 	=> array(311),
 				'post_status'		=> 'publish',
 				'posts_per_page' 	=> 6,
 				'orderby' 			=> 'date',
@@ -163,6 +165,7 @@ $identifier = get_field('identifier');
 		elseif ($type_posts == 'articles') : 
 			$args = array(
 			   // 'post_type' 		=> $post_type,
+				'category__not_in' 	=> array(311),
 				'post_status'		=> 'publish',
 				'posts_per_page' 	=> 6,
 				'orderby' 			=> 'date',
