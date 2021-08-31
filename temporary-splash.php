@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name Posts: Coming Soon
+ * Template Name: Coming Soon
  * The template for displaying a Coming Soon page
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
