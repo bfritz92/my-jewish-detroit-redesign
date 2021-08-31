@@ -28,7 +28,7 @@ $select_posts = get_field('select_posts');
 <!-- Individual Events - Begin -->
 
 <!-- Individual Events - End -->
-	<a href="http://jewishdetroitcalendar.org/events/list/" class="more-events">More Events</a>
+	<a href="https://jewishdetroitcalendar.org/events/list/" class="more-events" target="_blank">More Events</a>
 </div>
 <?php
 ?>

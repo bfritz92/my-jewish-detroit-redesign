@@ -656,16 +656,8 @@ return 30;
 add_filter('excerpt_length', 'mjd_excerpt_length');
 
 // Add Rest API Script for Events
-function add_inline_script() {
-  // if( is_home() || is_front_page() ) {
-      wp_register_script(
-		'events-api',
-		get_template_directory_uri() . '/assets/js/events-api.js',
-		array(),
-		wp_get_theme()->get( 'Version' ),
-		true
-	);
-
-  // }
+function load_eventsjs_script() {
+	wp_enqueue_script( 'jquery', '//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js');
+	wp_enqueue_script( 'events-api', get_template_directory_uri() . '/assets/js/events-api.js');
 }
-add_action( 'wp_footer', 'add_inline_script', 0 );
+add_action( 'wp_enqueue_scripts', 'load_eventsjs_script', 0 );
