@@ -19,7 +19,7 @@
 						} else {
 							var eventOrg = '';
 						}						
-						elems +='<div class="event-info"><a href="' + eventLink + '"><h3 class="event-title>' + eventTitle + '</h3></a><p class="event-time">' + eventDate + '</p><h5 class="event-org">' + eventOrg + '</h5></div>';
+						elems +='<div class="event-info"><a href="' + eventLink + '"><h3 class="event-title">' + eventTitle + '</h3></a><p class="event-time">' + eventDate + '</p><h5 class="event-org">' + eventOrg + '</h5></div>';
 						$('.events').html(elems);								
 						/*eventNode.text( event.title );																	
                     	eventNode.appendTo( eventsNode );*/
