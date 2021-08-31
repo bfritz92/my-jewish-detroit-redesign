@@ -23,8 +23,8 @@ if( !empty($block['align']) ) {{}
 $type_posts = get_field('type_posts'); // Type of Posts: Video or Articles
 $header = get_field('header');
 ?>
-<h2><?php echo $header; ?></h2>
-<ul data-tabs="" class="accordion-tabs--nav" role="tablist">
+<h2 class="alignwide section-title"><?php echo $header; ?></h2>
+<ul data-tabs="" class="accordion-tabs--nav alignwide" role="tablist">
 	<li role="presentation">
 		<a data-tabby-default="" href="#latest" aria-selected="true" id="tabby-toggle_latest" role="tab" aria-controls="latest">Latest</a>
 	</li>
@@ -36,7 +36,7 @@ $header = get_field('header');
 	</li>
 </ul>
 
-<div id="latest" class="accordion-tabs--item" data-selected="true" role="tabpanel" aria-labelledby="tabby-toggle_latest">
+<div id="latest" class="accordion-tabs--item alignwide" data-selected="true" role="tabpanel" aria-labelledby="tabby-toggle_latest">
 	<?php 
 		if ($type_posts == 'videos') :
 			$args = array(
@@ -67,7 +67,7 @@ $header = get_field('header');
 		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 			<div class="post-info">
 				<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
-				<a href="<?php the_permalink(); ?>"><?php the_title( '<h2 class="entry-title">', '</h2>' ); ?></a>
+				<a href="<?php the_permalink(); ?>"><?php the_title( '<h3 class="entry-title">', '</h3>' ); ?></a>
 				<h4 class="entry-excerpt gray"><?php the_excerpt(); ?></h4>
 			</div>
 		</article>
@@ -75,7 +75,7 @@ $header = get_field('header');
 		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 			<div class="post-info">
 				<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
-				<a href="<?php the_permalink(); ?>"><?php the_title( '<h2 class="entry-title">', '</h2>' ); ?></a>
+				<a href="<?php the_permalink(); ?>"><?php the_title( '<h3 class="entry-title">', '</h3>' ); ?></a>
 				<h5 class="entry-author"><?php the_author(); ?></h5>
 			</div>
 		</article>
@@ -88,7 +88,7 @@ $header = get_field('header');
 		endif;
 	?>
 </div>
-<div id="featured" class="accordion-tabs--item" data-selected="true" role="tabpanel" aria-labelledby="tabby-toggle_featured">
+<div id="featured" class="accordion-tabs--item alignwide" data-selected="true" role="tabpanel" aria-labelledby="tabby-toggle_featured">
 	<?php 
 		if ($type_posts == 'videos') :
 			$args = array(
@@ -123,7 +123,7 @@ $header = get_field('header');
 		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 			<div class="post-info">
 				<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
-				<a href="<?php the_permalink(); ?>"><?php the_title( '<h2 class="entry-title">', '</h2>' ); ?></a>
+				<a href="<?php the_permalink(); ?>"><?php the_title( '<h3 class="entry-title">', '</h3>' ); ?></a>
 				<h4 class="entry-excerpt gray"><?php the_excerpt(); ?></h4>
 			</div>
 		</article>
@@ -131,7 +131,7 @@ $header = get_field('header');
 		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 			<div class="post-info">
 				<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
-				<a href="<?php the_permalink(); ?>"><?php the_title( '<h2 class="entry-title">', '</h2>' ); ?></a>
+				<a href="<?php the_permalink(); ?>"><?php the_title( '<h3 class="entry-title">', '</h3>' ); ?></a>
 				<h5 class="entry-author"><?php the_author(); ?></h5>
 			</div>
 		</article>
@@ -144,7 +144,7 @@ $header = get_field('header');
 		endif;
 	?>
 </div>
-<div id="wayback" class="accordion-tabs--item" data-selected="true" role="tabpanel" aria-labelledby="tabby-toggle_wayback">
+<div id="wayback" class="accordion-tabs--item alignwide" data-selected="true" role="tabpanel" aria-labelledby="tabby-toggle_wayback">
 	<?php 
 		if ($type_posts == 'videos') :
 			$args = array(
@@ -183,7 +183,7 @@ $header = get_field('header');
 		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 			<div class="post-info">
 				<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
-				<a href="<?php the_permalink(); ?>"><?php the_title( '<h2 class="entry-title">', '</h2>' ); ?></a>
+				<a href="<?php the_permalink(); ?>"><?php the_title( '<h3 class="entry-title">', '</h3>' ); ?></a>
 				<h4 class="entry-excerpt gray"><?php the_excerpt(); ?></h4>
 			</div>
 		</article>
@@ -191,7 +191,7 @@ $header = get_field('header');
 		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 			<div class="post-info">
 				<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
-				<a href="<?php the_permalink(); ?>"><?php the_title( '<h2 class="entry-title">', '</h2>' ); ?></a>
+				<a href="<?php the_permalink(); ?>"><?php the_title( '<h3 class="entry-title">', '</h3>' ); ?></a>
 				<h5 class="entry-author"><?php the_author(); ?></h5>
 			</div>
 		</article>
