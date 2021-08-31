@@ -46,6 +46,7 @@ iframe.spreaker-player {
 .wp-block-columns.front-page {
   //position feature col in the minddle on laptop and up
   gap: calc(var(--global--spacing-vertical) / 2);
+  border-bottom: 2px var(--global--color-primary) solid;
   .wp-block-column:nth-child(1) {
     @include media(laptop) {
       order: 2;
@@ -58,7 +59,7 @@ iframe.spreaker-player {
       @include media(laptop) {
         //the article under the featured one
         h2.entry-title {
-          font-size: var(--heading--font-size-h3);
+          font-size: var(--heading--font-size-h2);
         }
         .entry-excerpt {
           display: none;
@@ -87,7 +88,7 @@ iframe.spreaker-player {
     }
     @include media(laptop) {
       h2.entry-title {
-        font-size: var(--heading--font-size-h3);
+        font-size: var(--heading--font-size-h2);
       }
       .entry-excerpt {
         display: none;
@@ -96,6 +97,9 @@ iframe.spreaker-player {
   }
   .wp-block-column:not(:first-child) {
     margin-left: 0;
+  }
+  .wp-block-column:last-child {
+    border-bottom: none;
   }
   .wp-block-column article {
     border-bottom: 1pt var(--global--color-primary) solid;
@@ -112,8 +116,22 @@ iframe.spreaker-player {
 
 //FEDRADIO FRONT PAGE BLOCK
 .front-page-fedradio {
-  h2 {
-    font-size: var(--heading--font-size-h1);
-    padding-bottom: var(--global--spacing-vertical);
+  display: flex;
+  flex-direction: column;
+  @include media(tablet) {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  &--info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+      height: min-content;
+      width: 40%;
+    }
+  }
+  &--post {
+    display: flex;
   }
 }
