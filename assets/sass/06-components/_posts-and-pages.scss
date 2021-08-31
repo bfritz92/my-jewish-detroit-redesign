@@ -70,7 +70,7 @@ iframe.spreaker-player {
     //left col
     @include media(laptop) {
       h2.entry-title {
-        font-size: var(--heading--font-size-h3);
+        font-size: var(--heading--font-size-h4);
       }
       .entry-excerpt {
         display: none;
@@ -107,5 +107,13 @@ iframe.spreaker-player {
         }
       }
     }
+  }
+}
+
+//FEDRADIO FRONT PAGE BLOCK
+.front-page-fedradio {
+  h2 {
+    font-size: var(--heading--font-size-h1);
+    padding-bottom: var(--global--spacing-vertical);
   }
 }

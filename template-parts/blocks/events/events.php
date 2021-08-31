@@ -30,6 +30,8 @@ $select_posts = get_field('select_posts');
 <!-- Individual Events - End -->
 
 </div>
-<a href="https://jewishdetroitcalendar.org/events/list/" class="more-events" target="_blank">More Events</a>
+<div class="alignwide">
+	<a href="https://jewishdetroitcalendar.org/events/list/" class="more-events" target="_blank">More Events</a>
+</div>	
 <?php
 ?>

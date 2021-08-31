@@ -42,15 +42,20 @@ query_posts( $args );
 	if ( $loop->have_posts() ):
 		while ( $loop->have_posts() ) : $loop->the_post(); 
 ?>
-	<article class="<?php echo $fedradioclass; ?> alignwide">
-		<h2>Listen</h2>
-		<img src="<?php echo $fedradiologo; ?>">
-		<h3>Featured Podcast</h3>
-		<h2>FedRadio Detroit</h2>
-		<a href="<?php echo $subscribe_link ?>">Subscribe</a>
-		<div class="post-info">
+	<h2 class="alignwide">Listen</h2>
+	<article class="alignwide <?php echo $fedradioclass; ?>">
+		<div class="front-page-fedradio--info">
+			<img src="<?php echo $fedradiologo; ?>">
+			<div class="front-page-fedradio--info--container">	
+				<h3>Featured Podcast</h3>
+				<h2>FedRadio Detroit</h2>
+				<div class="wp-block-button is-style-outline"><a href="#" class="wp-block-button__link subscribe-button">Subscribe</a></div>
+			</div>
+		</div>
+		<div class="front-page-fedradio--post">
 			<img src="<?php the_post_thumbnail_url(); ?>">
-        	<h5><?php echo the_excerpt(); ?></h5>
+			<h4 class="episode-title"><?php echo the_title(); ?></h4>
+        	<p><?php echo the_excerpt(); ?></p>
 			<a href="<?php the_permalink(); ?>">Listen Now</a>
 		</div>
 	</article>
