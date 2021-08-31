@@ -4853,6 +4853,20 @@ h1.page-title {
   width: 100%;
 }
 
+.page-id-29218 .site-header #site-navigation {
+  display: none;
+}
+
+.page-id-29218 .site-content {
+  padding-top: calc(2 * var(--global--spacing-vertical));
+}
+
+.page-id-29218 .widget-area,
+.page-id-29218 .site-name,
+.page-id-29218 .site-footer {
+  display: none;
+}
+
 .error404 main p {
   font-size: var(--global--font-size-lg);
   margin-bottom: calc(var(--global--spacing-vertical) * 1.6666666667);

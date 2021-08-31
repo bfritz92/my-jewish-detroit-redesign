@@ -170,3 +170,21 @@ h1.page-title {
     }
   }
 }
+
+//temp-splash fun
+
+.page-id-29218 {
+  .site-header {
+    #site-navigation {
+      display: none;
+    }
+  }
+  .site-content {
+    padding-top: calc(2 * var(--global--spacing-vertical));
+  }
+  .widget-area,
+  .site-name,
+  .site-footer {
+    display: none;
+  }
+}
