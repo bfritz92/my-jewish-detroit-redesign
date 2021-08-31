@@ -65,8 +65,8 @@ $identifier = get_field('identifier');
 			while ( $loop->have_posts() ) : $loop->the_post(); 
 	?>
 		<?php if ($type_posts == 'videos') : ?>
-		<article class="<?php echo $article_class; ?>">
-		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
+		<article>
+			<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 			<div class="post-info">
 				<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
 				<a href="<?php the_permalink(); ?>"><?php the_title( '<h3 class="entry-title">', '</h3>' ); ?></a>
@@ -74,7 +74,8 @@ $identifier = get_field('identifier');
 			</div>
 		</article>
 		<?php elseif ($type_posts == 'articles') : ?>
-		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
+		<article>
+			<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 			<div class="post-info">
 				<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
 				<a href="<?php the_permalink(); ?>"><?php the_title( '<h3 class="entry-title">', '</h3>' ); ?></a>
@@ -123,7 +124,7 @@ $identifier = get_field('identifier');
 	?>
 		<?php if ($type_posts == 'videos') : ?>
 		<article class="<?php echo $article_class; ?>">
-		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
+			<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 			<div class="post-info">
 				<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
 				<a href="<?php the_permalink(); ?>"><?php the_title( '<h3 class="entry-title">', '</h3>' ); ?></a>
@@ -131,7 +132,8 @@ $identifier = get_field('identifier');
 			</div>
 		</article>
 		<?php elseif ($type_posts == 'articles') : ?>
-		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
+		<article>
+			<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 			<div class="post-info">
 				<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
 				<a href="<?php the_permalink(); ?>"><?php the_title( '<h3 class="entry-title">', '</h3>' ); ?></a>
@@ -184,7 +186,7 @@ $identifier = get_field('identifier');
 	?>
 		<?php if ($type_posts == 'videos') : ?>
 		<article class="<?php echo $article_class; ?>">
-		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
+			<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 			<div class="post-info">
 				<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
 				<a href="<?php the_permalink(); ?>"><?php the_title( '<h3 class="entry-title">', '</h3>' ); ?></a>
@@ -192,7 +194,8 @@ $identifier = get_field('identifier');
 			</div>
 		</article>
 		<?php elseif ($type_posts == 'articles') : ?>
-		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
+		<article>
+			<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 			<div class="post-info">
 				<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
 				<a href="<?php the_permalink(); ?>"><?php the_title( '<h3 class="entry-title">', '</h3>' ); ?></a>
