@@ -48,6 +48,7 @@ iframe.spreaker-player {
   gap: calc(var(--global--spacing-vertical) / 2);
   border-bottom: 2px var(--global--color-primary) solid;
   .wp-block-column:nth-child(1) {
+    height: 100%;
     @include media(laptop) {
       order: 2;
       border-left: 2px var(--global--color-primary) solid;
@@ -98,7 +99,7 @@ iframe.spreaker-player {
   .wp-block-column:not(:first-child) {
     margin-left: 0;
   }
-  .wp-block-column:last-child {
+  .wp-block-column article:last-child {
     border-bottom: none;
   }
   .wp-block-column article {

@@ -27,10 +27,7 @@ $select_posts = get_field('select_posts');
 <div class="events alignwide">
 	<!-- Individual Event - Begin -->
 	<div class="event-info">
-		<h3 class="event-title"></h3>
-		<p class="event-time"></p>
-		<p class="event-date"></p>
-		<a class="learn-more"></a>
+		
 	</div>
 	<!-- Individual Event - End -->
 </div>
