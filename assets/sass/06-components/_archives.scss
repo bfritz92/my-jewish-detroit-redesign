@@ -182,7 +182,9 @@ h1.page-title {
   .site-content {
     padding-top: calc(2 * var(--global--spacing-vertical));
   }
-  .widget-area {
+  .widget-area,
+  .site-name,
+  .site-footer {
     display: none;
   }
 }

@@ -4861,7 +4861,9 @@ h1.page-title {
   padding-top: calc(2 * var(--global--spacing-vertical));
 }
 
-.page-id-29218 .widget-area {
+.page-id-29218 .widget-area,
+.page-id-29218 .site-name,
+.page-id-29218 .site-footer {
   display: none;
 }
 
