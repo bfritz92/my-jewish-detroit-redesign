@@ -4083,7 +4083,7 @@ iframe.spreaker-player {
 
 @media only screen and (min-width: 652px) {
   .wp-block-columns.front-page .wp-block-column:nth-child(2) h2.entry-title {
-    font-size: var(--heading--font-size-h3);
+    font-size: var(--heading--font-size-h4);
   }
   .wp-block-columns.front-page .wp-block-column:nth-child(2) .entry-excerpt {
     display: none;
