@@ -657,7 +657,7 @@ add_filter('excerpt_length', 'mjd_excerpt_length');
 
 // Add Rest API Script for Events
 function add_inline_script() {
-   if( is_home() || is_front_page() ) {
+  // if( is_home() || is_front_page() ) {
       wp_register_script(
 		'events-api',
 		get_template_directory_uri() . '/assets/js/events-api.js',
@@ -666,6 +666,6 @@ function add_inline_script() {
 		true
 	);
 
-   }
+  // }
 }
 add_action( 'wp_footer', 'add_inline_script', 0 );
