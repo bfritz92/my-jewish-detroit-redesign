@@ -656,14 +656,8 @@ return 30;
 add_filter('excerpt_length', 'mjd_excerpt_length');
 
 // Add Rest API Script for Events
-add_action( 'wp_enqueue_scripts', 'twentytwentyone_parent_theme_enqueue_styles' );
-
-function twentytwentyone_parent_theme_enqueue_styles() {
-   
-    // enqueue the theme script...
-    wp_enqueue_script( 'rest-theme-js', get_stylesheet_directory_uri() . '/assets/js/events-api.js', array( 'jquery' ) );
-
-    // ...and localize The Events Calendar REST API information and nonce
-    wp_localize_script( 'rest-theme-js', 'restTheme',
-        array( 'root' => esc_url_raw( tribe_events_rest_url() ), 'nonce' => wp_create_nonce( 'wp_rest' ) ) );
+function load_eventsjs_script() {
+	wp_enqueue_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js');
+	wp_enqueue_script( 'events-api', get_template_directory_uri() . '/assets/js/events-api.js');
 }
+add_action( 'wp_enqueue_scripts', 'load_eventsjs_script', 0 );
