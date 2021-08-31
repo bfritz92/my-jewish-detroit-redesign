@@ -1,9 +1,9 @@
 <?php
 /**
- * Template Name Posts: Temporary Splash Page
- * The template for displaying all single posts
+ * Template Name Posts: Coming Soon
+ * The template for displaying a Coming Soon page
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_One
