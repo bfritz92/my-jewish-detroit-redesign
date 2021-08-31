@@ -22,6 +22,7 @@ if( !empty($block['align']) ) {{}
 }
 $type_posts = get_field('type_posts'); // Type of Posts: Video or Articles
 $header = get_field('header');
+$identifier = get_field('identifier');
 ?>
 <h2 class="alignwide section-title"><?php echo $header; ?></h2>
 <ul data-tabs="" class="accordion-tabs--nav alignwide" role="tablist">
@@ -36,7 +37,7 @@ $header = get_field('header');
 	</li>
 </ul>
 
-<div id="latest" class="accordion-tabs--item alignwide" data-selected="true" role="tabpanel" aria-labelledby="tabby-toggle_latest">
+<div id="latest-<?php echo $identifier; ?>" class="accordion-tabs--item alignwide" data-selected="true" role="tabpanel" aria-labelledby="tabby-toggle_latest">
 	<?php 
 		if ($type_posts == 'videos') :
 			$args = array(
@@ -88,7 +89,7 @@ $header = get_field('header');
 		endif;
 	?>
 </div>
-<div id="featured" class="accordion-tabs--item alignwide" data-selected="true" role="tabpanel" aria-labelledby="tabby-toggle_featured">
+<div id="featured-<?php echo $identifier; ?>" class="accordion-tabs--item alignwide" data-selected="true" role="tabpanel" aria-labelledby="tabby-toggle_featured">
 	<?php 
 		if ($type_posts == 'videos') :
 			$args = array(
@@ -144,7 +145,7 @@ $header = get_field('header');
 		endif;
 	?>
 </div>
-<div id="wayback" class="accordion-tabs--item alignwide" data-selected="true" role="tabpanel" aria-labelledby="tabby-toggle_wayback">
+<div id="wayback-<?php echo $identifier; ?>" class="accordion-tabs--item alignwide" data-selected="true" role="tabpanel" aria-labelledby="tabby-toggle_wayback">
 	<?php 
 		if ($type_posts == 'videos') :
 			$args = array(
