@@ -4147,6 +4147,7 @@ iframe.spreaker-player {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  gap: var(--global--spacing-horizontal);
 }
 
 @media only screen and (min-width: 592px) {
@@ -4215,8 +4216,8 @@ iframe.spreaker-player {
   height: -moz-min-content;
   height: min-content;
   width: clamp(150px, 40%, 350px);
-  -ms-flex-preferred-size: 40%;
-      flex-basis: 40%;
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
