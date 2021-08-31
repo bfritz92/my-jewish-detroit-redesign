@@ -1,9 +1,6 @@
 // JavaScript Document
 (
    function( $ ) {
-       if ( undefined === restTheme ) {
-           return;
-       }
        var renderEvents = function( response ) {
            if ( response.events.length > 0 ) {   
 			   var elems = '';
