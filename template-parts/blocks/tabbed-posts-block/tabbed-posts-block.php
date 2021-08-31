@@ -48,7 +48,7 @@ $identifier = get_field('identifier');
             	'order'   			=> 'DESC',
 			);
 			query_posts( $args );
-		else : 
+		elseif ($type_posts == 'articles') : 
 			$args = array(
 				'post_status'		=> 'publish',
 				'posts_per_page' 	=> 6,
@@ -72,7 +72,7 @@ $identifier = get_field('identifier');
 				<h4 class="entry-excerpt gray"><?php the_excerpt(); ?></h4>
 			</div>
 		</article>
-		<?php else : ?>
+		<?php elseif ($type_posts == 'articles') : ?>
 		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 			<div class="post-info">
 				<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
@@ -102,7 +102,7 @@ $identifier = get_field('identifier');
 				'tag'				=> 'featured',
 			);
 			query_posts( $args );
-		else : 
+		elseif ($type_posts == 'articles') : 
 			$args = array(
 			   // 'post_type' 		=> $post_type,
 				'post_status'		=> 'publish',
@@ -128,7 +128,7 @@ $identifier = get_field('identifier');
 				<h4 class="entry-excerpt gray"><?php the_excerpt(); ?></h4>
 			</div>
 		</article>
-		<?php else : ?>
+		<?php elseif ($type_posts == 'articles') : ?>
 		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 			<div class="post-info">
 				<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
@@ -160,7 +160,7 @@ $identifier = get_field('identifier');
 					)
 				);
 			query_posts( $args );
-		else : 
+		elseif ($type_posts == 'articles') : 
 			$args = array(
 			   // 'post_type' 		=> $post_type,
 				'post_status'		=> 'publish',
@@ -188,7 +188,7 @@ $identifier = get_field('identifier');
 				<h4 class="entry-excerpt gray"><?php the_excerpt(); ?></h4>
 			</div>
 		</article>
-		<?php else : ?>
+		<?php elseif ($type_posts == 'articles') : ?>
 		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 			<div class="post-info">
 				<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
