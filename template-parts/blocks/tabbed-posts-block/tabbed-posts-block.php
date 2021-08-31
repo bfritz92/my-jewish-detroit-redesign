@@ -156,7 +156,7 @@ $identifier = get_field('identifier');
 				'orderby' 			=> 'date',
             	'order'   			=> 'DESC',
 				'date_query' => array(
-					'after' => date('Y-m-d', strtotime('-10 days')) 
+					'before' => date('Y-m-d', strtotime('-300 days')) 
 					)
 				);
 			query_posts( $args );
@@ -169,7 +169,7 @@ $identifier = get_field('identifier');
             	'order'   			=> 'DESC',
 				'offset'			=> 1,
 				'date_query' => array(
-				'after' => date('Y-m-d', strtotime('-10 days')) 
+					'before' => date('Y-m-d', strtotime('-600 days')) 
 					)
 				);
 			query_posts( $args );
