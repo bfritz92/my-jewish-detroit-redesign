@@ -4308,7 +4308,7 @@ iframe.spreaker-player {
   }
 }
 
-.accordion-tabs--item#latest-article:not([hidden="hidden"]), .accordion-tabs--item#feature-article:not([hidden="hidden"]), .accordion-tabs--item#wayback-article:not([hidden="hidden"]) {
+.accordion-tabs--item#latest-article:not([hidden="hidden"]), .accordion-tabs--item#featured-article:not([hidden="hidden"]), .accordion-tabs--item#wayback-article:not([hidden="hidden"]) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4317,7 +4317,7 @@ iframe.spreaker-player {
   gap: var(--global--spacing-horizontal);
 }
 
-.accordion-tabs--item#latest-article:not([hidden="hidden"]) article, .accordion-tabs--item#feature-article:not([hidden="hidden"]) article, .accordion-tabs--item#wayback-article:not([hidden="hidden"]) article {
+.accordion-tabs--item#latest-article:not([hidden="hidden"]) article, .accordion-tabs--item#featured-article:not([hidden="hidden"]) article, .accordion-tabs--item#wayback-article:not([hidden="hidden"]) article {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 450px;
           flex: 1 1 450px;
@@ -4329,19 +4329,19 @@ iframe.spreaker-player {
   gap: var(--global--spacing-horizontal);
 }
 
-.accordion-tabs--item#latest-article:not([hidden="hidden"]) article a, .accordion-tabs--item#feature-article:not([hidden="hidden"]) article a, .accordion-tabs--item#wayback-article:not([hidden="hidden"]) article a {
+.accordion-tabs--item#latest-article:not([hidden="hidden"]) article a, .accordion-tabs--item#featured-article:not([hidden="hidden"]) article a, .accordion-tabs--item#wayback-article:not([hidden="hidden"]) article a {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 200px;
           flex: 1 1 200px;
 }
 
-.accordion-tabs--item#latest-article:not([hidden="hidden"]) article div, .accordion-tabs--item#feature-article:not([hidden="hidden"]) article div, .accordion-tabs--item#wayback-article:not([hidden="hidden"]) article div {
+.accordion-tabs--item#latest-article:not([hidden="hidden"]) article div, .accordion-tabs--item#featured-article:not([hidden="hidden"]) article div, .accordion-tabs--item#wayback-article:not([hidden="hidden"]) article div {
   -webkit-box-flex: 2;
       -ms-flex: 2 1 250px;
           flex: 2 1 250px;
 }
 
-.accordion-tabs--item#latest-article:not([hidden="hidden"]) article div h3, .accordion-tabs--item#feature-article:not([hidden="hidden"]) article div h3, .accordion-tabs--item#wayback-article:not([hidden="hidden"]) article div h3 {
+.accordion-tabs--item#latest-article:not([hidden="hidden"]) article div h3, .accordion-tabs--item#featured-article:not([hidden="hidden"]) article div h3, .accordion-tabs--item#wayback-article:not([hidden="hidden"]) article div h3 {
   font-size: var(--heading--font-size-h3);
 }
 
