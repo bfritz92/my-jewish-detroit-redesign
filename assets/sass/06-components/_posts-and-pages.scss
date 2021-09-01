@@ -155,7 +155,7 @@ iframe.spreaker-player {
     &--container {
       flex: 1 2 60%;
       .wp-block-button {
-        padding-top: var(--global--spacing-vertical);
+        padding-top: calc(var(--global--spacing-vertical) / 2);
       }
     }
   }
@@ -171,6 +171,9 @@ iframe.spreaker-player {
     }
     &--content {
       flex: 2 1 65%;
+      h3 {
+        padding-bottom: calc(var(--global--spacing-vertical) / 2);
+      }
     }
     .wp-block-button {
       padding-top: var(--global--spacing-vertical);
