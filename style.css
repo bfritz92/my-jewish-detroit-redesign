@@ -4081,6 +4081,10 @@ iframe.spreaker-player {
   }
 }
 
+.wp-block-columns.front-page .wp-block-column:nth-child(1) article:nth-child(2) h2.entry-title {
+  font-size: var(--heading--font-size-h3);
+}
+
 @media only screen and (min-width: 652px) {
   .wp-block-columns.front-page .wp-block-column:nth-child(1) article:nth-child(2) h2.entry-title {
     font-size: var(--heading--font-size-h2);
@@ -4090,10 +4094,11 @@ iframe.spreaker-player {
   }
 }
 
+.wp-block-columns.front-page .wp-block-column:nth-child(2) h2.entry-title {
+  font-size: var(--heading--font-size-h4);
+}
+
 @media only screen and (min-width: 652px) {
-  .wp-block-columns.front-page .wp-block-column:nth-child(2) h2.entry-title {
-    font-size: var(--heading--font-size-h4);
-  }
   .wp-block-columns.front-page .wp-block-column:nth-child(2) .entry-excerpt {
     display: none;
   }
@@ -4107,15 +4112,16 @@ iframe.spreaker-player {
   }
 }
 
+.wp-block-columns.front-page .wp-block-column:nth-child(3) h2.entry-title {
+  font-size: var(--heading--font-size-h3);
+}
+
 @media only screen and (min-width: 652px) {
   .wp-block-columns.front-page .wp-block-column:nth-child(3) {
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3;
   }
-}
-
-@media only screen and (min-width: 652px) {
   .wp-block-columns.front-page .wp-block-column:nth-child(3) h2.entry-title {
     font-size: var(--heading--font-size-h3);
   }
