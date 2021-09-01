@@ -4056,6 +4056,10 @@ iframe.spreaker-player {
   padding-top: var(--global--spacing-vertical);
 }
 
+#post-29193 header.entry-header {
+  display: none;
+}
+
 .wp-block-columns.front-page {
   gap: calc(var(--global--spacing-vertical) / 2);
   border-bottom: 2px var(--global--color-primary) solid;

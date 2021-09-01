@@ -42,6 +42,11 @@ iframe.spreaker-player {
   }
 }
 
+//HIDE HEADER FOR MAIN PAGE
+#post-29193 header.entry-header {
+  display: none;
+}
+
 //FRONT PAGE STYLING
 .wp-block-columns.front-page {
   //position feature col in the minddle on laptop and up
