@@ -107,6 +107,13 @@ iframe.spreaker-player {
   }
   .wp-block-column:not(:first-child) {
     margin-left: 0;
+    display: flex;
+    flex: 1 1 500px; //guessing here
+    flex-wrap: wrap;
+    gap: var(--global--spacing-horizontal);
+    article {
+      flex: 1 1 200px;
+    }
   }
   .wp-block-column article:last-child {
     border-bottom: none;
