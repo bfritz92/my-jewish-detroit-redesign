@@ -4249,6 +4249,27 @@ iframe.spreaker-player {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 350px;
           flex: 1 0 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: flex;
+  gap: var(--global--spacing-vertical);
+}
+
+.accordion-tabs--item#latest-video article a,
+.accordion-tabs--item #wayback-video article a {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 200px;
+          flex: 2 1 200px;
+}
+
+.accordion-tabs--item#latest-video article div.post-info,
+.accordion-tabs--item #wayback-video article div.post-info {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 270px;
+          flex: 2 1 270px;
 }
 
 .accordion-tabs--item#latest-video article h3,

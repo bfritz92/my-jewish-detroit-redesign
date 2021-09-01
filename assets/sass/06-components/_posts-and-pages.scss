@@ -176,7 +176,14 @@ iframe.spreaker-player {
         flex: 1 0 350px;
         display: flex;
         flex-wrap: wrap;
-
+        display: flex;
+        gap: var(--global--spacing-vertical);
+        a {
+          flex: 2 1 200px;
+        }
+        div.post-info {
+          flex: 2 1 270px;
+        }
         h3 {
           font-size: var(--heading--font-size-h3);
         }
