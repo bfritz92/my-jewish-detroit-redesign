@@ -22,7 +22,7 @@ if( !empty($block['align']) ) {{}
 }
 ?>
 
-<h2 class="alignwide">Upcoming Events</h2>
+<h2 class="alignwide section-title">Upcoming Events</h2>
 <div class="events alignwide">
 	<!-- Individual Event - Begin -->
 	<div class="event-info">
