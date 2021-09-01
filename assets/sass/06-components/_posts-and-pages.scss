@@ -156,7 +156,6 @@ iframe.spreaker-player {
       flex: 1 2 60%;
       .wp-block-button {
         padding-top: var(--global--spacing-vertical);
-        text-align: right;
       }
     }
   }
@@ -188,6 +187,9 @@ iframe.spreaker-player {
     justify-content: start;
   }
   &--nav {
+    margin-left: var(--global--spacing-vertical);
+    margin-right: 0;
+    width: 100%;
     li {
       a {
         &[role="tab"][aria-selected="true"],

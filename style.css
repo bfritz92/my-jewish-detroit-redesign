@@ -4209,7 +4209,6 @@ iframe.spreaker-player {
 
 .front-page-fedradio--info--container .wp-block-button {
   padding-top: var(--global--spacing-vertical);
-  text-align: right;
 }
 
 .front-page-fedradio--post {
@@ -4254,6 +4253,12 @@ iframe.spreaker-player {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
+}
+
+.accordion-tabs--nav {
+  margin-left: var(--global--spacing-vertical);
+  margin-right: 0;
+  width: 100%;
 }
 
 .accordion-tabs--nav li a[role="tab"][aria-selected="true"],
