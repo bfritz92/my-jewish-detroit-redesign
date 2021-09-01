@@ -4160,10 +4160,12 @@ iframe.spreaker-player {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: var(--global--spacing-horizontal);
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .front-page-fedradio--info--link {
