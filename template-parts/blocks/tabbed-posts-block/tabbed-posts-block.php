@@ -24,8 +24,9 @@ $type_posts = get_field('type_posts'); // Type of Posts: Video or Articles
 $header = get_field('header');
 $identifier = get_field('identifier');
 ?>
-<h2 class="alignwide section-title"><?php echo $header; ?></h2>
+
 <ul data-tabs="" class="accordion-tabs--nav alignwide <?php echo $identifier; ?>" role="tablist">
+	<li><h2 class="section-title"><?php echo $header; ?></h2></li>
 	<li role="presentation">
 		<a data-tabby-default="" href="#latest-<?php echo $identifier; ?>" aria-selected="true" id="tabby-toggle_latest" role="tab" aria-controls="latest">Latest</a>
 	</li>
