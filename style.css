@@ -4168,14 +4168,15 @@ iframe.spreaker-player {
 
 .front-page-fedradio--info--link {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 25%;
-          flex: 1 1 25%;
+      -ms-flex: 1 1 130px;
+          flex: 1 1 130px;
+  max-width: 150px;
 }
 
 .front-page-fedradio--info--container {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 250px;
-          flex: 1 1 250px;
+      -ms-flex: 1 2 60%;
+          flex: 1 2 60%;
 }
 
 .front-page-fedradio--post {
@@ -4183,8 +4184,8 @@ iframe.spreaker-player {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 67%;
-          flex: 1 1 67%;
+      -ms-flex: 1 1 60%;
+          flex: 1 1 60%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-align: center;
@@ -4197,15 +4198,15 @@ iframe.spreaker-player {
 }
 
 .front-page-fedradio--post--img {
-  -webkit-box-flex: 2;
-      -ms-flex: 2 1 25%;
-          flex: 2 1 25%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 250px;
+          flex: 1 1 250px;
 }
 
 .front-page-fedradio--post--content {
   -webkit-box-flex: 2;
-      -ms-flex: 2 1 67%;
-          flex: 2 1 67%;
+      -ms-flex: 2 1 60%;
+          flex: 2 1 60%;
 }
 
 .accordion-tabs--item#latest-video:not([hidden="hidden"]), .accordion-tabs--item#wayback-video:not([hidden="hidden"]) {
