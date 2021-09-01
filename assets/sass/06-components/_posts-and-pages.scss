@@ -118,33 +118,35 @@ iframe.spreaker-player {
 //FEDRADIO FRONT PAGE BLOCK
 .front-page-fedradio {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: var(--global--spacing-horizontal);
-  @include media(tablet) {
-    flex-direction: row;
-  }
   &--info {
     display: flex;
-    min-width: 30%;
+    flex-basis: 30%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: start;
     gap: var(--global--spacing-horizontal);
     img {
+      flex: 2 1 200px;
     }
     &--container {
+      flex: 2 1 300px;
     }
   }
   &--post {
     display: flex;
-    min-width: 60%;
+    flex-basis: 60%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: start;
     gap: var(--global--spacing-horizontal);
     img {
+      flex: 2 1 200px;
     }
     &--content {
+      flex: 2 1 500px;
     }
   }
 }
