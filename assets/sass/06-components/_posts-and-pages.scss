@@ -128,7 +128,7 @@ iframe.spreaker-player {
     align-items: center;
     justify-content: start;
     gap: var(--global--spacing-horizontal);
-    img {
+    &--link {
       flex: 2 1 200px;
     }
     &--container {
@@ -142,7 +142,7 @@ iframe.spreaker-player {
     align-items: center;
     justify-content: start;
     gap: var(--global--spacing-horizontal);
-    img {
+    &--img {
       flex: 2 1 200px;
     }
     &--content {

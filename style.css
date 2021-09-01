@@ -4169,7 +4169,7 @@ iframe.spreaker-player {
   gap: var(--global--spacing-horizontal);
 }
 
-.front-page-fedradio--info img {
+.front-page-fedradio--info--link {
   -webkit-box-flex: 2;
       -ms-flex: 2 1 200px;
           flex: 2 1 200px;
@@ -4198,7 +4198,7 @@ iframe.spreaker-player {
   gap: var(--global--spacing-horizontal);
 }
 
-.front-page-fedradio--post img {
+.front-page-fedradio--post--img {
   -webkit-box-flex: 2;
       -ms-flex: 2 1 200px;
           flex: 2 1 200px;
