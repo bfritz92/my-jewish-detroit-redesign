@@ -4175,26 +4175,6 @@ iframe.spreaker-player {
   gap: var(--global--spacing-horizontal);
 }
 
-.front-page-fedradio--info img {
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
-  width: clamp(150px, 40%, 200px);
-  -ms-flex-preferred-size: 10%;
-      flex-basis: 10%;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
-.front-page-fedradio--info--container {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
 .front-page-fedradio--post {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4209,26 +4189,6 @@ iframe.spreaker-player {
       -ms-flex-pack: start;
           justify-content: start;
   gap: var(--global--spacing-horizontal);
-}
-
-.front-page-fedradio--post img {
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
-  width: clamp(150px, 40%, 350px);
-  -ms-flex-preferred-size: 45%;
-      flex-basis: 45%;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
-.front-page-fedradio--post--content {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
 }
 
 .accordion-tabs--item#latest-video:not([hidden="hidden"]), .accordion-tabs--item#wayback-video:not([hidden="hidden"]) {
@@ -4255,6 +4215,7 @@ iframe.spreaker-player {
   display: flex;
   -webkit-column-gap: var(--global--spacing-horizontal);
           column-gap: var(--global--spacing-horizontal);
+  height: 100%;
 }
 
 .accordion-tabs--item#latest-video:not([hidden="hidden"]) article a, .accordion-tabs--item#wayback-video:not([hidden="hidden"]) article a {
