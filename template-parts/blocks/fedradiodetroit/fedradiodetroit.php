@@ -47,16 +47,16 @@ query_posts( $args );
 		<div class="front-page-fedradio--info">
 			<img src="<?php echo $fedradiologo; ?>">
 			<div class="front-page-fedradio--info--container">	
-				<h3>Featured Podcast</h3>
-				<h2>FedRadio Detroit</h2>
+				<h4>Featured Podcast</h3>
+				<h3>FedRadio Detroit</h2>
 				<div class="wp-block-button is-style-outline"><a href="#" class="wp-block-button__link subscribe-button">Subscribe</a></div>
 			</div>
 		</div>
 		<div class="front-page-fedradio--post">
 			<img src="<?php the_post_thumbnail_url(); ?>">
 			<div class="front-page-fedradio--post--content">
-			<h4 class="episode-title"><?php echo the_title(); ?></h4>
-        	<p><?php echo the_excerpt(); ?></p>
+			<h3 class="episode-title"><?php echo the_title(); ?></h3>
+        	<?php echo the_excerpt(); ?>
 			<div class="wp-block-button is-style-outline"><a href="<?php the_permalink(); ?>" class="wp-block-button__link subscribe-button">Listen Now</a></div>
 			</div>
 		</div>

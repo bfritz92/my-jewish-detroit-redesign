@@ -177,7 +177,7 @@ iframe.spreaker-player {
         display: flex;
         flex-wrap: wrap;
         display: flex;
-        gap: var(--global--spacing-vertical);
+        column-gap: var(--global--spacing-horizontal);
         a {
           flex: 2 1 200px;
         }
