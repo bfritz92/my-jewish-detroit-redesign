@@ -160,3 +160,21 @@ iframe.spreaker-player {
     }
   }
 }
+
+//FEATURED VIDEOS AND ARTICLES BLOCKS
+.accordion-tabs{
+  &--nav{
+
+  }
+  &--item{
+    #latest-video, #wayback-video{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content: center;
+      article{
+        flex: 1 0 350px;
+        h3{font-size:var(--heading--font-size-h3);}
+      }
+    }
+  }
+}
