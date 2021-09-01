@@ -4141,6 +4141,8 @@ iframe.spreaker-player {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: var(--global--spacing-horizontal);
+  height: 100%;
+  margin-top: 0;
 }
 
 .wp-block-columns.front-page .wp-block-column:not(:first-child) article {

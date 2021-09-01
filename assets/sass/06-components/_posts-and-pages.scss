@@ -111,6 +111,8 @@ iframe.spreaker-player {
     flex: 1 1 500px; //guessing here
     flex-wrap: wrap;
     gap: var(--global--spacing-horizontal);
+    height: 100%;
+    margin-top: 0;
     article {
       flex: 1 1 200px;
     }
