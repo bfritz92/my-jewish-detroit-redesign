@@ -4261,6 +4261,9 @@ iframe.spreaker-player {
   -webkit-box-flex: 2;
       -ms-flex: 2 1 200px;
           flex: 2 1 200px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
 }
 
 .accordion-tabs--item#latest-video:not([hidden="hidden"]) article div.post-info, .accordion-tabs--item#wayback-video:not([hidden="hidden"]) article div.post-info {

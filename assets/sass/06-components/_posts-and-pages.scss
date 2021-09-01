@@ -181,6 +181,7 @@ iframe.spreaker-player {
           column-gap: var(--global--spacing-horizontal);
           a {
             flex: 2 1 200px;
+            height: min-content;
           }
           div.post-info {
             flex: 2 1 270px;
@@ -190,6 +191,8 @@ iframe.spreaker-player {
           }
         }
       }
+    }
+    &#featured-video:not([hidden="hidden"]) {
     }
   }
 }
