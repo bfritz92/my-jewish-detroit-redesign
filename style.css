@@ -4326,6 +4326,7 @@ iframe.spreaker-player {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  gap: var(--global--spacing-horizontal);
 }
 
 .accordion-tabs--item#latest-article:not([hidden="hidden"]) article a, .accordion-tabs--item#feature-article:not([hidden="hidden"]) article a, .accordion-tabs--item#wayback-article:not([hidden="hidden"]) article a {
