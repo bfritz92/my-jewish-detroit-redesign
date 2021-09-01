@@ -187,6 +187,7 @@ iframe.spreaker-player {
     &#featured-video:not([hidden="hidden"]) {
       display: flex;
       gap: var(--global--spacing-vertical);
+      flex-direction: column;
       @include media(tablet) {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -195,9 +196,16 @@ iframe.spreaker-player {
       article:nth-child(1) {
         grid-column: 1;
         grid-row: 1 / -1;
+        flex-grow: 2;
+        .post-info {
+          h3 {
+            font-size: var(--heading--font-size-h2);
+          }
+        }
       }
       article:nth-child(2),
       article:nth-child(3) {
+        flex-grow: 1;
         .post-info {
           h3 {
             font-size: var(--heading--font-size-h3);
