@@ -4348,6 +4348,20 @@ iframe.spreaker-player {
   font-size: var(--heading--font-size-h3);
 }
 
+.events {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.events .event-info {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 45%;
+          flex: 1 1 45%;
+}
+
 .entry-title {
   color: var(--entry-header--color);
   font-size: var(--entry-header--font-size);
