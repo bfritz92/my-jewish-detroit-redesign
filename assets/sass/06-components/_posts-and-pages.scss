@@ -166,26 +166,28 @@ iframe.spreaker-player {
   &--nav {
   }
   &--item {
-    &#latest-video[data-selected="true"],
-    &#wayback-video[data-selected="true"] {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: var(--global--spacing-vertical);
-      article {
-        flex: 1 0 350px;
+    &#latest-video,
+    &#wayback-video {
+      &:not([hidden="hidden"]) {
         display: flex;
         flex-wrap: wrap;
-        display: flex;
-        column-gap: var(--global--spacing-horizontal);
-        a {
-          flex: 2 1 200px;
-        }
-        div.post-info {
-          flex: 2 1 270px;
-        }
-        h3 {
-          font-size: var(--heading--font-size-h3);
+        justify-content: center;
+        gap: var(--global--spacing-vertical);
+        article {
+          flex: 1 0 350px;
+          display: flex;
+          flex-wrap: wrap;
+          display: flex;
+          column-gap: var(--global--spacing-horizontal);
+          a {
+            flex: 2 1 200px;
+          }
+          div.post-info {
+            flex: 2 1 270px;
+          }
+          h3 {
+            font-size: var(--heading--font-size-h3);
+          }
         }
       }
     }
