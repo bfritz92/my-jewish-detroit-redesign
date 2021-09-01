@@ -24,9 +24,10 @@ $type_posts = get_field('type_posts'); // Type of Posts: Video or Articles
 $header = get_field('header');
 $identifier = get_field('identifier');
 ?>
-
+<div class="accordion-tabs--header">
+<h2 class="section-title"><?php echo $header; ?></h2>
 <ul data-tabs="" class="accordion-tabs--nav alignwide <?php echo $identifier; ?>" role="tablist">
-	<li><h2 class="section-title"><?php echo $header; ?></h2></li>
+	
 	<li role="presentation">
 		<a data-tabby-default="" href="#latest-<?php echo $identifier; ?>" aria-selected="true" id="tabby-toggle_latest" role="tab" aria-controls="latest">Latest</a>
 	</li>
@@ -37,7 +38,7 @@ $identifier = get_field('identifier');
 		<a href="#wayback-<?php echo $identifier; ?>" id="tabby-toggle_wayback" role="tab" aria-controls="wayback" aria-selected="false" tabindex="-1">Wayback</a>
 	</li>
 </ul>
-
+</div>
 <div id="latest-<?php echo $identifier; ?>" class="accordion-tabs--item alignwide" data-selected="true" role="tabpanel" aria-labelledby="tabby-toggle_latest">
 	<?php 
 		if ($type_posts == 'videos') :
