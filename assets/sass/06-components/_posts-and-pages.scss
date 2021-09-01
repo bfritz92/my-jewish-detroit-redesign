@@ -185,6 +185,30 @@ iframe.spreaker-player {
       }
     }
     &#featured-video:not([hidden="hidden"]) {
+      display: flex;
+      gap: var(--global--spacing-vertical);
+      @include media(tablet) {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto auto;
+      }
+      article:nth-child(1) {
+        grid-column: 1;
+        grid-row: 1 / -1;
+      }
+      article:nth-child(2),
+      article:nth-child(3) {
+        .post-info {
+          h3 {
+            font-size: var(--heading--font-size-h3);
+          }
+          p {
+            @include media(tablet) {
+              display: none;
+            }
+          }
+        }
+      }
     }
   }
 }
