@@ -218,5 +218,16 @@ iframe.spreaker-player {
         }
       }
     }
+    &#latest-article,
+    &#feature-article,
+    &#wayback-article {
+      &:not([hidden="hidden"]) {
+        display: flex;
+        flex-wrap: wrap;
+        article {
+          flex: 1 1 45%;
+        }
+      }
+    }
   }
 }

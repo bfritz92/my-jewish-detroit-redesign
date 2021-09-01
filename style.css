@@ -4308,6 +4308,20 @@ iframe.spreaker-player {
   }
 }
 
+.accordion-tabs--item#latest-article:not([hidden="hidden"]), .accordion-tabs--item#feature-article:not([hidden="hidden"]), .accordion-tabs--item#wayback-article:not([hidden="hidden"]) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.accordion-tabs--item#latest-article:not([hidden="hidden"]) article, .accordion-tabs--item#feature-article:not([hidden="hidden"]) article, .accordion-tabs--item#wayback-article:not([hidden="hidden"]) article {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 45%;
+          flex: 1 1 45%;
+}
+
 .entry-title {
   color: var(--entry-header--color);
   font-size: var(--entry-header--font-size);
