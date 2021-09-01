@@ -4152,8 +4152,9 @@ iframe.spreaker-player {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-preferred-size: 30%;
-      flex-basis: 30%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30%;
+          flex: 1 1 30%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-align: center;
@@ -4181,8 +4182,9 @@ iframe.spreaker-player {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-preferred-size: 67%;
-      flex-basis: 67%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 67%;
+          flex: 1 1 67%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-align: center;
