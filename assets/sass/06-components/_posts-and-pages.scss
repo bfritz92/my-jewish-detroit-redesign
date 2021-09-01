@@ -158,7 +158,12 @@ iframe.spreaker-player {
 }
 
 //FEATURED VIDEOS AND ARTICLES BLOCKS
+//AKA ACCORDION TABS
 .accordion-tabs {
+  &--header {
+    display: flex;
+    justify-content: start;
+  }
   &--nav {
   }
   &--item {

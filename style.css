@@ -4212,6 +4212,15 @@ iframe.spreaker-player {
           flex: 2 1 65%;
 }
 
+.accordion-tabs--header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
 .accordion-tabs--item#latest-video:not([hidden="hidden"]), .accordion-tabs--item#wayback-video:not([hidden="hidden"]) {
   display: -webkit-box;
   display: -ms-flexbox;

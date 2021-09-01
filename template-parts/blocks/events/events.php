@@ -30,6 +30,6 @@ if( !empty($block['align']) ) {{}
 	</div>
 	<!-- Individual Event - End -->
 </div>
-<a href="http://jewishdetroitcalendar.org/events/list/" class="more-events">More Events</a>
+<div class="alignwide"><a href="http://jewishdetroitcalendar.org/events/list/" class="more-events">More Events</a></div>
 <?php
 ?>
