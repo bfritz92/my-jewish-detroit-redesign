@@ -125,9 +125,9 @@ iframe.spreaker-player {
     flex: 1 1 30%;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: center;
-    gap: var(--global--spacing-horizontal);
+    //justify-content: center;
     align-content: center;
+    gap: var(--global--spacing-horizontal);
     &--link {
       flex: 1 1 130px;
       max-width: 150px;
