@@ -118,7 +118,6 @@ iframe.spreaker-player {
 //FEDRADIO FRONT PAGE BLOCK
 .front-page-fedradio {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   gap: var(--global--spacing-horizontal);
   &--info {
