@@ -124,7 +124,7 @@ iframe.spreaker-player {
     display: flex;
     flex: 1 1 30%;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: var(--global--spacing-horizontal);
     align-content: center;
