@@ -4354,12 +4354,15 @@ iframe.spreaker-player {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  gap: var(--global--spacing-horizontal);
 }
 
 .events .event-info {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 45%;
           flex: 1 1 45%;
+  background-color: var(--global--color-light-gray);
+  padding: var(--global--spacing-vertical) var(--global--spacing-horizontal);
 }
 
 .entry-title {

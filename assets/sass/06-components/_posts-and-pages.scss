@@ -250,7 +250,10 @@ iframe.spreaker-player {
 .events {
   display: flex;
   flex-wrap: wrap;
+  gap: var(--global--spacing-horizontal);
   .event-info {
     flex: 1 1 45%;
+    background-color: var(--global--color-light-gray);
+    padding: var(--global--spacing-vertical) var(--global--spacing-horizontal);
   }
 }
