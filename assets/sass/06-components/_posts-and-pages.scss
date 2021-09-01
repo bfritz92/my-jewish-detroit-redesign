@@ -166,8 +166,8 @@ iframe.spreaker-player {
   &--nav {
   }
   &--item {
-    &#latest-video,
-    #wayback-video {
+    &#latest-video[selected="true"],
+    &#wayback-video[selected="true"] {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
