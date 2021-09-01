@@ -224,8 +224,9 @@ iframe.spreaker-player {
       &:not([hidden="hidden"]) {
         display: flex;
         flex-wrap: wrap;
+        gap: var(--global--spacing-horizontal);
         article {
-          flex: 1 1 45%;
+          flex: 1 1 450px;
         }
       }
     }

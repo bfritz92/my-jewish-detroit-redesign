@@ -4314,12 +4314,13 @@ iframe.spreaker-player {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  gap: var(--global--spacing-horizontal);
 }
 
 .accordion-tabs--item#latest-article:not([hidden="hidden"]) article, .accordion-tabs--item#feature-article:not([hidden="hidden"]) article, .accordion-tabs--item#wayback-article:not([hidden="hidden"]) article {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 45%;
-          flex: 1 1 45%;
+      -ms-flex: 1 1 450px;
+          flex: 1 1 450px;
 }
 
 .entry-title {
