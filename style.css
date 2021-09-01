@@ -4208,7 +4208,7 @@ iframe.spreaker-player {
 }
 
 .front-page-fedradio--info--container .wp-block-button {
-  padding-top: var(--global--spacing-vertical);
+  padding-top: calc(var(--global--spacing-vertical) / 2);
 }
 
 .front-page-fedradio--post {
@@ -4239,6 +4239,10 @@ iframe.spreaker-player {
   -webkit-box-flex: 2;
       -ms-flex: 2 1 65%;
           flex: 2 1 65%;
+}
+
+.front-page-fedradio--post--content h3 {
+  padding-bottom: calc(var(--global--spacing-vertical) / 2);
 }
 
 .front-page-fedradio--post .wp-block-button {
