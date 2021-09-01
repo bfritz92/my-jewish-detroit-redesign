@@ -144,10 +144,10 @@ iframe.spreaker-player {
     justify-content: start;
     gap: var(--global--spacing-horizontal);
     &--img {
-      flex: 1 1 200px;
+      flex: 1 1 170px;
     }
     &--content {
-      flex: 2 1 60%;
+      flex: 2 1 65%;
     }
   }
 }
@@ -172,7 +172,7 @@ iframe.spreaker-player {
           column-gap: var(--global--spacing-horizontal);
           height: 100%;
           a {
-            flex: 2 1 170px;
+            flex: 2 1 200px;
             height: min-content;
           }
           div.post-info {
