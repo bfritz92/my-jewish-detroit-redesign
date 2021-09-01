@@ -62,6 +62,9 @@ iframe.spreaker-player {
       padding-right: calc(var(--global--spacing-vertical) / 2);
     }
     article:nth-child(2) {
+      h2.entry-title {
+        font-size: var(--heading--font-size-h3);
+      }
       @include media(laptop) {
         //the article under the featured one
         h2.entry-title {
@@ -75,10 +78,10 @@ iframe.spreaker-player {
   }
   .wp-block-column:nth-child(2) {
     //left col
+    h2.entry-title {
+      font-size: var(--heading--font-size-h4);
+    }
     @include media(laptop) {
-      h2.entry-title {
-        font-size: var(--heading--font-size-h4);
-      }
       .entry-excerpt {
         display: none;
       }
@@ -89,10 +92,11 @@ iframe.spreaker-player {
   }
   .wp-block-column:nth-child(3) {
     //right col
-    @include media(laptop) {
-      order: 3;
+    h2.entry-title {
+      font-size: var(--heading--font-size-h3);
     }
     @include media(laptop) {
+      order: 3;
       h2.entry-title {
         font-size: var(--heading--font-size-h3);
       }
@@ -167,9 +171,11 @@ iframe.spreaker-player {
   &--nav {
     li {
       a {
-        &[role="tab"][aria-selected="true"] {
+        &[role="tab"][aria-selected="true"],
+        &:hover &:focus {
           border: none;
           border-bottom: 3px solid var(--global--color-dark-gray);
+          background-color: transparent;
           &::after {
             content: "";
             width: 0;
