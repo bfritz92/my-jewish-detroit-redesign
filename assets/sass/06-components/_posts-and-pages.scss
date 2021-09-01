@@ -172,7 +172,7 @@ iframe.spreaker-player {
           column-gap: var(--global--spacing-horizontal);
           height: 100%;
           a {
-            flex: 2 1 200px;
+            flex: 2 1 170px;
             height: min-content;
           }
           div.post-info {
@@ -230,6 +230,7 @@ iframe.spreaker-player {
           display: flex;
           flex-wrap: wrap;
           gap: var(--global--spacing-horizontal);
+          align-items: center;
           a {
             flex: 1 1 200px;
           }
