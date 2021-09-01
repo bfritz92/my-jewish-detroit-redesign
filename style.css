@@ -4221,12 +4221,12 @@ iframe.spreaker-player {
           justify-content: start;
 }
 
-.accordion-tabs--nav li a [role="tab"][aria-selected="true"] {
+.accordion-tabs--nav li a[role="tab"][aria-selected="true"] {
   border: none;
   border-bottom: 3px solid var(--global--color-dark-gray);
 }
 
-.accordion-tabs--nav li a [role="tab"][aria-selected="true"]::after {
+.accordion-tabs--nav li a[role="tab"][aria-selected="true"]::after {
   content: "";
   width: 0;
   height: 0;

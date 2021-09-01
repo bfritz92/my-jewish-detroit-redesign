@@ -167,7 +167,7 @@ iframe.spreaker-player {
   &--nav {
     li {
       a {
-        [role="tab"][aria-selected="true"] {
+        &[role="tab"][aria-selected="true"] {
           border: none;
           border-bottom: 3px solid var(--global--color-dark-gray);
           &::after {
