@@ -4340,6 +4340,10 @@ iframe.spreaker-player {
           flex: 2 1 250px;
 }
 
+.accordion-tabs--item#latest-article:not([hidden="hidden"]) article div h3, .accordion-tabs--item#feature-article:not([hidden="hidden"]) article div h3, .accordion-tabs--item#wayback-article:not([hidden="hidden"]) article div h3 {
+  font-size: var(--heading--font-size-h3);
+}
+
 .entry-title {
   color: var(--entry-header--color);
   font-size: var(--entry-header--font-size);

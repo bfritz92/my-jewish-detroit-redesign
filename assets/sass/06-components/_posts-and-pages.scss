@@ -234,6 +234,9 @@ iframe.spreaker-player {
           }
           div {
             flex: 2 1 250px;
+            h3 {
+              font-size: var(--heading--font-size-h3);
+            }
           }
         }
       }
