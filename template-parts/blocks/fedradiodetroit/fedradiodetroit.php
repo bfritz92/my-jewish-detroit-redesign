@@ -45,7 +45,7 @@ query_posts( $args );
 	<h2 class="section-title alignwide">Listen</h2>
 	<article class="alignwide <?php echo $fedradioclass; ?>">
 		<div class="front-page-fedradio--info">
-			<img src="<?php echo $fedradiologo; ?>">
+			<a href="#"><img src="<?php echo $fedradiologo; ?>"></a>
 			<div class="front-page-fedradio--info--container">	
 				<h4>Featured Podcast</h3>
 				<h3>FedRadio Detroit</h2>
@@ -53,9 +53,9 @@ query_posts( $args );
 			</div>
 		</div>
 		<div class="front-page-fedradio--post">
-			<img src="<?php the_post_thumbnail_url(); ?>">
+		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
 			<div class="front-page-fedradio--post--content">
-			<h3 class="episode-title"><?php echo the_title(); ?></h3>
+			<a href="<?php the_permalink(); ?>"><h3 class="episode-title"><?php echo the_title(); ?></h3></a>
         	<?php echo the_excerpt(); ?>
 			<div class="wp-block-button is-style-outline"><a href="<?php the_permalink(); ?>" class="wp-block-button__link subscribe-button">Listen Now</a></div>
 			</div>
