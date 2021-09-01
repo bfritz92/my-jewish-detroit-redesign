@@ -4298,7 +4298,7 @@ iframe.spreaker-player {
 
 .accordion-tabs--item#featured-video:not([hidden="hidden"]) article:nth-child(2) .post-info h3,
 .accordion-tabs--item#featured-video:not([hidden="hidden"]) article:nth-child(3) .post-info h3 {
-  font-size: var(--heading--font-size-h3);
+  font-size: var(--heading--font-size-h4);
 }
 
 @media only screen and (min-width: 592px) {

@@ -208,7 +208,7 @@ iframe.spreaker-player {
         flex-grow: 1;
         .post-info {
           h3 {
-            font-size: var(--heading--font-size-h3);
+            font-size: var(--heading--font-size-h4);
           }
           p {
             @include media(tablet) {
