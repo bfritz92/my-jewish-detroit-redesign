@@ -190,6 +190,7 @@ iframe.spreaker-player {
     margin-left: var(--global--spacing-vertical);
     margin-right: 0;
     width: 100%;
+    height: min-content;
     li {
       a {
         &[role="tab"][aria-selected="true"],
@@ -206,7 +207,7 @@ iframe.spreaker-player {
             border-top: 10px solid var(--global--color-dark-gray);
             position: relative;
             top: 55px;
-            left: -35%;
+            left: -40%;
           }
         }
       }

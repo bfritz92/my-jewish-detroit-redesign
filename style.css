@@ -4259,6 +4259,9 @@ iframe.spreaker-player {
   margin-left: var(--global--spacing-vertical);
   margin-right: 0;
   width: 100%;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
 }
 
 .accordion-tabs--nav li a[role="tab"][aria-selected="true"],
@@ -4278,7 +4281,7 @@ iframe.spreaker-player {
   border-top: 10px solid var(--global--color-dark-gray);
   position: relative;
   top: 55px;
-  left: -35%;
+  left: -40%;
 }
 
 .accordion-tabs--item#latest-video:not([hidden="hidden"]), .accordion-tabs--item#wayback-video:not([hidden="hidden"]) {
