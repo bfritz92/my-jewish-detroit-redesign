@@ -24,7 +24,7 @@ $type_posts = get_field('type_posts'); // Type of Posts: Video or Articles
 $header = get_field('header');
 $identifier = get_field('identifier');
 ?>
-<div class="accordion-tabs--header">
+<div class="accordion-tabs--header alignwide">
 <h2 class="section-title"><?php echo $header; ?></h2>
 <ul data-tabs="" class="accordion-tabs--nav alignwide <?php echo $identifier; ?>" role="tablist">
 	
