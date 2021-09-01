@@ -227,6 +227,14 @@ iframe.spreaker-player {
         gap: var(--global--spacing-horizontal);
         article {
           flex: 1 1 450px;
+          display: flex;
+          flex-wrap: wrap;
+          a {
+            flex: 1 1 200px;
+          }
+          div {
+            flex: 2 1 250px;
+          }
         }
       }
     }
