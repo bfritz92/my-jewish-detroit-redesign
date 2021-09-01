@@ -70,7 +70,7 @@ $identifier = get_field('identifier');
 			<div class="post-info">
 				<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
 				<a href="<?php the_permalink(); ?>"><?php the_title( '<h3 class="entry-title">', '</h3>' ); ?></a>
-				<h4 class="entry-excerpt gray"><?php the_excerpt(); ?></h4>
+				<p class="entry-excerpt gray"><?php the_excerpt(); ?></p>
 			</div>
 		</article>
 		<?php elseif ($type_posts == 'articles') : ?>
@@ -128,7 +128,7 @@ $identifier = get_field('identifier');
 			<div class="post-info">
 				<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
 				<a href="<?php the_permalink(); ?>"><?php the_title( '<h3 class="entry-title">', '</h3>' ); ?></a>
-				<h4 class="entry-excerpt gray"><?php the_excerpt(); ?></h4>
+				<p class="entry-excerpt gray"><?php the_excerpt(); ?></p>
 			</div>
 		</article>
 		<?php elseif ($type_posts == 'articles') : ?>
@@ -190,7 +190,7 @@ $identifier = get_field('identifier');
 			<div class="post-info">
 				<h5 class="entry-date gray"><?php echo get_the_date(); ?></h5>
 				<a href="<?php the_permalink(); ?>"><?php the_title( '<h3 class="entry-title">', '</h3>' ); ?></a>
-				<h4 class="entry-excerpt gray"><?php the_excerpt(); ?></h4>
+				<p class="entry-excerpt gray"><?php the_excerpt(); ?></p>
 			</div>
 		</article>
 		<?php elseif ($type_posts == 'articles') : ?>
