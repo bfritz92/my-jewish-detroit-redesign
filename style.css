@@ -4288,6 +4288,12 @@ iframe.spreaker-player {
   left: -40%;
 }
 
+.accordion-tabs--nav li a [role="tab"]:hover:not([aria-selected="true"]) {
+  background-color: #fff;
+  border: none;
+  border-bottom: 3px solid var(--global--color-dark-gray);
+}
+
 .accordion-tabs--item#latest-video:not([hidden="hidden"]), .accordion-tabs--item#wayback-video:not([hidden="hidden"]) {
   display: -webkit-box;
   display: -ms-flexbox;
