@@ -218,6 +218,9 @@ iframe.spreaker-player {
           border: none;
           border-bottom: 3px solid var(--global--color-dark-gray);
         }
+        &:focus {
+          background-color: #fff;
+        }
       }
     }
   }

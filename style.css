@@ -4294,6 +4294,10 @@ iframe.spreaker-player {
   border-bottom: 3px solid var(--global--color-dark-gray);
 }
 
+.accordion-tabs--nav li a:focus {
+  background-color: #fff;
+}
+
 .accordion-tabs--item#latest-video:not([hidden="hidden"]), .accordion-tabs--item#wayback-video:not([hidden="hidden"]) {
   display: -webkit-box;
   display: -ms-flexbox;
