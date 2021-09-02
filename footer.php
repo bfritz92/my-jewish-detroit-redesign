@@ -27,7 +27,7 @@
 						<?php endif; ?>
 					<?php endif; ?>
 				<?php endif; ?>
-				<div class="wp-block-button is-style-outline"><a href="#" class="wp-block-button__link subscribe-button">Subscribe</a></div>
+				<div class="wp-block-button is-style-outline"><a href=""<?php get_site_url(null, 'subscribe', 'https'); ?>"" class="wp-block-button__link subscribe-button">Subscribe</a></div>
 		</div><!-- .site-name -->
 	<?php get_template_part( 'template-parts/footer/footer-widgets' ); ?>
 
