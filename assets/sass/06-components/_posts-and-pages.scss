@@ -213,7 +213,7 @@ iframe.spreaker-player {
             left: -40%;
           }
         }
-        [role="tab"]:hover:not([aria-selected="true"]) {
+        &[role="tab"]:hover:not([aria-selected="true"]) {
           background-color: #fff;
           border: none;
           border-bottom: 3px solid var(--global--color-dark-gray);
