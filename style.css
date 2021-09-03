@@ -3876,6 +3876,15 @@ table.wp-calendar-table caption {
     max-width: calc(100% - calc(1 * var(--global--spacing-vertical)));
     padding-top: 25px;
   }
+}
+
+@media only screen and (max-width: 481px) and (min-width: 592px) {
+  .site-header:not(.has-logo).has-title-and-tagline .site-branding {
+    padding-top: 4px;
+  }
+}
+
+@media only screen and (max-width: 481px) {
   .site-header:not(.has-menu) {
     -webkit-box-pack: center;
         -ms-flex-pack: center;

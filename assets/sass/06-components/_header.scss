@@ -227,6 +227,9 @@
           margin-right: 0;
           max-width: calc(100% - calc(1 * var(--global--spacing-vertical)));
           padding-top: 25px;
+          @include media(tablet) {
+            padding-top: 4px;
+          }
         }
       }
     }
