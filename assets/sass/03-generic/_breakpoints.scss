@@ -218,6 +218,9 @@ $breakpoint_xxl: 1024px;
 // Output
 .default-max-width {
   max-width: calc(100vw - 20px);
+  //maybe center it? This may backfire quickly
+  margin-left: auto;
+  margin-right: auto;
   @include media(desktop) {
     max-width: clamp(5rem, 75%, 50rem);
   }

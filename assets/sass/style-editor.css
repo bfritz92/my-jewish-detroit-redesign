@@ -294,6 +294,8 @@
 
 .default-max-width {
   max-width: calc(100vw - 20px);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (min-width: 822px) {
