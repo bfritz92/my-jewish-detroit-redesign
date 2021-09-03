@@ -4271,6 +4271,12 @@ iframe.spreaker-player {
   height: min-content;
 }
 
+.accordion-tabs--nav li a {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
 .accordion-tabs--nav li a[role="tab"][aria-selected="true"],
 .accordion-tabs--nav li a:hover .accordion-tabs--nav li a:focus {
   border: none;

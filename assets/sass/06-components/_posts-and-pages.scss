@@ -197,6 +197,7 @@ iframe.spreaker-player {
     height: min-content;
     li {
       a {
+        width: min-content;
         &[role="tab"][aria-selected="true"],
         &:hover &:focus {
           border: none;
