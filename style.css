@@ -4471,8 +4471,8 @@ iframe.spreaker-player {
   padding: var(--global--spacing-vertical) var(--global--spacing-horizontal);
 }
 
-hr.front-page-divider {
-  width: 100%;
+hr.wp-block-separator.front-page-divider {
+  width: 100% !important;
 }
 
 .entry-title {
