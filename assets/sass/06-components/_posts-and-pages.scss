@@ -62,6 +62,7 @@ iframe.spreaker-player {
       padding-right: calc(var(--global--spacing-vertical) / 2);
     }
     article:nth-child(2) {
+      flex-basis: clamp(50%, 60%, 500px!important);
       h2.entry-title {
         font-size: var(--heading--font-size-h3);
       }
