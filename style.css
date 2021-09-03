@@ -4484,6 +4484,10 @@ iframe.spreaker-player {
   width: 100% !important;
 }
 
+.page .entry-title {
+  text-align: center;
+}
+
 .entry-title {
   color: var(--entry-header--color);
   font-size: var(--entry-header--font-size);
