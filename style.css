@@ -3849,7 +3849,7 @@ table.wp-calendar-table caption {
   }
   .site-header.has-logo.has-title-and-tagline.has-menu .site-branding {
     max-width: calc(100% - calc(1 * var(--global--spacing-vertical)));
-    padding-top: 4px;
+    padding-top: 25px;
   }
   .site-header.has-logo.has-title-and-tagline .site-branding {
     margin-right: 0;
