@@ -49,7 +49,7 @@ query_posts( $args );
 			<div class="front-page-fedradio--info--container">	
 				<h4>Featured Podcast</h3>
 				<h3>FedRadio Detroit</h2>
-				<div class="wp-block-button is-style-outline"><a href="#" class="wp-block-button__link subscribe-button">Subscribe</a></div>
+				<div class="wp-block-button is-style-outline"><a href="/category/fedradiodetroit/" class="wp-block-button__link subscribe-button">Subscribe</a></div>
 			</div>
 		</div>
 		<div class="front-page-fedradio--post">
