@@ -141,16 +141,17 @@ iframe.spreaker-player {
   display: flex;
   flex-wrap: wrap;
   gap: var(--global--spacing-horizontal);
+  align-items: start;
   &--info {
     display: flex;
     flex: 1 1 30%;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: start;
     //justify-content: center;
     align-content: center;
     gap: var(--global--spacing-horizontal);
     &--link {
-      flex: 1 1 130px;
+      flex: 1 1 120px;
       max-width: 150px;
     }
     &--container {
