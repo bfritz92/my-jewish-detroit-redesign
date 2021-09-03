@@ -3740,7 +3740,7 @@ table.wp-calendar-table caption {
 @media only screen and (min-width: 482px) {
   .site-branding {
     margin-right: initial;
-    margin-top: 4px;
+    padding-top: 25px;
   }
 }
 

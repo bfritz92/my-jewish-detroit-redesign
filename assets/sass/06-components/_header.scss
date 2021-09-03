@@ -62,7 +62,7 @@
 
   @include media(mobile) {
     margin-right: initial;
-    margin-top: 25px; // Align the baseline of the site title with the primary menu
+    padding-top: 25px; // Align the baseline of the site title with the primary menu
   }
 }
 
