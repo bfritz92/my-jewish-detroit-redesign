@@ -163,12 +163,11 @@ iframe.spreaker-player {
     display: flex;
     flex: 1 1 60%;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: start;
     justify-content: start;
     gap: var(--global--spacing-horizontal);
     &--img {
       flex: 1 1 170px;
-      align-self: start;
     }
     &--content {
       flex: 2 1 65%;

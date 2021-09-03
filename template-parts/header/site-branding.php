@@ -20,7 +20,7 @@ $header_class = $show_title ? 'site-title' : 'screen-reader-text';
 
 <div class="site-branding">
 	<!-- Subscribe button (HOOK UP) -->
-	<div class="wp-block-button is-style-outline"><a href="<?php get_site_url(null, 'subscribe', 'https'); ?>" class="wp-block-button__link subscribe-button">Subscribe</a></div>
+	<div class="wp-block-button is-style-outline"><a href="/subscribe" class="wp-block-button__link subscribe-button">Subscribe</a></div>
 	<!-- .subscribe-button -->
 	<?php if ( has_custom_logo() && ! $show_title ) : ?>
 		<div class="site-logo"><?php the_custom_logo(); ?></div>
