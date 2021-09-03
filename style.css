@@ -4233,6 +4233,9 @@ iframe.spreaker-player {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 170px;
           flex: 1 1 170px;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
 }
 
 .front-page-fedradio--post--content {
