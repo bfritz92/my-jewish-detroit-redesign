@@ -43,7 +43,7 @@ $identifier = get_field('identifier');
 	<?php 
 		if ($type_posts == 'videos') :
 			$args = array(
-				'cat'				=> '311',
+				'cat'				=> '3330',
 				'post_status'		=> 'publish',
 				'posts_per_page' 	=> 6,
 				'orderby' 			=> 'date',
@@ -52,7 +52,7 @@ $identifier = get_field('identifier');
 			query_posts( $args );
 		elseif ($type_posts == 'articles') : 
 			$args = array(
-				'category__not_in' 	=> array(311),
+				'category__not_in' 	=> array(3330),
 				'post_status'		=> 'publish',
 				'posts_per_page' 	=> 6,
 				'orderby' 			=> 'date',
@@ -98,7 +98,7 @@ $identifier = get_field('identifier');
 		if ($type_posts == 'videos') :
 			$args = array(
 			   // 'post_type' 		=> $post_type,
-				'cat'				=> '311', 
+				'cat'				=> '3330', 
 				'post_status'		=> 'publish',
 				'posts_per_page' 	=> 6,
 				'orderby' 			=> 'date',
@@ -156,7 +156,7 @@ $identifier = get_field('identifier');
 		if ($type_posts == 'videos') :
 			$args = array(
 			   // 'post_type' 		=> $post_type,
-				'cat'				=> '311', 
+				'cat'				=> '3330', 
 				'post_status'		=> 'publish',
 				'posts_per_page' 	=> 6,
 				'orderby' 			=> 'rand',
@@ -169,7 +169,7 @@ $identifier = get_field('identifier');
 		elseif ($type_posts == 'articles') : 
 			$args = array(
 			   // 'post_type' 		=> $post_type,
-				'category__not_in' 	=> array(311),
+				'category__not_in' 	=> array(3330),
 				'post_status'		=> 'publish',
 				'posts_per_page' 	=> 6,
 				'orderby' 			=> 'rand',
