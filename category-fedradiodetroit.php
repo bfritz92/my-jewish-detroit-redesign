@@ -16,7 +16,7 @@ $description = get_the_archive_description();
 
 <?php if ( have_posts() ) : $postCount = 0; ?>
 
-	<header class="page-header fedradio">
+	<header class="page-header alignwide fedradio">
 		<?php the_archive_title( '<h1 class="page-title">', '</h1>' ); ?>
 		<?php if ( $description ) : ?>
 			<div class="archive-description">
