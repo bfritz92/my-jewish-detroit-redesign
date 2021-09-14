@@ -45,7 +45,7 @@ query_posts( $args );
 	<h2 class="section-title alignwide">Listen</h2>
 	<article class="alignwide <?php echo $fedradioclass; ?>">
 		<div class="front-page-fedradio--info">
-			<a class="front-page-fedradio--info--link" href="#"><img src="<?php echo $fedradiologo; ?>"></a>
+			<a class="front-page-fedradio--info--link" href="/category/fedradiodetroit/"><img src="<?php echo $fedradiologo; ?>"></a>
 			<div class="front-page-fedradio--info--container">	
 				<h4>Featured Podcast</h3>
 				<h3>FedRadio Detroit</h2>
