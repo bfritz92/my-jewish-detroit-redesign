@@ -24,7 +24,7 @@ while ( have_posts() ) :
 			<div class="cover--content has-black-color has-text-color">
 				<?php echo get_the_category_list(); ?>
 				<?php the_title( '<h1 class="entry-title has-text-color">', '</h1>' ); ?>
-				<h4 class="entry-excerpt has-text-color"><?php the_excerpt(); ?></h4>
+				<!-- <h4 class="entry-excerpt has-text-color"><?php the_excerpt(); ?></h4> -->
 				<h5 class="entry-author has-text-color">By <?php the_author(); ?></h5>
 				<h5 class="entry-date has-text-color"><?php echo get_the_date(); ?></h5>
 		</div>
