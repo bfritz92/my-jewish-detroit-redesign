@@ -1579,7 +1579,7 @@ a {
   text-decoration: none;
 }
 
-.entry-content a {
+.entry-content p a {
   text-decoration: underline;
 }
 
