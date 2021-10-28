@@ -1576,7 +1576,6 @@ a {
   color: var(--wp--style--color--link, var(--global--color-primary));
   text-underline-offset: 3px;
   text-decoration-skip-ink: all;
-  text-decoration: none;
 }
 
 a:hover {
