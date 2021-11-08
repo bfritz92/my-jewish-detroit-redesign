@@ -1580,7 +1580,8 @@ a {
 }
 
 .entry-content p a,
-.entry-content ul li a {
+.entry-content ul li a,
+.entry-content ol li a {
   text-decoration: underline;
 }
 

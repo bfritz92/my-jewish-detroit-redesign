@@ -13,7 +13,8 @@ a {
 //okay underlines on links in paragraphs in entry-content
 .entry-content {
   p a,
-  ul li a {
+  ul li a,
+  ol li a {
     text-decoration: underline;
   }
 }
