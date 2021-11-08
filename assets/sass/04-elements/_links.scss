@@ -11,8 +11,11 @@ a {
   text-decoration: none; //no underlines on links
 }
 //okay underlines on links in paragraphs in entry-content
-.entry-content p a {
-  text-decoration: underline;
+.entry-content {
+  p a,
+  ul li a {
+    text-decoration: underline;
+  }
 }
 a:hover {
   text-decoration: underline;
