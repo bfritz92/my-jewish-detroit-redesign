@@ -66,7 +66,7 @@ iframe.spreaker-player {
       h2.entry-title {
         font-size: var(--heading--font-size-h3);
       }
-      @include media(laptop) {
+      /* @include media(laptop) {
         //the article under the featured one
         h2.entry-title {
           font-size: var(--heading--font-size-h2);
@@ -74,7 +74,7 @@ iframe.spreaker-player {
         .entry-excerpt {
           display: none;
         }
-      }
+      } */
     }
   }
   .wp-block-column:nth-child(2) {
