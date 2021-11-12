@@ -4135,7 +4135,7 @@ iframe.spreaker-player {
 }
 
 .wp-block-columns.front-page .wp-block-column:nth-child(3) h2.entry-title {
-  font-size: var(--heading--font-size-h3);
+  font-size: var(--heading--font-size-h4);
 }
 
 @media only screen and (min-width: 652px) {
@@ -4143,9 +4143,9 @@ iframe.spreaker-player {
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3;
-  }
-  .wp-block-columns.front-page .wp-block-column:nth-child(3) h2.entry-title {
-    font-size: var(--heading--font-size-h3);
+    /* h2.entry-title {
+        font-size: var(--heading--font-size-h3);
+      } */
   }
   .wp-block-columns.front-page .wp-block-column:nth-child(3) .entry-excerpt {
     display: none;

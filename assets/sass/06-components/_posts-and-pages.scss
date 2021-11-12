@@ -94,13 +94,13 @@ iframe.spreaker-player {
   .wp-block-column:nth-child(3) {
     //right col
     h2.entry-title {
-      font-size: var(--heading--font-size-h3);
+      font-size: var(--heading--font-size-h4);
     }
     @include media(laptop) {
       order: 3;
-      h2.entry-title {
+      /* h2.entry-title {
         font-size: var(--heading--font-size-h3);
-      }
+      } */
       .entry-excerpt {
         display: none;
       }
