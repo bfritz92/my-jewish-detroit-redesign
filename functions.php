@@ -665,3 +665,8 @@ add_action( 'wp_enqueue_scripts', 'rest_api_enqueue_styles' );
     wp_localize_script( 'rest-theme-js', 'restTheme',
         array( 'root' => esc_url_raw( 'https://jewishdetroitcalendar.org' )) );
 }
+
+function ww_load_dashicons(){
+    wp_enqueue_style('dashicons');
+}
+add_action('wp_enqueue_scripts', 'ww_load_dashicons');
